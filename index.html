@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Drink Selector</title>
     <style>
+        *{
+            //border: 1px solid black;
+        }
         #result {
             margin-top: 20px;
             font-size: 1.5em;
@@ -22,18 +25,40 @@
             font-size: 1.2em;
             color: #666;
         }
+        .button-container{
+            display: flex;
+            justify-content: space-around;
+        }
+        #result{
+            text-align: center;
+        }
+        #recipe{
+            text-align: center;
+        }
+        button{
+            border-radius: 20px;
+            background-color: lightgreen;
+        }
+        body{
+            background-color: lightcyan;
+        }
+        .cocktail{
+            font-size: 30px !important;
+        }
     </style>
 </head>
 
 <body>
 
-    <div class="container" style="margin: 150px auto;width: 80vw;">
-        <button id="randomButton">Get a Random Drink</button>
-        <button id="recipeButton" disabled>Show Recipe</button>
+    <div class="container" style="margin: 100px auto;width: 80vw;">
+        <div class="button-container">
+            <button id="randomButton">Get a Random Drink</button>
+            <button id="recipeButton" disabled>Show Recipe</button>
+        </div>
         <br>
-        <div id="result"></div>
+        <div id="result" class="cocktail"></div>
         <br>
-        <div id="recipe">
+        <div id="recipe" style="display: none;">
             <div style="font-weight: bold;">Tecnica</div>
             <div id="technique"></div>
             <br>
@@ -52,7 +77,7 @@
                 name: "Screwdriver",
                 technique: "Build",
                 glass: "High Tumbler / Collins",
-                recipe: "1 oz 1/4 Vodka Liscia\nTop - Oranhe Juice"
+                recipe: "1 oz 1/4 Vodka Liscia\nTop - Orange Juice"
             },
             {
                 name: "Gin/Vodka Tonic/Lemon",
@@ -90,7 +115,12 @@
                 glass: "calice / hi tumbler",
                 recipe: "3 oz -  Prosecco\n2 oz - White Martini\ntop - soda"
             },
-            { name: "Sparkling", technique: "Build", glass: "coppa champagne / flute / calice (extrema ratio)", recipe: "3/4 oz syrup/juice/liquor\ntop - Prosecco" },
+            {
+                name: "Sparkling",
+                technique: "Build",
+                glass: "coppa champagne / flute / calice (extrema ratio)",
+                recipe: "3/4 oz syrup/juice/liquor\ntop - Prosecco"
+            },
             {
                 name: "London Mule",
                 technique: "Build",
@@ -143,7 +173,8 @@
             {
                 name: "Russian",
                 technique: "Build",
-                glass: "Low tumbler / old fashion", recipe: "1 oz 1/4 - Vodka\n3/4 oz - Coffee Liquor\ngarnish - panna (white)\ngarnish - coffee beans / orange slice (black)"
+                glass: "Low tumbler / old fashion",
+                recipe: "1 oz 1/4 - Vodka\n3/4 oz - Coffee Liquor\ngarnish - panna (white)\ngarnish - coffee beans / orange slice (black)"
             },
             {
                 name: "Negroni",
@@ -154,12 +185,14 @@
             {
                 name: "Negroski",
                 technique: "Build",
-                glass: "low tumbler / old fashion", recipe: "1 oz Vodka\n1 oz Campari\n1 oz Sweet vermouth"
+                glass: "low tumbler / old fashion",
+                recipe: "1 oz Vodka\n1 oz Campari\n1 oz Sweet vermouth"
             },
             {
                 name: "Boulevardier",
                 technique: "Build",
-                glass: "low tumbler / old fashion", recipe: "1 oz Bourbon Whiskey\n1 oz Campari\n1 oz Sweet vermouth"
+                glass: "low tumbler / old fashion",
+                recipe: "1 oz Bourbon Whiskey\n1 oz Campari\n1 oz Sweet vermouth"
             },
             {
                 name: "Americano",
@@ -174,24 +207,111 @@
                 recipe: "1 oz Campari\n1 oz Sweet vermouth\nTop Prosecco"
             },
             /* Pestati */
-            { name: "caipiroska", technique: "Muddler", glass: "Low tumbler / old fashion", recipe: "pestato - lime & sugar\n2 oz Vodka\ncrushed ice\n2 straws & lemon slice" },
-            { name: "caipirinha", technique: "Muddler", glass: "Low tumbler / old fashion", recipe: "pestato - lime & sugar\n2 oz Cachaca\ncrushed ice\n2 straws & lemon slice" },
-            { name: "caipirissima", technique: "Muddler", glass: "Low tumbler / old fashion", recipe: "pestato - lime & sugar\n2 oz White Rum\ncrushed ice\n2 straws & lemon slice" },
-            { name: "Mojito Europeo", technique: "Pestato", glass: "High Tumbler", recipe: "pestato - lime & sugar\nsmacked mint\n1 oz 1/4 - White Rum\ntop - soda" },
-            { name: "Mojito Cubano", technique: "Build", glass: "Juice / Collins / Highball", recipe: "3/4 oz - lime juice\n2 barspoons - sugar\nsmacked mint\n1 oz 1/2 - White Rum\ntop - soda" },
+            {
+                name: "caipiroska",
+                technique: "Muddler",
+                glass: "Low tumbler / old fashion",
+                recipe: "pestato - lime & sugar\n2 oz Vodka\ncrushed ice\n2 straws & lemon slice"
+            },
+            {
+                name: "caipirinha",
+                technique: "Muddler",
+                glass: "Low tumbler / old fashion",
+                recipe: "pestato - lime & sugar\n2 oz Cachaca\ncrushed ice\n2 straws & lemon slice"
+            },
+            {
+                name: "caipirissima",
+                technique: "Muddler",
+                glass: "Low tumbler / old fashion",
+                recipe: "pestato - lime & sugar\n2 oz White Rum\ncrushed ice\n2 straws & lemon slice"
+            },
+            {
+                name: "Mojito Europeo",
+                technique: "Pestato",
+                glass: "High Tumbler",
+                recipe: "pestato - lime & sugar\nsmacked mint\n1 oz 1/4 - White Rum\ntop - soda"
+            },
+            {
+                name: "Mojito Cubano",
+                technique: "Build",
+                glass: "Juice / Collins / Highball",
+                recipe: "3/4 oz - lime juice\n2 barspoons - sugar\nsmacked mint\n1 oz 1/2 - White Rum\ntop - soda"
+            },
+
             /* Dryshake */
-            { name: "Long Island Ice Tea", technique: "Dryshake", glass: "Collins / High Tumbler", recipe: "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n1/2 oz - triple sec\n1 oz 1/4 - sweet and sour\ntop - cola" },
-            { name: "London Ice Tea", technique: "Dryshake", glass: "Collins / High Tumbler", recipe: "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n1/2 oz - triple sec\n1 oz 1/4 - sweet and sour\ntop - Birra Lager 5°" },
-            { name: "Texas Ice Tea", technique: "Dryshake", glass: "Collins / High Tumbler", recipe: "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n+1/2 oz - Tequila\n1/2 oz - triple sec\n1 oz 1/4 - sweet and sour\ntop - cola" },
-            { name: "Italian Ice Tea", technique: "Dryshake", glass: "Collins / High Tumbler", recipe: "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n+1/2 oz - Tequila\n1/2 oz - Amaretto Disaronno\n1 oz 1/4 - sweet and sour\ntop - cola" },
-            { name: "Miami Ice Tea", technique: "Dryshake", glass: "Collins / High Tumbler", recipe: "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n1/2 oz - Blu Curacao\n1 oz 1/4 - sweet and sour\ntop - Sprite / Schweppes Lemon" },
-            { name: "Japanese Ice Tea", technique: "Dryshake", glass: "Collins / High Tumbler", recipe: "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n1/2 oz - Midori\n1 oz 1/4 - sweet and sour\ntop - Sprite / Schweppes Lemon" },
-            { name: "Bloody Mary", technique: "Dryshake / Rolling", glass: "hi tumbler", recipe: "1 oz 1/2 - Vodka\n1 oz 1/4 - Tomato Juice\n1/2 oz - Lime Juice\npinch - sale e pepe\n2-3 drops - Tabasco\n3 drops - Worchester Sauce" },
-            { name: "Fizz", technique: "Dryshake", glass: "collins / high tumbler", recipe: "1 oz 1/4 - prodotto\n1 oz 1/4 - sweet & sour\n3/4 oz - albume/acqua faba\nTop - soda" },
-            { name: "Sour (on the rocks)", technique: "Dryshake", glass: "old fashion / low tumbler / rocks", recipe: "2 oz - prodotto\n1 oz 1/4 - sweet & sour\n3/4 oz - albume/acqua faba" },
-            { name: "Sex on the beach", technique: "Dryshake", glass: "hi tumbler / collins / highball", recipe: "1 oz 1/4 - Vodka Liscia\n3/4 oz - Peach 3\n1 oz 1/4 - orange juice\n2 barspoon - cranberry syrup" },
-            { name: "Tequila Sunrise", technique: "Dryshake", glass: "hi tumbler / collins / juice / summer", recipe: "1 oz 1/2 - Tequila\n1 oz 1/4 - Orange Juice\n2 barspoon - melograno syrup" },
-            { name: "Pina Colada", technique: "Dryshake", glass: "hi tumbler / collins / juice / summer", recipe: "1 oz 1/4 - White Rum\n1 oz 1/4 - Ananas Juice\n2 barspoon - cocco syrup" },
+            {
+                name: "Long Island Ice Tea", 
+                technique: "Dryshake", 
+                glass: "Collins / High Tumbler", 
+                recipe: "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n1/2 oz - triple sec\n1 oz 1/4 - sweet and sour\ntop - cola"
+            },
+            {
+                name: "London Ice Tea", 
+                technique: "Dryshake", 
+                glass: "Collins / High Tumbler", 
+                recipe: "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n1/2 oz - triple sec\n1 oz 1/4 - sweet and sour\ntop - Birra Lager 5°"
+            },
+            {
+                name: "Texas Ice Tea", 
+                technique: "Dryshake", 
+                glass: "Collins / High Tumbler", 
+                recipe: "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n+1/2 oz - Tequila\n1/2 oz - triple sec\n1 oz 1/4 - sweet and sour\ntop - cola"
+            },
+            {
+                name: "Italian Ice Tea", 
+                technique: "Dryshake", 
+                glass: "Collins / High Tumbler", 
+                recipe: "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n+1/2 oz - Tequila\n1/2 oz - Amaretto Disaronno\n1 oz 1/4 - sweet and sour\ntop - cola"
+            },
+            {
+                name: "Miami Ice Tea",
+                technique: "Dryshake",
+                glass: "Collins / High Tumbler",
+                recipe: "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n1/2 oz - Blu Curacao\n1 oz 1/4 - sweet and sour\ntop - Sprite / Schweppes Lemon"
+            },
+            {
+                name: "Japanese Ice Tea",
+                technique: "Dryshake",
+                glass: "Collins / High Tumbler",
+                recipe: "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n1/2 oz - Midori\n1 oz 1/4 - sweet and sour\ntop - Sprite / Schweppes Lemon"
+            },
+            {
+                name: "Bloody Mary",
+                technique: "Dryshake / Rolling",
+                glass: "hi tumbler",
+                recipe: "1 oz 1/2 - Vodka\n1 oz 1/4 - Tomato Juice\n1/2 oz - Lime Juice\npinch - sale e pepe\n2-3 drops - Tabasco\n3 drops - Worchester Sauce"
+            },
+            {
+                name: "Fizz",
+                technique: "Dryshake",
+                glass: "collins / high tumbler",
+                recipe: "1 oz 1/4 - prodotto\n1 oz 1/4 - sweet & sour\n3/4 oz - albume/acqua faba\nTop - soda"
+            },
+            {
+                name: "Sour (on the rocks)",
+                technique: "Dryshake",
+                glass: "old fashion / low tumbler / rocks",
+                recipe: "2 oz - prodotto\n1 oz 1/4 - sweet & sour\n3/4 oz - albume/acqua faba"
+            },
+            {
+                name: "Sex on the beach",
+                technique: "Dryshake",
+                ƒglass: "hi tumbler / collins / highball",
+                recipe: "1 oz 1/4 - Vodka Liscia\n3/4 oz - Peach 3\n1 oz 1/4 - orange juice\n2 barspoon - cranberry syrup"
+            },
+            {
+                name: "Tequila Sunrise",
+                technique: "Dryshake",
+                glass: "hi tumbler / collins / juice / summer",
+                recipe: "1 oz 1/2 - Tequila\n1 oz 1/4 - Orange Juice\n2 barspoon - melograno syrup"
+            },
+            {
+                name: "Pina Colada",
+                technique: "Dryshake",
+                glass: "hi tumbler / collins / juice / summer",
+                recipe: "1 oz 1/4 - White Rum\n1 oz 1/4 - Ananas Juice\n2 barspoon - cocco syrup"
+            },
+
             /* Shake & Strain */
             {
                 name: "Daiquiri",
@@ -253,7 +373,7 @@
                 name: "Vodka Martini",
                 technique: "Stir & Strain",
                 glass: "Coppa",
-                recipe: "1 oz 1/2 Vodka, 3/4 oz Dry vermouth"
+                recipe: "1 oz 1/2 Vodka\n3/4 oz Dry vermouth"
             }
         ];
 
@@ -267,6 +387,8 @@
             document.getElementById('glass').innerText = "";
             document.getElementById('ingredients').innerText = "";
             document.getElementById('recipeButton').disabled = false;
+            document.getElementById('recipe').style.display = "none";
+    document.getElementById('recipeButton').disabled = false;
         });
 
         document.getElementById('recipeButton').addEventListener('click', function () {
@@ -274,6 +396,8 @@
                 document.getElementById('technique').innerText = currentDrink.technique;
                 document.getElementById('glass').innerText = currentDrink.glass;
                 document.getElementById('ingredients').innerText = currentDrink.recipe;
+                document.getElementById('recipe').style.display = "block";
+
             }
         });
     </script>
