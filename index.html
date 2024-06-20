@@ -12,6 +12,9 @@
             color: rgba(0, 0, 0, 0.795);
         }
 
+        .hidden {
+        display: none;
+    }
         #result {
             margin-top: 20px;
             font-size: 1.5em;
@@ -485,6 +488,7 @@
             document.getElementById('recipe').style.display = "none";
             document.getElementById('recipeButton').disabled = false;
             document.getElementById('cocktail-img').setAttribute('src', currentDrink.img);
+            document.querySelector('.cocktail-card').classList.remove('hidden');
         });
 
         document.getElementById('recipeButton').addEventListener('click', function () {
@@ -494,6 +498,7 @@
                 document.getElementById('ingredients').innerText = currentDrink.recipe;
                 document.getElementById('garnish').innerText = currentDrink.garnish;
                 document.getElementById('recipe').style.display = "block";
+                document.querySelector('.cocktail-card').classList.add('hidden');
 
             }
         });
