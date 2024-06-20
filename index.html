@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Drink Selector</title>
+    <link rel="stylesheet" href="./styles.css">
     <style>
         * {
             /* border: 1px solid black; */
@@ -60,28 +61,28 @@
 
 <body>
 
-    <div class="container" style="margin: 100px auto;width: 80vw;">
+    <div class="container" style="margin: 100px auto;width: 80vw;max-width: 350px;">
         <div class="button-container">
-            <button id="randomButton">Get a Random Drink</button>
-            <button id="recipeButton" disabled>Show Recipe</button>
+            <button id="randomButton" class="button">Get a Random Drink</button>
+            <button id="recipeButton" disabled class="button">Show Recipe</button>
         </div>
         <br>
-        <div style="display: flex; justify-content: space-around;">
-            <div id="result" class="cocktail" style="display: flex;align-self: center;"></div>
-            <img src="" alt="" id="cocktail-img" style="width: 200px;max-width: 40%;">
+        <div class="cocktail-card">
+            <img src="" alt="" id="cocktail-img" class="cocktail-img">
+            <div id="result" class="cocktail" style="display: flex;align-self: center;margin-bottom: 30px"></div>
         </div>
         <br>
-        <div id="recipe" style="display: none;">
-            <div style="font-weight: bold;">Tecnica</div>
+        <div id="recipe" style="display: none;" class="recipe-card">
+            <div style="font-weight: bold;" class="recipe-element-header">Tecnica</div>
             <div id="technique"></div>
             <br>
-            <div style="font-weight: bold;">Glass</div>
+            <div style="font-weight: bold;" class="recipe-element-header">Glass</div>
             <div id="glass"></div>
             <br>
-            <div style="font-weight: bold;">Recipe</div>
+            <div style="font-weight: bold;" class="recipe-element-header">Recipe</div>
             <div id="ingredients"></div>
             <br>
-            <div style="font-weight: bold;">Garnish</div>
+            <div style="font-weight: bold;" class="recipe-element-header">Garnish</div>
             <div id="garnish"></div>
         </div>
     </div>
@@ -95,7 +96,7 @@
                 technique: "Build",
                 glass: "High Tumbler / Collins",
                 recipe: "1 oz 1/4 Vodka Liscia\nTop - Orange Juice",
-                img: './cocktails/build-a/screwdriver.png'
+                img: './cocktails/build-a/screwdriver.jpeg'
             },
             {
                 name: "Gin/Vodka Tonic/Lemon",
@@ -116,14 +117,14 @@
                 technique: "Build",
                 glass: "calice / hi tumbler",
                 recipe: "3 oz Prosecco\n2 oz Aperol\nTop - soda",
-                img: './cocktails/build-a/aperol.jpeg'
+                img: './cocktails/build-a/aperol.png'
             },
             {
                 name: "Campari Spritz",
                 technique: "Build",
                 glass: "calice / hi tumbler",
                 recipe: "3 oz Prosecco\n2 oz Campari\nTop - soda",
-                img: './cocktails/build-a/aperol.jpeg'
+                img: './cocktails/build-a/aperol.png'
             },
             {
                 name: "Hugo Spritz",
@@ -209,7 +210,7 @@
                 glass: "Build",
                 recipe: "1 oz 1/4 - amaretto disaronno\n1 oz 1/4 - Vodka Liscia",
                 garnish: "biscotto amaretto / scorza arancia",
-                img: './cocktails/build-b/godmother.jpg'
+                img: './cocktails/build-b/godfather.jpg'
             },
             {
                 name: "Black Russian",

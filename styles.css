@@ -1,0 +1,33 @@
+.cocktail-card{
+    display: flex; 
+    flex-direction:column;
+    align-items: center;
+    border: 1px solid black;
+    padding-top: 30px;
+    border-radius: 10px;
+    background-color: lightyellow;
+}
+
+.cocktail-img{
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.recipe-card{
+    background-color: lightblue;
+    padding: 30px;border-radius: 10px;
+    border: 1px solid black;
+}
+
+.recipe-element-header{
+    background-color: lightcoral;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.button{
+    border: none;
+    background-color: lightseagreen;
+    padding: 10px 20px;
+}
