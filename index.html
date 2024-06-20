@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles.css">
     <style>
         * {
-            /* border: 1px solid black; */
+            border: 1px solid black;
             color: rgba(0, 0, 0, 0.795);
         }
 
@@ -64,13 +64,21 @@
 
 <body>
 
-    <div class="container" style="margin: 100px auto;width: 80vw;max-width: 350px;">
+    
+    <div class="container" style="margin: 50px auto;width: 80vw;max-width: 350px;">
+        <nav style="text-align:center;padding: 30px;">
+            <a href="./pages/tecniche.html">
+                <button>
+                    Switch to Explore
+                </button>
+            </a>
+        </nav>
         <div class="button-container">
             <button id="randomButton" class="button">Get a Random Drink</button>
             <button id="recipeButton" disabled class="button">Show Recipe</button>
         </div>
         <br>
-        <div class="cocktail-card">
+        <div class="cocktail-card hidden">
             <img src="" alt="" id="cocktail-img" class="cocktail-img">
             <div id="result" class="cocktail" style="display: flex;align-self: center;margin-bottom: 30px"></div>
         </div>
