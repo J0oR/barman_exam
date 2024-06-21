@@ -43,12 +43,14 @@
     <div class="container" style="margin: 50px auto;width: 80vw;max-width: 350px;">
         <div class="button-container">
             <button id="randomButton" class="button">Get a Random Drink</button>
-            <button id="recipeButton" disabled class="button">Show Recipe</button>
         </div>
         <br>
         <div class="cocktail-card hidden">
             <img src="" alt="" id="cocktail-img" class="cocktail-img">
-            <div id="result" class="cocktail" style="display: flex;align-self: center;margin-bottom: 30px"></div>
+            <div id="result" class="cocktail" style="display: flex;align-self: center;margin-bottom: 30px">
+                
+            </div>
+            <button id="recipeButton" class="button" style="margin-bottom: 50px;">Show Recipe</button>
         </div>
         <br>
         <div id="recipe" style="display: none;" class="recipe-card">
@@ -462,7 +464,8 @@
             document.getElementById('ingredients').innerText = "";
             document.getElementById('garnish').innerText = "";
             document.getElementById('recipe').style.display = "none";
-            document.getElementById('recipeButton').disabled = false;
+            
+            //document.getElementById('recipeButton').disabled = false;
             document.getElementById('cocktail-img').setAttribute('src', currentDrink.img);
             document.querySelector('.cocktail-card').classList.remove('hidden');
         });
