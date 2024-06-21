@@ -1,82 +1,52 @@
 [
     {
-        "name": "Old Fashioned",
-        "technique": "Build",
-        "glass": "old fashion / rocks / low tumbler",
-        "recipe": "sugar & 3 drops Angostura\nsplash - soda\n1 oz 1/2 Bourbon/Rye Whisky",
-        "garnish": "orange twist and peel",
-        "img": "../assets/images/build-b/old-fashioned.jpeg"
+        "name": "Daiquiri",
+        "technique": "Shake & Strain",
+        "glass": "coppa",
+        "recipe": "2 oz - White Rum\n1 oz 1/4 - Sweet and Sour",
+        "garnish": "lemon slice",
+        "img": "../assets/images/shake-strain/daiquiri.jpeg"
     },
     {
-        "name": "Godfather",
-        "technique": "Low tumbler",
-        "glass": "Build",
-        "recipe": "1 oz 1/4 - amaretto disaronno\n1 oz 1/4 - Scotch Whisky",
-        "garnish": "biscotto amaretto\nscorza arancia",
-        "img": "../assets/images/build-b/godfather.jpg"
+        "name": "Margarita",
+        "technique": "Shake & Strain",
+        "glass": "coppa",
+        "recipe": "1 oz 1/2 Tequila\n3/4 oz Lime juice\n1/2 oz Triple sec\ngarnish - crosta sale & lime peel",
+        "img": "../assets/images/shake-strain/margarita.jpeg"
     },
     {
-        "name": "Godmother",
-        "technique": "Low tumbler",
-        "glass": "Build",
-        "recipe": "1 oz 1/4 - amaretto disaronno\n1 oz 1/4 - Vodka Liscia",
-        "garnish": "biscotto amaretto\nscorza arancia",
-        "img": "../assets/images/build-b/godfather.jpg"
+        "name": "White Lady",
+        "technique": "Shake & Strain",
+        "glass": "coppa",
+        "recipe": "1 oz 1/2 Dry Gin\n3/4 oz Lime juice\n1/2 oz Triple sec",
+        "img": "../assets/images/shake-strain/margarita.jpeg"
     },
     {
-        "name": "Black Russian",
-        "technique": "Build",
-        "glass": "Low tumbler / old fashion",
-        "recipe": "1 oz 1/4 - Vodka\n3/4 oz - Coffee Liquor\n",
-        "garnish": "coffee beans\norange slice",
-        "img": "../assets/images/build-b/russians.jpeg"
+        "name": "Kamikaze",
+        "technique": "Shake & Strain",
+        "glass": "coppa",
+        "recipe": "1 oz 1/2 Vodka\n3/4 oz Lime juice\n1/2 oz Triple sec",
+        "img": "../assets/images/shake-strain/margarita.jpeg"
     },
     {
-        "name": "White Russian",
-        "technique": "Build",
-        "glass": "Low tumbler / old fashion",
-        "recipe": "1 oz 1/4 - Vodka\n3/4 oz - Coffee Liquor\n",
-        "garnish": "panna liquida",
-        "img": "../assets/images/build-b/russians.jpeg"
+        "name": "Cosmopolitan",
+        "technique": "Shake & Strain",
+        "glass": "coppa",
+        "recipe": "1 oz 1/2 Vodka\n3/4 oz Lime juice\n1/2 oz Triple sec\n2 barspoon cranberry juice",
+        "img": "../assets/images/shake-strain/cosmopolitan.jpeg"
     },
     {
-        "name": "Negroni",
-        "technique": "Build",
-        "glass": "low tumbler / old fashion",
-        "recipe": "1 oz Dry Gin\n1 oz Campari\n1 oz Sweet vermouth",
-        "garnish": "orange twist/slice\nrosmarin\n3 angostura drops (opt.)",
-        "img": "../assets/images/build-b/boulevardier.jpeg"
+        "name": "Alexander",
+        "technique": "Shake & Strain",
+        "glass": "Coppa",
+        "recipe": "1 oz - Crema Cacao\n1 oz - Crema Panna\n1 oz - Cognac/Brandy\ngarnish - noce moscata grattugiata",
+        "img": "../assets/images/shake-strain/alexander.jpeg"
     },
     {
-        "name": "Negroski",
-        "technique": "Build",
-        "glass": "low tumbler / old fashion",
-        "recipe": "1 oz Vodka\n1 oz Campari\n1 oz Sweet vermouth",
-        "garnish": "orange twist/slice\nrosmarin\n3 angostura drops (opt.)",
-        "img": "../assets/images/build-b/boulevardier.jpeg"
-    },
-    {
-        "name": "Boulevardier",
-        "technique": "Build",
-        "glass": "low tumbler / old fashion",
-        "recipe": "1 oz Bourbon Whiskey\n1 oz Campari\n1 oz Sweet vermouth",
-        "garnish": "orange twist/slice\n3 angostura drops (opt.)",
-        "img": "../assets/images/build-b/boulevardier.jpeg"
-    },
-    {
-        "name": "Americano",
-        "technique": "Build",
-        "glass": "High tumbler",
-        "recipe": "1 oz Campari\n1 oz Sweet vermouth\nTop Soda",
-        "garnish": "orange slice\nrosmarin",
-        "img": "../assets/images/build-b/americano.jpeg"
-    },
-    {
-        "name": "Negroni Sbagliato",
-        "technique": "Build",
-        "glass": "High tumbler",
-        "recipe": "1 oz Campari\n1 oz Sweet vermouth\nTop Prosecco",
-        "garnish": "orange slice",
-        "img": "../assets/images/build-b/americano.jpeg"
+        "name": "Sour (in coppa)",
+        "technique": "Shake & Strain",
+        "glass": "Coppa",
+        "recipe": "2 oz - prodotto\n1 oz 1/4 - sweet & sour\n3/4 oz - albume / acqua faba",
+        "img": "../assets/images/shake-strain/sour.jpeg"
     }
 ]

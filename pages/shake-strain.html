@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titolo della Pagina</title>
+    <link rel="stylesheet" href="../assets/css/cocktails-page.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">
+                    <button class="nav-btn">Training</button>
+                </a>
+            </li>
+            <li>
+                <a href="../pages/tecniche.html">
+                    <button class="nav-btn">Tecniche</button>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div>
+
+            <!-- Daiquiri -->
+            <div class="family-container">
+                <div class="cards-container">
+                    <div class="cocktail-card" data-cocktail="Daiquiri">
+                        <p class="cocktail-title">Daiquiri</p>
+                        <button class="open-modal">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Margarita -->
+        <div class="family-container">
+            <div class="family-name">Margarita</div>
+            <div class="cards-container">
+                <div class="cocktail-card" data-cocktail="Margarita">
+                    <p class="cocktail-title">Margarita</p>
+                    <button class="open-modal">View Details</button>
+                </div>
+                <div class="cocktail-card" data-cocktail="White Lady">
+                    <p class="cocktail-title">White Lady</p>
+                    <button class="open-modal">View Details</button>
+                </div>
+                <div class="cocktail-card" data-cocktail="Kamikaze">
+                    <p class="cocktail-title">Kamikaze</p>
+                    <button class="open-modal">View Details</button>
+                </div>
+                <div class="cocktail-card" data-cocktail="Cosmopolitan">
+                    <p class="cocktail-title">Cosmopolitan</p>
+                    <button class="open-modal">View Details</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Alexander -->
+        <div class="family-container">
+            <div class="cards-container">
+                <div class="cocktail-card" data-cocktail="Alexander">
+                    <p class="cocktail-title">Alexander</p>
+                    <button class="open-modal">View Details</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sour (in coppa) -->
+        <div class="family-container">
+            <div class="cards-container">
+                <div class="cocktail-card" data-cocktail="Sour (in coppa)">
+                    <p class="cocktail-title">Sour (in coppa)</p>
+                    <button class="open-modal">View Details</button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+        <div id="cocktail-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2 id="modal-title" class="modal-title"></h2>
+                <div class="modal-section">
+                    <p class="modal-section-title">Tecnicque</p>
+                    <p id="modal-technique"></p>
+                </div>
+                <div class="modal-section">
+                    <p class="modal-section-title">Glass</p>
+                    <p id="modal-glass"></p>
+                </div>
+                <div class="modal-section">
+                    <p class="modal-section-title">Recipe</p>
+                    <p id="modal-recipe"></p>
+                </div>
+                <div class="modal-section">
+                    <p class="modal-section-title">Garnish</p>
+                    <p id="modal-garnish"></p>
+                </div>
+                <img id="modal-image" src="" alt="Cocktail Image" class="modal-image">
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('../assets/data/shake-strain.json')
+                .then(response => response.json())
+                .then(drinks => {
+                    const modal = document.getElementById('cocktail-modal');
+                    const closeButton = document.querySelector('.close-button');
+                    const modalTitle = document.getElementById('modal-title');
+                    const modalTechnique = document.getElementById('modal-technique');
+                    const modalGlass = document.getElementById('modal-glass');
+                    const modalRecipe = document.getElementById('modal-recipe');
+                    const modalGarnish = document.getElementById('modal-garnish');
+                    const modalImage = document.getElementById('modal-image');
+
+                    document.querySelectorAll('.open-modal').forEach(button => {
+                        button.addEventListener('click', () => {
+                            const cocktailName = button.closest('.cocktail-card').dataset.cocktail;
+                            const cocktail = drinks.find(drink => drink.name === cocktailName);
+
+                            modalTitle.textContent = cocktail.name;
+                            modalTechnique.textContent = cocktail.technique;
+                            modalGlass.textContent = cocktail.glass;
+                            modalRecipe.innerHTML = cocktail.recipe ? cocktail.recipe.replace(/\n/g, '<br>') : '';
+                            modalGarnish.innerHTML = cocktail.garnish ? cocktail.garnish.replace(/\n/g, '<br>') : '';
+                            modalImage.src = cocktail.img;
+                            modalImage.alt = cocktail.name;
+
+                            modal.style.display = 'block';
+                        });
+                    });
+
+                    closeButton.addEventListener('click', () => {
+                        modal.style.display = 'none';
+                    });
+
+                    window.addEventListener('click', event => {
+                        if (event.target === modal) {
+                            modal.style.display = 'none';
+                        }
+                    });
+                });
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
