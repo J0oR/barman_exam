@@ -4,6 +4,24 @@
     padding: 0;
 }
 
+/* nav */
+nav{
+    max-width: 350px;
+    margin: 50px auto !important;
+    
+}
+
+ul{
+    list-style-type: none;
+    display:flex; 
+    justify-content: space-around;
+}
+
+.nav-btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
 /* family */
 
 .family-container{

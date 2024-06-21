@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Screwdriver",
+        "technique": "Build",
+        "glass": "High Tumbler / Collins",
+        "recipe": "1 oz 1/4 Vodka Liscia\nTop - Orange Juice",
+        "img": "../assets/images/build-a/screwdriver.jpeg"
+    },
+    {
+        "name": "Gin/Vodka Tonic/Lemon",
+        "technique": "Build",
+        "glass": "High Tumbler",
+        "recipe": "1 oz 1/4 Gin/Vodka\nTop Tonic/Lemon Tonic",
+        "img": "../assets/images/build-a/gin-tonic.jpeg"
+    },
+    {
+        "name": "Gin/Vodka Premium Tonic/Lemon",
+        "technique": "Build",
+        "glass": "High Tumbler",
+        "recipe": "2 oz Gin/Vdka\nTop - Tonic/Lemon Tonic a lato",
+        "img": "../assets/images/build-a/gin-tonic.jpeg"
+    },
+    {
+        "name": "Aperol Spritz",
+        "technique": "Build",
+        "glass": "calice / hi tumbler",
+        "recipe": "3 oz Prosecco\n2 oz Aperol\nTop - soda",
+        "img": "../assets/images/build-a/aperol.png"
+    },
+    {
+        "name": "Campari Spritz",
+        "technique": "Build",
+        "glass": "calice / hi tumbler",
+        "recipe": "3 oz Prosecco\n2 oz Campari\nTop - soda",
+        "img": "../assets/images/build-a/aperol.png"
+    },
+    {
+        "name": "Hugo Spritz",
+        "technique": "Build",
+        "glass": "calice / hi tumbler",
+        "recipe": "smacked mint\n1/2 oz lime juice\n1 oz 1/2 Saint-Germain\nTop - Prosecco",
+        "img": "../assets/images/build-a/hugo.jpg"
+    },
+    {
+        "name": "Martini Royal",
+        "technique": "Build",
+        "glass": "calice / hi tumbler",
+        "recipe": "3 oz -  Prosecco\n2 oz - White Martini\ntop - soda",
+        "img": "../assets/images/build-a/martini-royal.jpg"
+    },
+    {
+        "name": "Kir Royal",
+        "technique": "Build",
+        "glass": "coppa champagne / flute / calice (extrema ratio)",
+        "recipe": "3/4 oz syrup/juice/liquor\ntop - Prosecco",
+        "img": "../assets/images/build-a/sparkling.jpeg"
+    },
+    {
+        "name": "Rossini",
+        "technique": "Build",
+        "glass": "coppa champagne / flute / calice (extrema ratio)",
+        "recipe": "3/4 oz 3/4 oz Crème de Cassis(ribes)\ntop - Prosecco",
+        "garnish": "black ribes",
+        "img": "../assets/images/build-a/sparkling.jpeg"
+    },
+    {
+        "name": "Bellini",
+        "technique": "Build",
+        "glass": "coppa champagne / flute / calice (extrema ratio)",
+        "recipe": "3/4 oz peach syrup/juice/pestato\ntop - Prosecco",
+        "garnish": "peach",
+        "img": "../assets/images/build-a/sparkling.jpeg"
+    },
+    {
+        "name": "Mimosa",
+        "technique": "Build",
+        "glass": "coppa champagne / flute / calice (extrema ratio)",
+        "recipe": "3/4 oz orange juice\ntop - Prosecco",
+        "garnish": "orange slice",
+        "img": "../assets/images/build-a/sparkling.jpeg"
+    },
+    {
+        "name": "London Mule",
+        "technique": "Build",
+        "glass": "Copper mug / High tumbler",
+        "recipe": "3/4 oz - Lime juice\n1 oz 1/4 Dry Gin\nTop - Ginger beer",
+        "garnish": "zenzero / cetriolo / lime slice / mint / lemon twist",
+        "img": "../assets/images/build-a/mule.jpg"
+    },
+    {
+        "name": "Moscow Mule",
+        "technique": "Build",
+        "glass": "Copper mug / High tumbler",
+        "recipe": "3/4 oz - Lime juice\n1 oz 1/4 Vodka\nTop - Ginger beer",
+        "garnish": "zenzero / cetriolo / lime slice / mint / lemon twist",
+        "img": "../assets/images/build-a/mule.jpg"
+    },
+    {
+        "name": "Rum & Cola",
+        "technique": "Build",
+        "glass": "High Tumbler",
+        "recipe": "1 oz 1/4 - White Rum\nTop - Cola",
+        "garnish": "lemon slice",
+        "img": "../assets/images/build-a/cuba-libre.jpeg"
+    },
+    {
+        "name": "Cuba Libre",
+        "technique": "Build",
+        "glass": "High Tumbler",
+        "recipe": "3/4 oz - Lime Juice\n1 oz 1/4 - White Rum\nTop - Cola",
+        "garnish": "lemon slice",
+        "img": "../assets/images/build-a/cuba-libre.jpeg"
+    },
+    {
+        "name": "Cuba Libre Pestato",
+        "technique": "Build",
+        "glass": "High Tumbler",
+        "recipe": "pestato - lime & sugar\n1 oz 1/4 - White Rum\nTop - Cola",
+        "garnish": "lemon slice",
+        "img": "../assets/images/build-a/cuba-libre.jpeg"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Caipiroska",
+        "technique": "Muddler",
+        "glass": "Low tumbler / old fashion",
+        "recipe": "pestato - lime & sugar\n2 oz Vodka\ncrushed ice\n2 straws & lemon slice",
+        "garnish": "lemon slice (only if ice is chopped)\n2 straws (to help the draft)",
+        "img": "../assets/images/muddler/caipirinha.jpeg"
+    },
+    {
+        "name": "Caipirinha",
+        "technique": "Muddler",
+        "glass": "Low tumbler / old fashion",
+        "recipe": "pestato - lime & sugar\n2 oz Cachaca\ncrushed ice\n2 straws & lemon slice",
+        "garnish": "lemon slice (only if ice is chopped)\n2 straws (to help the draft)",
+        "img": "../assets/images/muddler/caipirinha.jpeg"
+    },
+    {
+        "name": "Caipirissima",
+        "technique": "Muddler",
+        "glass": "Low tumbler / old fashion",
+        "recipe": "pestato - lime & sugar\n2 oz White Rum\ncrushed ice\n2 straws & lemon slice",
+        "garnish": "lemon slice (only if ice is chopped)\n2 straws (to help the draft)",
+        "img": "../assets/images/muddler/caipirinha.jpeg"
+    },
+    {
+        "name": "Mojito Europeo",
+        "technique": "Pestato",
+        "glass": "High Tumbler",
+        "recipe": "pestato - lime & sugar\nsmacked mint\n1 oz 1/4 - White Rum\ntop - soda",
+        "garnish": "lime\nsprig of mint",
+        "img": "../assets/images/muddler/mojito-europeo.png"
+    },
+    {
+        "name": "Mojito Cubano",
+        "technique": "Build",
+        "glass": "Juice / Collins / Highball",
+        "recipe": "3/4 oz - lime juice\n2 barspoons - sugar\nsmacked mint\n1 oz 1/2 - White Rum\ntop - soda",
+        "garnish": "lime\nsprig of mint",
+        "img": "../assets/images/muddler/mojito-cubano.jpeg"
+    }
+]

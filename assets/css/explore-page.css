@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+/* nav */
+nav{
+    max-width: 350px;
+    margin: 50px auto !important;
+    
+}
+
+ul{
+    list-style-type: none;
+    display:flex; 
+    justify-content: space-around;
+}
+
+.nav-btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+
+header{
+    max-width: 350px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.techniques-container{
+    max-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.technicque-btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+

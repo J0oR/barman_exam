@@ -27,29 +27,18 @@
     <main>
         <div>
             <div class="family-container">
-                <div class="family-name">Negroni Family</div>
                 <div class="cards-container">
-                    <div class="cocktail-card" data-cocktail="Negroni">
-                        <p class="cocktail-title">Negroni</p>
+                    <div class="cocktail-card" data-cocktail="Caipirinha">
+                        <p class="cocktail-title">Caipirinha</p>
                         <button class="open-modal">View Details</button>
                     </div>
-                    <div class="cocktail-card" data-cocktail="Negroski">
-                        <p class="cocktail-title">Negroski</p>
-                        <button class="open-modal">View Details</button>
-
-                    </div>
-                    <div class="cocktail-card" data-cocktail="Boulevardier">
-                        <p class="cocktail-title">Boulevardier</p>
+                    <div class="cocktail-card" data-cocktail="Caipiroska">
+                        <p class="cocktail-title">Caipiroska</p>
                         <button class="open-modal">View Details</button>
 
                     </div>
-                    <div class="cocktail-card" data-cocktail="Americano">
-                        <p class="cocktail-title">Americano</p>
-                        <button class="open-modal">View Details</button>
-
-                    </div>
-                    <div class="cocktail-card" data-cocktail="Negroni Sbagliato">
-                        <p class="cocktail-title">Negroni Sbagliato</p>
+                    <div class="cocktail-card" data-cocktail="Caipirissima">
+                        <p class="cocktail-title">Caipirissima</p>
                         <button class="open-modal">View Details</button>
 
                     </div>
@@ -58,45 +47,19 @@
 
             <div class="family-container">
                 <div class="cards-container">
-                    <div class="cocktail-card" data-cocktail="Old Fashioned">
-                        <p class="cocktail-title">Old Fashioned</p>
+                    <div class="cocktail-card" data-cocktail="Mojito Europeo">
+                        <p class="cocktail-title">Mojito Europeo</p>
                         <button class="open-modal">View Details</button>
-
                     </div>
                 </div>
-            </div>
-
-            <div class="family-container">
-                <div class="family-name">Russians</div>
                 <div class="cards-container">
-                    <div class="cocktail-card" data-cocktail="White Russian">
-                        <p class="cocktail-title">White Russian</p>
+                    <div class="cocktail-card" data-cocktail="Mojito Cubano">
+                        <p class="cocktail-title">Mojito Cubano</p>
                         <button class="open-modal">View Details</button>
-
-                    </div>
-                    <div class="cocktail-card" data-cocktail="Black Russian">
-                        <p class="cocktail-title">Black Russian</p>
-                        <button class="open-modal">View Details</button>
-
                     </div>
                 </div>
             </div>
 
-            <div class="family-container">
-                <div class="family-name">Triade</div>
-                <div class="cards-container">
-                    <div class="cocktail-card" data-cocktail="Godmother">
-                        <p class="cocktail-title">Godmother</p>
-                        <button class="open-modal">View Details</button>
-
-                    </div>
-                    <div class="cocktail-card" data-cocktail="Godfather">
-                        <p class="cocktail-title">Godfather</p>
-                        <button class="open-modal">View Details</button>
-
-                    </div>
-                </div>
-            </div>
 
         </div>
 
@@ -131,7 +94,7 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            fetch('../assets/data/build-b.json')
+            fetch('../assets/data/muddler.json')
                 .then(response => response.json())
                 .then(drinks => {
                     const modal = document.getElementById('cocktail-modal');
