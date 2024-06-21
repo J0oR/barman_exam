@@ -14,74 +14,33 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="./styles.css">
-    <style>
-        * {
-            color: rgba(0, 0, 0, 0.795);
-        }
+    <link rel="stylesheet" href="./assets/css/training.css">
 
-        .hidden {
-            display: none;
-        }
-
-        #result {
-            margin-top: 20px;
-            font-size: 1.5em;
-            color: #333;
-        }
-
-        button {
-            padding: 10px 20px;
-            font-size: 1em;
-        }
-
-        #recipe {
-            margin-top: 10px;
-            font-size: 1.2em;
-            color: #666;
-        }
-
-        .button-container {
-            display: flex;
-            justify-content: space-around;
-        }
-
-        #result {
-            text-align: center;
-        }
-
-        #recipe {
-            text-align: center;
-            font-size: 22px !important;
-
-        }
-
-        button {
-            border-radius: 20px;
-            background-color: lightgreen;
-        }
-
-        body {
-            background-color: lightcyan;
-        }
-
-        .cocktail {
-            font-size: 30px !important;
-        }
-    </style>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+    <nav>
+        <ul>
+            <li class="selected-page">
+                <a href="../index.html">
+                    <button class="nav-btn">Training</button>
+                </a>
+            </li>
+            <li>
+                <a href="pages/tecniche.html">
+                    <button class="nav-btn">Tecniche</button>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
 
     <div class="container" style="margin: 50px auto;width: 80vw;max-width: 350px;">
-        <nav style="text-align:center;padding: 30px;">
-            <a href="./pages/tecniche.html">
-                <button>
-                    Switch to Explore
-                </button>
-            </a>
-        </nav>
         <div class="button-container">
             <button id="randomButton" class="button">Get a Random Drink</button>
             <button id="recipeButton" disabled class="button">Show Recipe</button>

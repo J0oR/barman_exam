@@ -14,6 +14,10 @@
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" href="../assets/css/cocktails-page.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -33,81 +37,82 @@
     </nav>
 
     <main>
-        <div>
-            <div class="family-container">
-                <div class="family-name">Negroni Family</div>
-                <div class="cards-container">
-                    <div class="cocktail-card" data-cocktail="Negroni">
-                        <p class="cocktail-title">Negroni</p>
-                        <button class="open-modal">View Details</button>
-                    </div>
-                    <div class="cocktail-card" data-cocktail="Negroski">
-                        <p class="cocktail-title">Negroski</p>
-                        <button class="open-modal">View Details</button>
 
-                    </div>
-                    <div class="cocktail-card" data-cocktail="Boulevardier">
-                        <p class="cocktail-title">Boulevardier</p>
-                        <button class="open-modal">View Details</button>
-
-                    </div>
-                    <div class="cocktail-card" data-cocktail="Americano">
-                        <p class="cocktail-title">Americano</p>
-                        <button class="open-modal">View Details</button>
-
-                    </div>
-                    <div class="cocktail-card" data-cocktail="Negroni Sbagliato">
-                        <p class="cocktail-title">Negroni Sbagliato</p>
-                        <button class="open-modal">View Details</button>
-
-                    </div>
-                </div>
+        <div class="selected-page selected-technicque">
+            <div class="nav-btn ">
+                Build
             </div>
-
-            <div class="family-container">
-                <div class="cards-container">
-                    <div class="cocktail-card" data-cocktail="Old Fashioned">
-                        <p class="cocktail-title">Old Fashioned</p>
-                        <button class="open-modal">View Details</button>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="family-container">
-                <div class="family-name">Russians</div>
-                <div class="cards-container">
-                    <div class="cocktail-card" data-cocktail="White Russian">
-                        <p class="cocktail-title">White Russian</p>
-                        <button class="open-modal">View Details</button>
-
-                    </div>
-                    <div class="cocktail-card" data-cocktail="Black Russian">
-                        <p class="cocktail-title">Black Russian</p>
-                        <button class="open-modal">View Details</button>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="family-container">
-                <div class="family-name">Triade</div>
-                <div class="cards-container">
-                    <div class="cocktail-card" data-cocktail="Godmother">
-                        <p class="cocktail-title">Godmother</p>
-                        <button class="open-modal">View Details</button>
-
-                    </div>
-                    <div class="cocktail-card" data-cocktail="Godfather">
-                        <p class="cocktail-title">Godfather</p>
-                        <button class="open-modal">View Details</button>
-
-                    </div>
-                </div>
-            </div>
-
         </div>
 
+        <!-- Negroni -->
+        <div class="family-container">
+            <div class="family-name">Negroni Family</div>
+            <div class="cards-container">
+                <div class="cocktail-card" data-cocktail="Negroni">
+                    <p class="cocktail-title">Negroni</p>
+                    <button class="open-modal">details</button>
+                </div>
+                <div class="cocktail-card" data-cocktail="Negroski">
+                    <p class="cocktail-title">Negroski</p>
+                    <button class="open-modal">details</button>
+                </div>
+                <div class="cocktail-card" data-cocktail="Boulevardier">
+                    <p class="cocktail-title">Boulevardier</p>
+                    <button class="open-modal">details</button>
+                </div>
+                <div class="cocktail-card" data-cocktail="Americano">
+                    <p class="cocktail-title">Americano</p>
+                    <button class="open-modal">details</button>
+                </div>
+                <div class="cocktail-card" data-cocktail="Negroni Sbagliato">
+                    <p class="cocktail-title">Negroni Sbagliato</p>
+                    <button class="open-modal">details</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Old Fashioned -->
+        <div class="family-container">
+            <div class="cards-container">
+                <div class="cocktail-card" data-cocktail="Old Fashioned">
+                    <p class="cocktail-title">Old Fashioned</p>
+                    <button class="open-modal">details</button>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Russians -->
+        <div class="family-container">
+            <div class="family-name">Russians</div>
+            <div class="cards-container">
+                <div class="cocktail-card" data-cocktail="White Russian">
+                    <p class="cocktail-title">White Russian</p>
+                    <button class="open-modal">details</button>
+                </div>
+                <div class="cocktail-card" data-cocktail="Black Russian">
+                    <p class="cocktail-title">Black Russian</p>
+                    <button class="open-modal">details</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Triade -->
+        <div class="family-container">
+            <div class="family-name">Triade</div>
+            <div class="cards-container">
+                <div class="cocktail-card" data-cocktail="Godmother">
+                    <p class="cocktail-title">Godmother</p>
+                    <button class="open-modal">details</button>
+                </div>
+                <div class="cocktail-card" data-cocktail="Godfather">
+                    <p class="cocktail-title">Godfather</p>
+                    <button class="open-modal">details</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
         <div id="cocktail-modal" class="modal">
             <div class="modal-content">
                 <span class="close-button">&times;</span>
@@ -133,9 +138,6 @@
         </div>
 
     </main>
-
-
-
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {

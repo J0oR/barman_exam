@@ -2,6 +2,17 @@
     /* border: 1px solid red; */
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #E7F0DC;
+    font-size: 14px;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;    
 }
 
 /* nav */
@@ -9,6 +20,28 @@ nav{
     max-width: 350px;
     margin: 50px auto !important;
     
+}
+
+.nav-btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.1rem;
+    font: inherit;
+
+}
+
+.selected-page{
+    border-bottom: 2px solid #55AD9B;
+    border-radius: 0;
+}
+
+.selected-technicque{
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 ul{
@@ -20,36 +53,67 @@ ul{
 .nav-btn{
     padding: 10px 30px;
     border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.1rem;
+
+}
+
+.nav-btn:hover{
+    cursor: pointer;
+    transform: scale(1);
 }
 
 /* family */
 
 .family-container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
     padding: 30px 0;
+    background-color: #95D2B3;
 }
 
 .family-name{
     font-size: 1.2rem;
     margin-bottom: 30px;
+    font-weight: bold;
+    font-family: inherit;
+    font-weight: 500;
 }
 
 .cocktail-card{
     display: flex;
     justify-content:space-between;
     margin: 20px 0;
-    padding: 0 50px;
+    padding: 0 25px;
 }
 
 .cocktail-title{
     display: flex;
     align-self: center;
+    font-size: 1.05rem;
 }
 
-.cocktail-card > button {
-    padding: 5px 10px;
-    border-radius: 10px;
+/* button */
+.open-modal{
+    border: none;
+    transition: all 0.3s ease-in-out;
+    padding: 5px 20px;
+    border-radius: 14px;
+    background-color: #D8EFD3;
+    font-size: 1.1rem;
+    height: fit-content;
+    font: inherit;
+}
+
+.open-modal:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.open-modal:active{
+    transform: translateY(2px);
 }
 
 .cocktail-img{
@@ -65,7 +129,7 @@ ul{
     text-align: center;
 }
 
-/* Modal */
+/******************* Modal **********************/
 
 .modal {
     display: none; /* Hidden by default */
@@ -74,7 +138,7 @@ ul{
     left: 0;
     top: 0;
     width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    height: 100vh; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
@@ -85,11 +149,16 @@ ul{
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-    max-width: 350px;
-    margin: 50px auto;
+    max-width: 500px;
+    margin: 0 auto;
     text-align: center;
-    
+    background-color: #F1F8E8;
+    font-size: 1.2rem;
+}
+
+.modal::-webkit-scrollbar {
+    width: 0px; /* Remove scrollbar space */
+    background: transparent; /* Optional: just to hide the scrollbar */
 }
 
 .close-button {
@@ -107,7 +176,6 @@ ul{
 }
 
 
-
 .modal-title{
     text-align: center;
 }
@@ -123,6 +191,8 @@ ul{
     margin-bottom: 10px;
     border: 1px solid black;
     border-radius: 10px;
+    padding: 10px;
+    background-color: #55AD9B;
 }
 
 .modal-section{

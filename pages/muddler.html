@@ -14,6 +14,10 @@
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" href="../assets/css/cocktails-page.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -33,43 +37,49 @@
     </nav>
 
     <main>
-        <div>
-            <div class="family-container">
-                <div class="cards-container">
-                    <div class="cocktail-card" data-cocktail="Caipirinha">
-                        <p class="cocktail-title">Caipirinha</p>
-                        <button class="open-modal">View Details</button>
-                    </div>
-                    <div class="cocktail-card" data-cocktail="Caipiroska">
-                        <p class="cocktail-title">Caipiroska</p>
-                        <button class="open-modal">View Details</button>
 
-                    </div>
-                    <div class="cocktail-card" data-cocktail="Caipirissima">
-                        <p class="cocktail-title">Caipirissima</p>
-                        <button class="open-modal">View Details</button>
-
-                    </div>
-                </div>
+        <div class="selected-page selected-technicque">
+            <div class="nav-btn ">
+                Muddler
             </div>
-
-            <div class="family-container">
-                <div class="cards-container">
-                    <div class="cocktail-card" data-cocktail="Mojito Europeo">
-                        <p class="cocktail-title">Mojito Europeo</p>
-                        <button class="open-modal">View Details</button>
-                    </div>
-                </div>
-                <div class="cards-container">
-                    <div class="cocktail-card" data-cocktail="Mojito Cubano">
-                        <p class="cocktail-title">Mojito Cubano</p>
-                        <button class="open-modal">View Details</button>
-                    </div>
-                </div>
-            </div>
-
-
         </div>
+
+        <!-- Caipirinha -->
+        <div class="family-container">
+            <div class="cards-container">
+                <div class="cocktail-card" data-cocktail="Caipirinha">
+                    <p class="cocktail-title">Caipirinha</p>
+                    <button class="open-modal">details</button>
+                </div>
+                <div class="cocktail-card" data-cocktail="Caipiroska">
+                    <p class="cocktail-title">Caipiroska</p>
+                    <button class="open-modal">details</button>
+
+                </div>
+                <div class="cocktail-card" data-cocktail="Caipirissima">
+                    <p class="cocktail-title">Caipirissima</p>
+                    <button class="open-modal">details</button>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Mojito -->
+        <div class="family-container">
+            <div class="cards-container">
+                <div class="cocktail-card" data-cocktail="Mojito Europeo">
+                    <p class="cocktail-title">Mojito Europeo</p>
+                    <button class="open-modal">details</button>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="cocktail-card" data-cocktail="Mojito Cubano">
+                    <p class="cocktail-title">Mojito Cubano</p>
+                    <button class="open-modal">details</button>
+                </div>
+            </div>
+        </div>
+
 
         <div id="cocktail-modal" class="modal">
             <div class="modal-content">
@@ -96,9 +106,6 @@
         </div>
 
     </main>
-
-
-
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
