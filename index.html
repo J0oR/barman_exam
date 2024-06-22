@@ -71,12 +71,12 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const files = [
-                '../assets/data/build-a.json',
-                '../assets/data/build-b.json',
-                '../assets/data/dryshake.json',
-                '../assets/data/muddler.json',
-                '../assets/data/stir-strain.json',
-                '../assets/data/shake-strain.json'
+                './assets/data/build-a.json',
+                './assets/data/build-b.json',
+                './assets/data/dryshake.json',
+                './assets/data/muddler.json',
+                './assets/data/stir-strain.json',
+                './assets/data/shake-strain.json'
             ];
 
             Promise.all(files.map(file => fetch(file).then(response => response.json())))
