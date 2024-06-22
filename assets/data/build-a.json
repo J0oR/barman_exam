@@ -2,104 +2,214 @@
     {
         "name": "Screwdriver",
         "technique": "Build",
-        "glass": "High Tumbler / Collins",
-        "recipe": "1 oz 1/4 Vodka Liscia\nTop - Orange Juice",
+        "glass": [
+            "High Tumbler",
+            "Collins"
+        ],
+        "recipe": [
+            "1 oz 1/4 Vodka Liscia",
+            "Top - Orange Juice"
+        ],
+        "garnish": [
+            "orange slice",
+            "orange twist"
+        ],
         "img": "../assets/images/build-a/screwdriver.jpeg"
     },
     {
         "name": "Gin/Vodka Tonic/Lemon",
         "technique": "Build",
         "glass": "High Tumbler",
-        "recipe": "1 oz 1/4 Gin/Vodka\nTop Tonic/Lemon Tonic",
+        "recipe": [
+            "1 oz 1/4 Gin/Vodka",
+            "Top Tonic/Lemon Tonic"
+        ],
         "img": "../assets/images/build-a/gin-tonic.jpeg"
     },
     {
         "name": "Gin/Vodka Premium Tonic/Lemon",
         "technique": "Build",
         "glass": "High Tumbler",
-        "recipe": "2 oz Gin/Vdka\nTop - Tonic/Lemon Tonic a lato",
+        "recipe": [
+            "2 oz Gin/Vdka",
+            "Top - Tonic/Lemon Tonic a lato"
+        ],
         "img": "../assets/images/build-a/gin-tonic.jpeg"
     },
     {
         "name": "Aperol Spritz",
         "technique": "Build",
-        "glass": "calice / hi tumbler",
-        "recipe": "3 oz Prosecco\n2 oz Aperol\nTop - soda",
+        "glass": [
+            "calice",
+            "hi tumbler"
+        ],
+        "recipe": [
+            "3 oz Prosecco",
+            "2 oz Aperol",
+            "Top - soda"
+        ],
+        "garnish": "orange slice",
         "img": "../assets/images/build-a/aperol.png"
     },
     {
         "name": "Campari Spritz",
         "technique": "Build",
-        "glass": "calice / hi tumbler",
-        "recipe": "3 oz Prosecco\n2 oz Campari\nTop - soda",
+        "glass": [
+            "calice",
+            "hi tumbler"
+        ],
+        "recipe": [
+            "3 oz Prosecco",
+            "2 oz Campari",
+            "Top - soda"
+        ],
+        "garnish": "orange slice",
         "img": "../assets/images/build-a/aperol.png"
     },
     {
         "name": "Hugo Spritz",
         "technique": "Build",
-        "glass": "calice / hi tumbler",
-        "recipe": "smacked mint\n1/2 oz lime juice\n1 oz 1/2 Saint-Germain\nTop - Prosecco",
+        "glass": [
+            "calice",
+            "hi tumbler"
+        ],
+        "recipe": [
+            "smacked mint",
+            "1/2 oz lime juice",
+            "1 oz 1/2 Saint-Germain",
+            "Top - Prosecco"
+        ],
+        "garnish": [
+            "mint",
+            "lime slice"
+        ],
         "img": "../assets/images/build-a/hugo.jpg"
     },
     {
         "name": "Martini Royal",
         "technique": "Build",
-        "glass": "calice / hi tumbler",
-        "recipe": "3 oz -  Prosecco\n2 oz - White Martini\ntop - soda",
+        "glass": [
+            "calice",
+            "hi tumbler"
+        ],
+        "recipe": [
+            "3 oz -  Prosecco",
+            "2 oz - White Martini",
+            "top - soda"
+        ],
+        "garnish": "lemon slice",
         "img": "../assets/images/build-a/martini-royal.jpg"
     },
     {
         "name": "Kir Royal",
         "technique": "Build",
-        "glass": "coppa champagne / flute / calice (extrema ratio)",
-        "recipe": "3/4 oz syrup/juice/liquor\ntop - Prosecco",
+        "glass": [
+            "coppa champagne",
+            "flute",
+            "calice (extremis)"
+        ],
+        "recipe": [
+            "3/4 oz syrup/juice/liquor",
+            "top - Prosecco"
+        ],
+        "garnish": "ribes",
         "img": "../assets/images/build-a/sparkling.jpeg"
     },
     {
         "name": "Rossini",
         "technique": "Build",
-        "glass": "coppa champagne / flute / calice (extrema ratio)",
-        "recipe": "3/4 oz 3/4 oz Crème de Cassis(ribes)\ntop - Prosecco",
+        "glass": [
+            "coppa champagne",
+            "flute",
+            "calice (extremis)"
+        ],
+        "recipe": [
+            "3/4 oz 3/4 oz Crème de Cassis(ribes)",
+            "top - Prosecco"
+        ],
         "garnish": "black ribes",
         "img": "../assets/images/build-a/sparkling.jpeg"
     },
     {
         "name": "Bellini",
         "technique": "Build",
-        "glass": "coppa champagne / flute / calice (extrema ratio)",
-        "recipe": "3/4 oz peach syrup/juice/pestato\ntop - Prosecco",
+        "glass": [
+            "coppa champagne",
+            "flute",
+            "calice (extremis)"
+        ],
+        "recipe": [
+            "3/4 oz peach syrup/juice/pestato",
+            "top - Prosecco"
+        ],
         "garnish": "peach",
         "img": "../assets/images/build-a/sparkling.jpeg"
     },
     {
         "name": "Mimosa",
         "technique": "Build",
-        "glass": "coppa champagne / flute / calice (extrema ratio)",
-        "recipe": "3/4 oz orange juice\ntop - Prosecco",
+        "glass": [
+            "coppa champagne",
+            "flute",
+            "calice (extremis)"
+        ],
+        "recipe": [
+            "3/4 oz orange juice",
+            "top - Prosecco"
+        ],
         "garnish": "orange slice",
         "img": "../assets/images/build-a/sparkling.jpeg"
     },
     {
         "name": "London Mule",
         "technique": "Build",
-        "glass": "Copper mug / High tumbler",
-        "recipe": "3/4 oz - Lime juice\n1 oz 1/4 Dry Gin\nTop - Ginger beer",
-        "garnish": "zenzero / cetriolo / lime slice / mint / lemon twist",
+        "glass": [
+            "Copper mug",
+            "High tumbler"
+        ],
+        "recipe": [
+            "3/4 oz - Lime juice",
+            "1 oz 1/4 Dry Gin",
+            "Top - Ginger beer"
+        ],
+        "garnish": [
+            "zenzero",
+            "cetriolo",
+            "lime slice",
+            "mint",
+            "lemon twist"
+        ],
         "img": "../assets/images/build-a/mule.jpg"
     },
     {
         "name": "Moscow Mule",
         "technique": "Build",
-        "glass": "Copper mug / High tumbler",
-        "recipe": "3/4 oz - Lime juice\n1 oz 1/4 Vodka\nTop - Ginger beer",
-        "garnish": "zenzero / cetriolo / lime slice / mint / lemon twist",
+        "glass": [
+            "Copper mug",
+            "High tumbler"
+        ],
+        "recipe": [
+            "3/4 oz - Lime juice",
+            "1 oz 1/4 Vodka",
+            "Top - Ginger beer"
+        ],
+        "garnish": [
+            "zenzero",
+            "cetriolo",
+            "lime slice",
+            "mint",
+            "lemon twist"
+        ],
         "img": "../assets/images/build-a/mule.jpg"
     },
     {
         "name": "Rum & Cola",
         "technique": "Build",
         "glass": "High Tumbler",
-        "recipe": "1 oz 1/4 - White Rum\nTop - Cola",
+        "recipe": [
+            "1 oz 1/4 - White Rum",
+            "Top - Cola"
+        ],
         "garnish": "lemon slice",
         "img": "../assets/images/build-a/cuba-libre.jpeg"
     },
@@ -107,7 +217,11 @@
         "name": "Cuba Libre",
         "technique": "Build",
         "glass": "High Tumbler",
-        "recipe": "3/4 oz - Lime Juice\n1 oz 1/4 - White Rum\nTop - Cola",
+        "recipe": [
+            "3/4 oz - Lime Juice",
+            "1 oz 1/4 - White Rum",
+            "Top - Cola"
+        ],
         "garnish": "lemon slice",
         "img": "../assets/images/build-a/cuba-libre.jpeg"
     },
@@ -115,7 +229,11 @@
         "name": "Cuba Libre Pestato",
         "technique": "Build",
         "glass": "High Tumbler",
-        "recipe": "pestato - lime & sugar\n1 oz 1/4 - White Rum\nTop - Cola",
+        "recipe": [
+            "pestato - lime & sugar",
+            "1 oz 1/4 - White Rum",
+            "Top - Cola"
+        ],
         "garnish": "lemon slice",
         "img": "../assets/images/build-a/cuba-libre.jpeg"
     }

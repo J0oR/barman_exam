@@ -77,7 +77,11 @@
         <!-- modal -->
         <div id="cocktail-modal" class="modal">
             <div class="modal-content">
-                <span class="close-button">&times;</span>
+                <div class="modal-section">
+                    <span class="close-button">
+                        <img src="../assets/icon/close.webp" alt="">
+                    </span>
+                </div>
                 <h2 id="modal-title" class="modal-title"></h2>
                 <div class="modal-section">
                     <p class="modal-section-title">Tecnicque</p>
@@ -89,11 +93,11 @@
                 </div>
                 <div class="modal-section">
                     <p class="modal-section-title">Recipe</p>
-                    <p id="modal-recipe"></p>
+                    <div id="modal-recipe"></div>
                 </div>
                 <div class="modal-section">
                     <p class="modal-section-title">Garnish</p>
-                    <p id="modal-garnish"></p>
+                    <div id="modal-garnish"></div>
                 </div>
                 <img id="modal-image" src="" alt="Cocktail Image" class="modal-image">
             </div>
@@ -125,9 +129,30 @@
 
                             modalTitle.textContent = cocktail.name;
                             modalTechnique.textContent = cocktail.technique;
-                            modalGlass.textContent = cocktail.glass;
-                            modalRecipe.innerHTML = cocktail.recipe ? cocktail.recipe.replace(/\n/g, '<br>') : '';
-                            modalGarnish.innerHTML = cocktail.garnish ? cocktail.garnish.replace(/\n/g, '<br>') : '';
+
+                            // Helper function to ensure cocktail properties are arrays
+                            const toArray = (value) => {
+                                if (value === undefined || value === null) {
+                                    return [];
+                                }
+                                return Array.isArray(value) ? value : [value];
+                            };
+
+                            // Convert glass object to HTML string
+                            const glassHTML = toArray(cocktail.glass).map(item => `<div>${item}</div>`).join('');
+
+                            // Assuming modalGlass is your HTML element where you want to display the glass type
+                            modalGlass.innerHTML = glassHTML;
+
+                            // Convert recipe array to HTML string
+                            const recipeHTML = toArray(cocktail.recipe).map(item => `<div>${item}</div>`).join('');
+                            modalRecipe.innerHTML = recipeHTML;
+
+                            // Convert garnish array to HTML string
+                            const garnishHTML = toArray(cocktail.garnish).map(item => `<div>${item}</div>`).join('');
+                            modalGarnish.innerHTML = garnishHTML;
+
+
                             modalImage.src = cocktail.img;
                             modalImage.alt = cocktail.name;
 

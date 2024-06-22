@@ -2,20 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     /* border: 1px solid black; */
+
 }
 
 body{
-    background-color: #F1F8E8;
+    background-color: #E7F0DC;
     font-size: 14px;
     font-family: "Reddit Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
     margin-bottom: 100px;
+    overflow: auto;
 }
 
+::-webkit-scrollbar {
+    width: 0px; /* Hide the scrollbar */
+    background: transparent; /* Optional: hide the scrollbar background */
+  }
 
 /* nav */
 nav{
@@ -27,7 +32,14 @@ nav{
 .nav-btn{
     border: none;
     background-color: transparent;
-    
+    padding: 10px 30px;
+    font: inherit;
+    font-size: 1.1rem;
+}
+
+a{
+    text-decoration: none;
+
 }
 
 .selected-page{
@@ -41,12 +53,6 @@ ul{
     justify-content: space-around;
 }
 
-.nav-btn{
-    padding: 10px 30px;
-    border-radius: 10px;
-    font: inherit;
-    font-size: 1.1rem;
-}
 
 
 header{
@@ -72,12 +78,12 @@ h1{
 }
 
 .technicque-btn{
-    padding: 12px 50px;
+    padding: 20px 50px;
     border-radius: 15px;
     border: none;
     background-color: #95D2B3;
     width: 300px;
-    font-size: 1.05rem;
+    font-size: 1.1rem !important;
     transition: all 0.3s ease-in-out;
     font: inherit;
     display: flex;

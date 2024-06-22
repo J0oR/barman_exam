@@ -2,81 +2,169 @@
     {
         "name": "Old Fashioned",
         "technique": "Build",
-        "glass": "old fashion / rocks / low tumbler",
-        "recipe": "sugar & 3 drops Angostura\nsplash - soda\n1 oz 1/2 Bourbon/Rye Whisky",
+        "glass": [
+            "old fashion",
+            "rocks",
+            "low tumbler"
+        ],
+        "recipe": [
+            "sugar & 3 drops Angostura",
+            "splash - soda",
+            "1 oz 1/2 Bourbon/Rye Whisky"
+        ],
         "garnish": "orange twist and peel",
         "img": "../assets/images/build-b/old-fashioned.jpeg"
     },
     {
         "name": "Godfather",
-        "technique": "Low tumbler",
-        "glass": "Build",
-        "recipe": "1 oz 1/4 - amaretto disaronno\n1 oz 1/4 - Scotch Whisky",
-        "garnish": "biscotto amaretto\nscorza arancia",
+        "technique": "Build",
+        "glass": [
+            "low tumbler"
+        ],
+        "recipe": [
+            "1 oz 1/4 - amaretto disaronno",
+            "1 oz 1/4 - Scotch Whisky"
+        ],
+        "garnish": [
+            "biscotto amaretto",
+            "scorza arancia"
+        ],
         "img": "../assets/images/build-b/godfather.jpg"
     },
     {
         "name": "Godmother",
-        "technique": "Low tumbler",
-        "glass": "Build",
-        "recipe": "1 oz 1/4 - amaretto disaronno\n1 oz 1/4 - Vodka Liscia",
-        "garnish": "biscotto amaretto\nscorza arancia",
+        "technique": "Build",
+        "glass": [
+            "low tumbler"
+        ],
+        "recipe": [
+            "1 oz 1/4 - amaretto disaronno",
+            "1 oz 1/4 - Vodka Liscia"
+        ],
+        "garnish": [
+            "biscotto amaretto",
+            "scorza arancia"
+        ],
         "img": "../assets/images/build-b/godfather.jpg"
     },
     {
         "name": "Black Russian",
         "technique": "Build",
-        "glass": "Low tumbler / old fashion",
-        "recipe": "1 oz 1/4 - Vodka\n3/4 oz - Coffee Liquor\n",
-        "garnish": "coffee beans\norange slice",
+        "glass": [
+            "Low tumbler",
+            "old fashion"
+        ],
+        "recipe": [
+            "1 oz 1/4 - Vodka",
+            "3/4 oz - Coffee Liquor"
+        ],
+        "garnish": [
+            "coffee beans",
+            "orange slice"
+        ],
         "img": "../assets/images/build-b/russians.jpeg"
     },
     {
         "name": "White Russian",
         "technique": "Build",
-        "glass": "Low tumbler / old fashion",
-        "recipe": "1 oz 1/4 - Vodka\n3/4 oz - Coffee Liquor\n",
+        "glass": [
+            "Low tumbler",
+            "old fashion"
+        ],
+        "recipe": [
+            "1 oz 1/4 - Vodka",
+            "3/4 oz - Coffee Liquor"
+        ],
         "garnish": "panna liquida",
         "img": "../assets/images/build-b/russians.jpeg"
     },
     {
         "name": "Negroni",
         "technique": "Build",
-        "glass": "low tumbler / old fashion",
-        "recipe": "1 oz Dry Gin\n1 oz Campari\n1 oz Sweet vermouth",
-        "garnish": "orange twist/slice\nrosmarin\n3 angostura drops (opt.)",
+        "glass": [
+            "low tumbler",
+            "old fashion"
+        ],
+        "recipe": [
+            "1 oz Dry Gin",
+            "1 oz Campari",
+            "1 oz Sweet vermouth"
+        ],
+        "garnish": [
+            "orange twist/slice",
+            "rosmarin",
+            "3 angostura drops (opt.)"
+        ],
         "img": "../assets/images/build-b/boulevardier.jpeg"
     },
     {
         "name": "Negroski",
         "technique": "Build",
-        "glass": "low tumbler / old fashion",
-        "recipe": "1 oz Vodka\n1 oz Campari\n1 oz Sweet vermouth",
-        "garnish": "orange twist/slice\nrosmarin\n3 angostura drops (opt.)",
+        "glass": [
+            "low tumbler",
+            "old fashion"
+        ],
+        "recipe": [
+            "1 oz Vodka",
+            "1 oz Campari",
+            "1 oz Sweet vermouth"
+        ],
+        "garnish": [
+            "orange twist/slice",
+            "rosmarin",
+            "3 angostura drops (opt.)"
+        ],
         "img": "../assets/images/build-b/boulevardier.jpeg"
     },
     {
         "name": "Boulevardier",
         "technique": "Build",
-        "glass": "low tumbler / old fashion",
-        "recipe": "1 oz Bourbon Whiskey\n1 oz Campari\n1 oz Sweet vermouth",
-        "garnish": "orange twist/slice\n3 angostura drops (opt.)",
+        "glass": [
+            "low tumbler",
+            "old fashion"
+        ],
+        "recipe": [
+            "1 oz Bourbon Whiskey",
+            "1 oz Campari",
+            "1 oz Sweet vermouth"
+        ],
+        "garnish": [
+            "orange twist/slice",
+            "3 angostura drops (opt.)"
+        ],
         "img": "../assets/images/build-b/boulevardier.jpeg"
     },
     {
         "name": "Americano",
         "technique": "Build",
-        "glass": "High tumbler",
-        "recipe": "1 oz Campari\n1 oz Sweet vermouth\nTop Soda",
-        "garnish": "orange slice\nrosmarin",
+        "glass": [
+            "High tumbler"
+        ],
+        "recipe": [
+            "1 oz Campari",
+            "1 oz Sweet vermouth",
+            "Top Soda"
+        ],
+        "garnish": [
+            "orange slice",
+            "rosmarin"
+        ],
         "img": "../assets/images/build-b/americano.jpeg"
     },
     {
         "name": "Negroni Sbagliato",
         "technique": "Build",
-        "glass": "High tumbler",
-        "recipe": "1 oz Campari\n1 oz Sweet vermouth\nTop Prosecco",
-        "garnish": "orange slice",
+        "glass": [
+            "High tumbler"
+        ],
+        "recipe": [
+            "1 oz Campari",
+            "1 oz Sweet vermouth",
+            "Top Prosecco"
+        ],
+        "garnish": [
+            "orange slice"
+        ],
         "img": "../assets/images/build-b/americano.jpeg"
     }
 ]

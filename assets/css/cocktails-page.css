@@ -79,12 +79,14 @@ ul{
     margin-bottom: 30px;
     font-weight: bold;
     font-family: inherit;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .cocktail-card{
     display: flex;
     justify-content:space-between;
+    align-items: center;
+    gap: 50px;
     margin: 20px 0;
     padding: 0 25px;
 }
@@ -92,7 +94,7 @@ ul{
 .cocktail-title{
     display: flex;
     align-self: center;
-    font-size: 1.05rem;
+    font-size: 1.1rem;
 }
 
 /* button */
@@ -102,7 +104,6 @@ ul{
     padding: 5px 20px;
     border-radius: 14px;
     background-color: #D8EFD3;
-    font-size: 1.1rem;
     height: fit-content;
     font: inherit;
 }
@@ -147,13 +148,14 @@ ul{
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #888;
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
-    background-color: #F1F8E8;
+    background-color: #95D2B3;
     font-size: 1.2rem;
+    position: relative;
 }
 
 .modal::-webkit-scrollbar {
@@ -162,10 +164,17 @@ ul{
 }
 
 .close-button {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+    position: -webkit-sticky; /* For Safari */
+    position: fixed;
+    top: 5%; /* Stick 5% from the top of the viewport */
+    cursor: pointer;
+    display: flex;
+    align-self: flex-end;
+}
+
+.close-button > img{
+    width: 80px;
+    color: red;
 }
 
 .close-button:hover,
@@ -177,6 +186,10 @@ ul{
 
 
 .modal-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: -30px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -184,15 +197,17 @@ ul{
     width: 100%;
     display: flex;
     justify-self: center;
+    border-radius: 30px;
 }
 
 .modal-section-title{
-    font-weight: bold;
-    margin-bottom: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
     padding: 10px;
-    background-color: #55AD9B;
+    background-color: #D8EFD3;
 }
 
 .modal-section{

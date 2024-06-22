@@ -2,25 +2,50 @@
     {
         "name": "Manhattan",
         "technique": "Stir & strain",
-        "glass": "coppa",
-        "recipe": "1 oz 3/4 Bourbon Whiskey\n3/4 oz - Sweet vermouth (Red Martini)\n3 drops - Angostura",
-        "garnish": "orange twist / ciliegia maraschino",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            "1 oz 3/4 Bourbon Whiskey",
+            "3/4 oz Sweet Vermouth (Red Martini)",
+            "3 drops Angostura Bitters"
+        ],
+        "garnish": [
+            "orange twist",
+            "ciliegia maraschino"
+        ],
         "img": "../assets/images/stir-strain/manhattan.jpeg"
-
     },
     {
         "name": "Cocktail Martini",
         "technique": "Stir & Strain",
-        "glass": "Coppa",
-        "recipe": "1/2 oz or 3/4 oz - Dry Vermouth (Martini) (solo x aromatizzare ice)\n2 oz - Dry Gin (Bombay)",
-        "garnish": "olive con stuzzicadenti / twist limone",
+        "glass": [
+            "Coppa"
+        ],
+        "recipe": [
+            "2 oz Dry Gin (Bombay)",
+            "1/2 - 3/4 oz Dry Vermouth (Martini)"
+        ],
+        "garnish": [
+            "olive con stuzzicadenti",
+            "twist limone"
+        ],
         "img": "../assets/images/stir-strain/cocktail-martini.jpeg"
     },
     {
         "name": "Vodka Martini",
         "technique": "Stir & Strain",
-        "glass": "Coppa",
-        "recipe": "1 oz 1/2 Vodka\n3/4 oz Dry vermouth",
+        "glass": [
+            "Coppa"
+        ],
+        "recipe": [
+            "1 oz 1/2 Vodka",
+            "3/4 oz Dry vermouth"
+        ],
+        "garnish": [
+            "olive",
+            "lime"
+        ],
         "img": "../assets/images/stir-strain/vodka-martini.jpeg"
     }
 ]

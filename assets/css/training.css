@@ -1,135 +1,142 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 
-body{
+body {
     font-size: 14px;
     font-family: "Reddit Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
+    background-color: #E7F0DC;
 }
+
 
 /* nav */
-nav{
+nav {
     max-width: 350px;
     margin: 50px auto !important;
-    
+
 }
 
-.nav-btn{
+.nav-btn {
     border: none;
     background-color: transparent;
+    padding: 10px 30px;
     font: inherit;
     font-size: 1.1rem;
 
 }
 
-.selected-page{
+.selected-page {
     border-bottom: 2px solid #55AD9B;
     border-radius: 0;
 }
 
-ul{
+ul {
     list-style-type: none;
-    display:flex; 
-    justify-content: space-around;
-}
-
-.nav-btn{
-    padding: 10px 30px;
-    border-radius: 10px;
-}
-
-/*  */
-.cocktail-card{
-    display: flex; 
-    flex-direction:column;
-    align-items: center;
-    border: 1px solid black;
-    padding-top: 30px;
-    border-radius: 10px;
-    background-color: lightyellow;
-}
-
-.cocktail-img{
-    width: 250px;
-    /* border: 1px solid black; */
-    border-radius: 10px;
-}
-
-.recipe-card{
-    background-color: lightblue;
-    padding: 30px;
-    border-radius: 10px;
-    border: 1px solid black;
-}
-
-.recipe-element-header{
-    background-color: lightcoral;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.button{
-    border: none;
-    background-color: #95D2B3;
-    padding: 10px 20px;
-}
-
-
-* {
-    color: rgba(0, 0, 0, 0.795);
-}
-
-.hidden {
-    display: none;
-}
-
-#result {
-    margin-top: 20px;
-    font-size: 1.5em;
-    color: #333;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 1em;
-}
-
-#recipe {
-    margin-top: 10px;
-    font-size: 1.2rem;
-    color: #666;
-}
-
-.button-container {
     display: flex;
     justify-content: space-around;
 }
 
-#result {
-    text-align: center;
+
+/*  */
+
+.container {
+
+    margin: 50px auto;
+    width: 80vw;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
 }
 
-#recipe {
-    text-align: center;
-    font-size: 1.2rem;
 
-}
-
-button {
-    border-radius: 20px;
-    background-color: lightgreen;
+.random-btn {
+    padding: 15px 50px;
+    border-radius: 30px;
     font: inherit;
+    font-size: 1.1rem !important;
+    border: none;
+    background-color: #95D1B3;
+    display: flex;
+    align-self: center;
 }
 
-body {
-    background-color: lightcyan;
+/* Cocktail Card */
+
+.cocktail-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #95D2B3;
 }
 
-.cocktail {
+.cocktail-img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+
+.cocktail-name {
     font-size: 1.5rem;
+    margin: 30px;
+    font-size: 1.5em;
+    color: #333;
+    width: 250px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.recipe-btn {
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    background-color: #D8EFD3;
+    font-weight: 300;
+}
+
+.btn-icon{
+    width: 30px;
+}
+
+/* Recipe */
+
+.recipe-card {
+    background-color: #95D2B3;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.recipe-element-header {
+    background-color: #D8EFD3;
+    padding: 5px;
+    border-radius: 30px;
+    margin: 0 auto 30px auto;
+    font-size: 1.2rem;
+    font-weight: 400 !important;
+}
+
+.recipe-element-header {
+    font-weight: 500;
+}
+
+/*  */
+.hidden {
+    display: none;
 }

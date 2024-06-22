@@ -2,51 +2,117 @@
     {
         "name": "Daiquiri",
         "technique": "Shake & Strain",
-        "glass": "coppa",
-        "recipe": "2 oz - White Rum\n1 oz 1/4 - Sweet and Sour",
-        "garnish": "lemon slice",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            "2 oz White Rum",
+            "1 oz 1/4 Sweet and Sour"
+        ],
+        "garnish": [
+            "lemon slice"
+        ],
         "img": "../assets/images/shake-strain/daiquiri.jpeg"
     },
     {
         "name": "Margarita",
         "technique": "Shake & Strain",
-        "glass": "coppa",
-        "recipe": "1 oz 1/2 Tequila\n3/4 oz Lime juice\n1/2 oz Triple sec\ngarnish - crosta sale & lime peel",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            "1 oz 1/2 Tequila",
+            "3/4 oz Lime juice",
+            "1/2 oz Triple sec"
+        ],
+        "garnish": [
+            "salt rim",
+            "lemon slice or peel"
+        ],
         "img": "../assets/images/shake-strain/margarita.jpeg"
     },
     {
         "name": "White Lady",
         "technique": "Shake & Strain",
-        "glass": "coppa",
-        "recipe": "1 oz 1/2 Dry Gin\n3/4 oz Lime juice\n1/2 oz Triple sec",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            "1 oz 1/2 Dry Gin",
+            "3/4 oz Lime juice",
+            "1/2 oz Triple sec"
+        ],
+        "garnish": [
+            "lemon slice",
+            "peel"
+        ],
         "img": "../assets/images/shake-strain/margarita.jpeg"
     },
     {
         "name": "Kamikaze",
         "technique": "Shake & Strain",
-        "glass": "coppa",
-        "recipe": "1 oz 1/2 Vodka\n3/4 oz Lime juice\n1/2 oz Triple sec",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            "1 oz 1/2 Vodka",
+            "3/4 oz Lime juice",
+            "1/2 oz Triple sec"
+        ],
+        "garnish": [
+            "lemon slice",
+            "peel"
+        ],
         "img": "../assets/images/shake-strain/margarita.jpeg"
     },
     {
         "name": "Cosmopolitan",
         "technique": "Shake & Strain",
-        "glass": "coppa",
-        "recipe": "1 oz 1/2 Vodka\n3/4 oz Lime juice\n1/2 oz Triple sec\n2 barspoon cranberry juice",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            "1 oz 1/2 Vodka",
+            "3/4 oz Lime juice",
+            "1/2 oz Triple sec",
+            "2 barspoon cranberry juice"
+        ],
+        "garnish": [
+            "lime",
+            "cranberry"
+        ],
         "img": "../assets/images/shake-strain/cosmopolitan.jpeg"
     },
     {
         "name": "Alexander",
         "technique": "Shake & Strain",
-        "glass": "Coppa",
-        "recipe": "1 oz - Crema Cacao\n1 oz - Crema Panna\n1 oz - Cognac/Brandy\ngarnish - noce moscata grattugiata",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            "1 oz Crema Cacao",
+            "1 oz Crema Panna",
+            "1 oz Cognac/Brandy"
+        ],
+        "garnish": [
+            "noce moscata grattugiata"
+        ],
         "img": "../assets/images/shake-strain/alexander.jpeg"
     },
     {
         "name": "Sour (in coppa)",
         "technique": "Shake & Strain",
-        "glass": "Coppa",
-        "recipe": "2 oz - prodotto\n1 oz 1/4 - sweet & sour\n3/4 oz - albume / acqua faba",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            "2 oz prodotto",
+            "1 oz 1/4 sweet & sour",
+            "3/4 oz albume / acqua faba"
+        ],
+        "garnish": [
+            "in accordo con il prodotto"
+        ],
         "img": "../assets/images/shake-strain/sour.jpeg"
     }
 ]

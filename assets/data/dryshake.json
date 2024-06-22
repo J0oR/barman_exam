@@ -2,97 +2,247 @@
     {
         "name": "Long Island Ice Tea",
         "technique": "Dryshake",
-        "glass": "Collins / High Tumbler",
-        "recipe": "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n1/2 oz - triple sec\n1 oz 1/4 - sweet and sour\ntop - cola",
-        "garnish": "lemon slice\nstraw",
+        "glass": [
+            "Collins",
+            "High Tumbler"
+        ],
+        "recipe": [
+            "1/2 oz - Vodka",
+            "1/2 oz - Gin",
+            "1/2 oz - Rum",
+            "1/2 oz - triple sec",
+            "1 oz 1/4 - sweet and sour",
+            "top - cola"
+        ],
+        "garnish": [
+            "lemon slice",
+            "straw"
+        ],
         "img": "../assets/images/dryshake/long-island.jpeg"
     },
     {
         "name": "London Ice Tea",
         "technique": "Dryshake",
-        "glass": "Collins / High Tumbler",
-        "recipe": "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n1/2 oz - triple sec\n1 oz 1/4 - sweet and sour\ntop - Birra Lager 5°",
-        "garnish": "lemon slice\nstraw",
+        "glass": [
+            "Collins",
+            "High Tumbler"
+        ],
+        "recipe": [
+            "1/2 oz - Vodka",
+            "1/2 oz - Gin",
+            "1/2 oz - Rum",
+            "1/2 oz - triple sec",
+            "1 oz 1/4 - sweet and sour",
+            "top - Birra Lager 5°"
+        ],
+        "garnish": [
+            "lemon slice",
+            "straw"
+        ],
         "img": "../assets/images/dryshake/london.jpg"
     },
     {
         "name": "Texas Ice Tea",
         "technique": "Dryshake",
-        "glass": "Collins / High Tumbler",
-        "recipe": "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n+1/2 oz - Tequila\n1/2 oz - triple sec\n1 oz 1/4 - sweet and sour\ntop - cola",
-        "garnish": "lemon slice\nstraw",
+        "glass": [
+            "Collins",
+            "High Tumbler"
+        ],
+        "recipe": [
+            "1/2 oz - Vodka",
+            "1/2 oz - Gin",
+            "1/2 oz - Rum",
+            "+1/2 oz - Tequila",
+            "1/2 oz - triple sec",
+            "1 oz 1/4 - sweet and sour",
+            "top - cola"
+        ],
+        "garnish": [
+            "lemon slice",
+            "straw"
+        ],
         "img": "../assets/images/dryshake/texas.jpeg"
     },
     {
         "name": "Italian Ice Tea",
         "technique": "Dryshake",
-        "glass": "Collins / High Tumbler",
-        "recipe": "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n1/2 oz - Amaretto Disaronno\n1 oz 1/4 - sweet and sour\ntop - cola",
-        "garnish": "lemon slice\nstraw",
+        "glass": [
+            "Collins",
+            "High Tumbler"
+        ],
+        "recipe": [
+            "1/2 oz - Vodka",
+            "1/2 oz - Gin",
+            "1/2 oz - Rum",
+            "1/2 oz - Amaretto Disaronno",
+            "1 oz 1/4 - sweet and sour",
+            "top - cola"
+        ],
+        "garnish": [
+            "lemon slice",
+            "straw"
+        ],
         "img": "../assets/images/dryshake/italian.jpg"
     },
     {
         "name": "Miami Ice Tea",
         "technique": "Dryshake",
-        "glass": "Collins / High Tumbler",
-        "recipe": "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n1/2 oz - Blu Curacao\n1 oz 1/4 - sweet and sour\ntop - Sprite / Schweppes Lemon",
-        "garnish": "lemon slice / orange slice / ciliegia\nstraw",
+        "glass": [
+            "Collins",
+            "High Tumbler"
+        ],
+        "recipe": [
+            "1/2 oz - Vodka",
+            "1/2 oz - Gin",
+            "1/2 oz - Rum",
+            "1/2 oz - Blu Curacao",
+            "1 oz 1/4 - sweet and sour",
+            "top - Sprite / Schweppes Lemon"
+        ],
+        "garnish": [
+            "lemon slice",
+            "orange slice",
+            "ciliegia",
+            "straw"
+        ],
         "img": "../assets/images/dryshake/miami.jpg"
     },
     {
         "name": "Japanese Ice Tea",
         "technique": "Dryshake",
-        "glass": "Collins / High Tumbler",
-        "recipe": "1/2 oz - Vodka\n1/2 oz - Gin\n1/2 oz - Rum\n1/2 oz - Midori\n1 oz 1/4 - sweet and sour\ntop - Sprite / Schweppes Lemon",
-        "garnish": "lemon slice\nstraw",
+        "glass": [
+            "Collins",
+            "High Tumbler"
+        ],
+        "recipe": [
+            "1/2 oz - Vodka",
+            "1/2 oz - Gin",
+            "1/2 oz - Rum",
+            "1/2 oz - Midori",
+            "1 oz 1/4 - sweet and sour",
+            "top - Sprite / Schweppes Lemon"
+        ],
+        "garnish": [
+            "lemon slice",
+            "straw"
+        ],
         "img": "../assets/images/dryshake/japanese.jpg"
     },
     {
         "name": "Bloody Mary",
         "technique": "Dryshake / Rolling",
-        "glass": "hi tumbler",
-        "recipe": "1 oz 1/2 - Vodka\n1 oz 1/4 - Tomato Juice\n1/2 oz - Lime Juice\npinch - sale e pepe\n2-3 drops - Tabasco\n3 drops - Worchester Sauce",
-        "garnish": "sedano (con foglie) / basilico / stuzzicadenti con pomodoro / lime",
+        "glass": [
+            "hi tumbler"
+        ],
+        "recipe": [
+            "1 oz 1/2 - Vodka",
+            "1 oz 1/4 - Tomato Juice",
+            "1/2 oz - Lime Juice",
+            "pinch - sale e pepe",
+            "2-3 drops - Tabasco",
+            "3 drops - Worchester Sauce"
+        ],
+        "garnish": [
+            "sedano (con foglie)",
+            "basilico",
+            "stuzzicadenti con pomodoro",
+            "lime"
+        ],
         "img": "../assets/images/dryshake/bloody.jpg"
     },
     {
         "name": "Fizz",
         "technique": "Dryshake",
-        "glass": "collins / high tumbler",
-        "recipe": "1 oz 1/4 - prodotto\n1 oz 1/4 - sweet & sour\n3/4 oz - albume/acqua faba\nTop - soda",
-        "garnish": "in accordo col prodotto", 
+        "glass": [
+            "collins",
+            "high tumbler"
+        ],
+        "recipe": [
+            "1 oz 1/4 - prodotto",
+            "1 oz 1/4 - sweet & sour",
+            "3/4 oz - albume/acqua faba",
+            "Top - soda"
+        ],
+        "garnish": [
+            "in accordo col prodotto"
+        ],
         "img": "../assets/images/dryshake/fizz.jpeg"
     },
     {
         "name": "Sour (on the rocks)",
         "technique": "Dryshake",
-        "glass": "old fashion / low tumbler / rocks",
-        "recipe": "2 oz - prodotto\n1 oz 1/4 - sweet & sour\n3/4 oz - albume/acqua faba",
-        "garnish": "in accordo col prodotto",
+        "glass": [
+            "old fashion",
+            "low tumbler",
+            "rocks"
+        ],
+        "recipe": [
+            "2 oz - prodotto",
+            "1 oz 1/4 - sweet & sour",
+            "3/4 oz - albume/acqua faba"
+        ],
+        "garnish": [
+            "in accordo col prodotto"
+        ],
         "img": "../assets/images/dryshake/sour.jpeg"
     },
     {
-        "name": "Sex On The beach",
+        "name": "Sex On The Beach",
         "technique": "Dryshake",
-        "glass": "hi tumbler / collins / highball",
-        "recipe": "1 oz 1/4 - Vodka Liscia\n3/4 oz - Peach 3\n1 oz 1/4 - orange juice\n2 barspoon - cranberry syrup",
-        "garnish": "orange slice / cranberry",
+        "glass": [
+            "hi tumbler",
+            "collins",
+            "highball"
+        ],
+        "recipe": [
+            "1 oz 1/4 - Vodka Liscia",
+            "3/4 oz - Peach 3",
+            "1 oz 1/4 - orange juice",
+            "2 barspoon - cranberry syrup"
+        ],
+        "garnish": [
+            "orange slice",
+            "cranberry"
+        ],
         "img": "../assets/images/dryshake/sex.jpeg"
     },
     {
         "name": "Tequila Sunrise",
         "technique": "Dryshake",
-        "glass": "hi tumbler / collins / juice / summer",
-        "recipe": "1 oz 1/2 - Tequila\n1 oz 1/4 - Orange Juice\n2 barspoon - melograno syrup",
-        "garnish": "orange slice",
+        "glass": [
+            "hi tumbler",
+            "collins",
+            "juice",
+            "summer"
+        ],
+        "recipe": [
+            "1 oz 1/2 - Tequila",
+            "1 oz 1/4 - Orange Juice",
+            "2 barspoon - melograno syrup"
+        ],
+        "garnish": [
+            "orange slice"
+        ],
         "img": "../assets/images/dryshake/sunrise.jpeg"
     },
     {
         "name": "Pina Colada",
         "technique": "Dryshake",
-        "glass": "hi tumbler / collins / juice / summer",
-        "recipe": "1 oz 1/4 - White Rum\n1 oz 1/4 - Ananas Juice\n2 barspoon - cocco syrup",
-        "garnish": "ananas leaves / slice",
+        "glass": [
+            "hi tumbler",
+            "collins",
+            "juice",
+            "summer"
+        ],
+        "recipe": [
+            "1 oz 1/4 - White Rum",
+            "1 oz 1/4 - Ananas Juice",
+            "2 barspoon - cocco syrup"
+        ],
+        "garnish": [
+            "ananas leaves",
+            "slice"
+        ],
         "img": "../assets/images/dryshake/pina-colada.jpeg"
     }
 ]
