@@ -91,7 +91,8 @@
                         const randomIndex = Math.floor(Math.random() * drinks.length);
                         currentDrink = drinks[randomIndex];
                         document.getElementById('result').innerText = currentDrink.name;
-                        document.getElementById('cocktail-img').setAttribute('src', currentDrink.img);
+                        let imagePath = currentDrink.img.replace(/^(\.\/)?/, ''); // Removes the first dot
+                        document.getElementById('cocktail-img').setAttribute('src', imagePath);
                         document.querySelector('.cocktail-card').classList.remove('hidden');
                         document.querySelector('.recipe-card').classList.add('hidden');
                     });
