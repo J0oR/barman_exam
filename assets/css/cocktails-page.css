@@ -64,6 +64,9 @@ ul{
     border-radius: 10px;
     padding: 30px 0;
     background-color: #95D2B3;
+    width: 300px;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 .family-name{
@@ -78,7 +81,6 @@ ul{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    gap: 50px;
     margin: 20px 0;
     padding: 0 25px;
 }
@@ -98,7 +100,8 @@ ul{
 .open-modal{
     border: none;
     transition: all 0.3s ease-in-out;
-    padding: 5px 20px;
+    padding: 5px 15px;
+    gap: 10px;
     border-radius: 14px;
     background-color: #D8EFD3;
     height: fit-content;
@@ -106,7 +109,6 @@ ul{
     font-size: 1rem;
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .open-modal:hover{
@@ -168,14 +170,15 @@ ul{
 .close-button {
     position: -webkit-sticky; /* For Safari */
     position: fixed;
-    top: 5%; /* Stick 5% from the top of the viewport */
+    top: 2%; /* Stick 5% from the top of the viewport */
     display: flex;
     align-self: flex-end;
     width: fit-content;
-    
 }
 
 .close-button > img{
+    position: relative;
+    right: -20px;
     width: 80px;
     color: red;
     cursor: pointer;
