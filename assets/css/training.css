@@ -28,7 +28,13 @@ nav {
     padding: 10px 30px;
     font: inherit;
     font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
 
+.nav-btn:hover{
+    color: #55AD9B;
+    font-weight: 400;
 }
 
 .selected-page {
@@ -66,8 +72,13 @@ ul {
     background-color: #95D1B3;
     display: flex;
     align-self: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
+.random-btn:hover{
+    transform: scale(1.1);
+}
 /* Cocktail Card */
 
 .cocktail-card {
@@ -81,7 +92,10 @@ ul {
 
 .cocktail-img {
     width: 250px;
+    height: 250px;
+    object-fit:cover;
     border-radius: 15px;
+    border-radius: 100%;
 }
 
 
@@ -106,6 +120,12 @@ ul {
     border: none;
     background-color: #D8EFD3;
     font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+
+.recipe-btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .btn-icon{

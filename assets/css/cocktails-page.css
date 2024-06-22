@@ -28,9 +28,14 @@ nav{
     border: none;
     background-color: transparent;
     transition: all 0.3s ease-in-out;
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
     font: inherit;
+    cursor: pointer;
+}
 
+.nav-btn:hover{
+    color: #55AD9B;
+    font-weight: 400;
 }
 
 .selected-page{
@@ -50,20 +55,7 @@ ul{
     justify-content: space-around;
 }
 
-.nav-btn{
-    padding: 10px 30px;
-    border-radius: 10px;
-    border: none;
-    background-color: transparent;
-    transition: all 0.3s ease-in-out;
-    font-size: 1.1rem;
 
-}
-
-.nav-btn:hover{
-    cursor: pointer;
-    transform: scale(1);
-}
 
 /* family */
 
@@ -98,6 +90,11 @@ ul{
 }
 
 /* button */
+
+.btn-icon{
+    width: 15px;
+}
+
 .open-modal{
     border: none;
     transition: all 0.3s ease-in-out;
@@ -106,6 +103,10 @@ ul{
     background-color: #D8EFD3;
     height: fit-content;
     font: inherit;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .open-modal:hover{
@@ -119,6 +120,7 @@ ul{
 
 .cocktail-img{
     width: 300px;
+    
 }
 
 .family-container{
@@ -167,21 +169,26 @@ ul{
     position: -webkit-sticky; /* For Safari */
     position: fixed;
     top: 5%; /* Stick 5% from the top of the viewport */
-    cursor: pointer;
     display: flex;
     align-self: flex-end;
+    width: fit-content;
+    
 }
 
 .close-button > img{
     width: 80px;
     color: red;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
-.close-button:hover,
-.close-button:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+.close-button > img:hover,
+.close-button > img:focus {
+    transform: scale(1.1);
+}
+
+.random-btn:hover{
+    transform: scale(1.1);
 }
 
 
@@ -194,10 +201,15 @@ ul{
 }
 
 .modal-image{
-    width: 100%;
+    width: 330px;
+    height: 330px;
+    margin: 0 auto;
     display: flex;
     justify-self: center;
     border-radius: 30px;
+    object-fit:cover;
+    border-radius: 15px;
+    border-radius: 100%;
 }
 
 .modal-section-title{

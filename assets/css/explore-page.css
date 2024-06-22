@@ -35,6 +35,13 @@ nav{
     padding: 10px 30px;
     font: inherit;
     font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-btn:hover{
+    color: #55AD9B;
+    font-weight: 400;
 }
 
 a{
@@ -89,6 +96,12 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+}
+
+.technicque-btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 5px 8px 0px #32685d;
 }
 
 .technicque-btn > img {
@@ -104,10 +117,7 @@ h1{
     margin-bottom: 50px;
 }
 
-.technicque-btn:hover{
-    transform: scale(1.1);
-    box-shadow: 0px 5px 8px 0px #32685d;
-}
+
 
 .tec-icon{
     width: 20px !important;
