@@ -35,7 +35,7 @@
                 </li>
                 <li>
                     <a href="../pages/tecniche.html">
-                        <button class="nav-btn">Tecniche</button>
+                        <button class="nav-btn">Methods</button>
                     </a>
                 </li>
             </ul>
@@ -43,8 +43,24 @@
 
         <main>
 
+            <div class="method-container">
+                <div style="display: flex; width: 100%;justify-content: space-around;align-items: center;">
+                    <div></div>
+                    <div class="method-name" style="margin: 0;">{{method.method}}</div>
+                    <button @click="showMethod = !showMethod" v-if="!showMethod" class="method-btn">+</button>
+                    <button @click="showMethod = !showMethod" v-if="showMethod" class="method-btn">-</button>
+                </div>
+                <div v-for="(step, index) in method.steps" :key="index" class="method-step" v-show="showMethod">
+                    <div class="step-arrow-name">
+                        <img src="../assets/icon/arrow.png" alt="" class="btn-icon">
+                        <div>{{step.step}}</div>
+                    </div>
+                    <img v-if="step.icon" :src="step.icon" alt="" class="step-icon">
+                </div>
+            </div>
+
             <div class="family-container" v-for="(family, index) in groupedDrinks" :key="index">
-                <div class="family-name"  v-if="Object.keys(family.drinks).length > 1">{{family.family}}</div>
+                <div class="family-name" v-if="Object.keys(family.drinks).length > 1">{{family.family}}</div>
                 <div class="cards-container" v-for="(drink, index1) in family.drinks" :key="index1">
                     <div class="cocktail-card">
                         <p class="cocktail-title">{{drink.name}}</p>

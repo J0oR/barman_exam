@@ -1,0 +1,49 @@
+[
+    {
+        "method": "Build",
+        "steps": [
+            {"step": "fill glass", "icon": "../assets/icon/methods/build-ice.png"},
+            {"step": "pour ingredients", "icon": "../assets/icon/methods/highball.png"}
+        ]
+    },
+    {
+        "method": "Build",
+        "steps": [
+            {"step": "fill glass", "icon": "../assets/icon/methods/fill-ice.png"},
+            {"step": "pour ingredients", "icon": "../assets/icon/methods/build-glass-ice.webp"}
+        ]
+    },
+    {
+        "method": "Muddler",
+        "steps": [
+            {"step": "pestato and stir", "icon": "../assets/icon/methods/muddler.png"},
+            {"step": "pour ingredients, dig, crushed ice", "icon": "../assets/icon/methods/crushed-ice.png"}
+        ]
+    },
+    {
+        "method": "Dryshake",
+        "steps": [
+            {"step": "chill glass", "icon": "../assets/icon/methods/build-ice.png"},
+            {"step": "shake boston (no ice)", "icon": "../assets/icon/methods/boston.png"},
+            {"step": "drain glass water and pour boston frontally", "icon": "../assets/icon/methods/lateral-strain.png"}
+        ]
+    },
+    {
+        "method": "Shake & Strain",
+        "steps": [
+            {"step": "chill glass", "icon": "../assets/icon/methods/chill-coupe.png"},
+            {"step": "shake shaker (ice)", "icon": "../assets/icon/methods/shaker.png"},
+            {"step": "empty glass", "icon": "../assets/icon/methods/empty_glass.png"},
+            {"step": "lateral strain", "icon": "../assets/icon/methods/strain-laterale.png"}
+        ]
+    },
+    {
+        "method": "Stir & Strain",
+        "steps": [
+            {"step": "chill glass", "icon": "../assets/icon/methods/chill-coupe.png"},
+            {"step": "stir mixing glass (products + ice)", "icon": "../assets/icon/methods/stir-mixing-glass.png"},
+            {"step": "empty glass", "icon": "../assets/icon/methods/empty_glass.png"},
+            {"step": "lateral strain", "icon": "../assets/icon/methods/lateral-strain.png"}
+        ]
+    }
+]

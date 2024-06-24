@@ -9,7 +9,7 @@
             "low tumbler"
         ],
         "recipe": [
-            {"level": "sugar & 3 drops Angostura"},
+            {"level": "pestato", "ing": "sugar + 3 drops Angostura"},
             {"level": "splash", "ing": "soda"},
             {"level": "1 oz 1/2", "ing": "Bourbon/Rye Whisky"}
         ],

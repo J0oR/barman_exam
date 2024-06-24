@@ -7,7 +7,9 @@ const app = Vue.createApp({
       drinks: null,
       groupedDrinks: null,
       modalDrink: "",
-      modalShow: false
+      modalShow: false,
+      method:"",
+      showMethod: false
     }
   },
   beforeMount() {
@@ -15,12 +17,25 @@ const app = Vue.createApp({
     this.techniqueId = urlParams.get('id');
     console.log(this.techniqueId);
 
+    this.fetchMethod();
     // Fetch technique data based on techniqueId
     this.fetchTechniqueData();
   },
 
   /********************************* METHODS *********************************/
   methods: {
+    async fetchMethod() {
+      const filePath = '../assets/data/methods.json'; // Replace with your actual file path
+
+      try {
+        const response = await fetch(filePath);
+        const data = await response.json();
+          this.method = data[this.techniqueId];
+          console.log(this.method);
+      } catch (error) {
+        console.error('Error loading data:', error);
+      }
+    },
     async fetchTechniqueData() {
       if (!this.techniqueId || !(this.techniqueId in this.techniques)) {
         console.error(`Technique ID ${this.techniqueId} not found in techniques.`);
