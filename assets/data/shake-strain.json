@@ -1,13 +1,14 @@
 [
     {
         "name": "Daiquiri",
+        "family": "Daiquiri",
         "technique": "Shake & Strain",
         "glass": [
             "coppa"
         ],
         "recipe": [
-            "2 oz White Rum",
-            "1 oz 1/4 Sweet and Sour"
+            {"level": "2 oz", "ing": "White Rum"},
+            {"level": "1 oz 1/4", "ing": "Sweet and Sour"}
         ],
         "garnish": [
             "lemon slice"
@@ -16,14 +17,15 @@
     },
     {
         "name": "Margarita",
+        "family": "Margarita",
         "technique": "Shake & Strain",
         "glass": [
             "coppa"
         ],
         "recipe": [
-            "1 oz 1/2 Tequila",
-            "3/4 oz Lime juice",
-            "1/2 oz Triple sec"
+            {"level": "1 oz 1/2", "ing": "Tequila"},
+            {"level": "3/4 oz", "ing": "Lime juice"},
+            {"level": "1/2 oz", "ing": "Triple sec"}
         ],
         "garnish": [
             "salt rim",
@@ -33,49 +35,50 @@
     },
     {
         "name": "White Lady",
+        "family": "Margarita",
         "technique": "Shake & Strain",
         "glass": [
             "coppa"
         ],
         "recipe": [
-            "1 oz 1/2 Dry Gin",
-            "3/4 oz Lime juice",
-            "1/2 oz Triple sec"
+            {"level": "1 oz 1/2", "ing": "Dry Gin"},
+            {"level": "3/4 oz", "ing": "Lime juice"},
+            {"level": "1/2 oz", "ing": "Triple sec"}
         ],
         "garnish": [
-            "lemon slice",
-            "peel"
+            "lemon slice / peel"
         ],
         "img": "../assets/images/shake-strain/margarita.jpeg"
     },
     {
         "name": "Kamikaze",
+        "family": "Margarita",
         "technique": "Shake & Strain",
         "glass": [
             "coppa"
         ],
         "recipe": [
-            "1 oz 1/2 Vodka",
-            "3/4 oz Lime juice",
-            "1/2 oz Triple sec"
+            {"level": "1 oz 1/2", "ing": "Vodka"},
+            {"level": "3/4 oz", "ing": "Lime juice"},
+            {"level": "1/2 oz", "ing": "Triple sec"}
         ],
         "garnish": [
-            "lemon slice",
-            "peel"
+            "lemon slice / peel"
         ],
         "img": "../assets/images/shake-strain/margarita.jpeg"
     },
     {
         "name": "Cosmopolitan",
+        "family": "Margarita",
         "technique": "Shake & Strain",
         "glass": [
             "coppa"
         ],
         "recipe": [
-            "1 oz 1/2 Vodka",
-            "3/4 oz Lime juice",
-            "1/2 oz Triple sec",
-            "2 barspoon cranberry juice"
+            {"level": "1 oz 1/2", "ing": "Vodka"},
+            {"level": "3/4 oz", "ing": "Lime juice"},
+            {"level": "1/2 oz", "ing": "Triple sec"},
+            {"level": "2 barspoon", "ing": "cranberry juice"}
         ],
         "garnish": [
             "lime",
@@ -85,14 +88,15 @@
     },
     {
         "name": "Alexander",
+        "family": "Alexander",
         "technique": "Shake & Strain",
         "glass": [
             "coppa"
         ],
         "recipe": [
-            "1 oz Crema Cacao",
-            "1 oz Crema Panna",
-            "1 oz Cognac/Brandy"
+            {"level": "1 oz", "ing": "Crema Cacao"},
+            {"level": "1 oz", "ing": "Crema Panna"},
+            {"level": "1 oz", "ing": "Cognac/Brandy"}
         ],
         "garnish": [
             "noce moscata grattugiata"
@@ -101,14 +105,15 @@
     },
     {
         "name": "Sour (in coppa)",
+        "family": "Sour",
         "technique": "Shake & Strain",
         "glass": [
             "coppa"
         ],
         "recipe": [
-            "2 oz prodotto",
-            "1 oz 1/4 sweet & sour",
-            "3/4 oz albume / acqua faba"
+            {"level": "2 oz", "ing": "prodotto"},
+            {"level": "1 oz 1/4", "ing": "sweet & sour"},
+            {"level": "3/4 oz", "ing": "albume / acqua faba"}
         ],
         "garnish": [
             "in accordo con il prodotto"

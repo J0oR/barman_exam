@@ -1,14 +1,24 @@
 [
     {
         "name": "Manhattan",
+        "family": "Sweet Vermouth",
         "technique": "Stir & strain",
         "glass": [
             "coppa"
         ],
         "recipe": [
-            "1 oz 3/4 Bourbon Whiskey",
-            "3/4 oz Sweet Vermouth (Red Martini)",
-            "3 drops Angostura Bitters"
+            {
+                "level": "1 oz 3/4",
+                "ing": "Bourbon Whiskey"
+            },
+            {
+                "level": "3/4 oz",
+                "ing": "Sweet Vermouth (Red Martini)"
+            },
+            {
+                "level": "3 drops",
+                "ing": "Angostura Bitters"
+            }
         ],
         "garnish": [
             "orange twist",
@@ -18,13 +28,20 @@
     },
     {
         "name": "Cocktail Martini",
+        "family": "Dry Vermouth",
         "technique": "Stir & Strain",
         "glass": [
             "Coppa"
         ],
         "recipe": [
-            "2 oz Dry Gin (Bombay)",
-            "1/2 - 3/4 oz Dry Vermouth (Martini)"
+            {
+                "level": "2 oz",
+                "ing": "Dry Gin (Bombay)"
+            },
+            {
+                "level": "1/2 - 3/4 oz",
+                "ing": "Dry Vermouth (Martini)"
+            }
         ],
         "garnish": [
             "olive con stuzzicadenti",
@@ -34,13 +51,20 @@
     },
     {
         "name": "Vodka Martini",
+        "family": "Dry Vermouth",
         "technique": "Stir & Strain",
         "glass": [
             "Coppa"
         ],
         "recipe": [
-            "1 oz 1/2 Vodka",
-            "3/4 oz Dry vermouth"
+            {
+                "level": "1 oz 1/2",
+                "ing": "Vodka"
+            },
+            {
+                "level": "3/4 oz",
+                "ing": "Dry Vermouth (Martini)"
+            }
         ],
         "garnish": [
             "olive",

@@ -2,15 +2,16 @@
     {
         "name": "Old Fashioned",
         "technique": "Build",
+        "family": "Old Fashioned",
         "glass": [
             "old fashion",
             "rocks",
             "low tumbler"
         ],
         "recipe": [
-            "sugar & 3 drops Angostura",
-            "splash - soda",
-            "1 oz 1/2 Bourbon/Rye Whisky"
+            {"level": "sugar & 3 drops Angostura"},
+            {"level": "splash", "ing": "soda"},
+            {"level": "1 oz 1/2", "ing": "Bourbon/Rye Whisky"}
         ],
         "garnish": "orange twist and peel",
         "img": "../assets/images/build-b/old-fashioned.jpeg"
@@ -18,12 +19,13 @@
     {
         "name": "Godfather",
         "technique": "Build",
+        "family": "Triad",
         "glass": [
             "low tumbler"
         ],
         "recipe": [
-            "1 oz 1/4 - amaretto disaronno",
-            "1 oz 1/4 - Scotch Whisky"
+            {"level": "1 oz 1/4", "ing": "amaretto disaronno"},
+            {"level": "1 oz 1/4", "ing": "Scotch Whisky"}
         ],
         "garnish": [
             "biscotto amaretto",
@@ -34,12 +36,13 @@
     {
         "name": "Godmother",
         "technique": "Build",
+        "family": "Triad",
         "glass": [
             "low tumbler"
         ],
         "recipe": [
-            "1 oz 1/4 - amaretto disaronno",
-            "1 oz 1/4 - Vodka Liscia"
+            {"level": "1 oz 1/4", "ing": "amaretto disaronno"},
+            {"level": "1 oz 1/4", "ing": "Vodka Liscia"}
         ],
         "garnish": [
             "biscotto amaretto",
@@ -50,13 +53,14 @@
     {
         "name": "Black Russian",
         "technique": "Build",
+        "family": "Russian",
         "glass": [
             "Low tumbler",
             "old fashion"
         ],
         "recipe": [
-            "1 oz 1/4 - Vodka",
-            "3/4 oz - Coffee Liquor"
+            {"level": "1 oz 1/4", "ing": "Vodka"},
+            {"level": "3/4 oz", "ing": "Coffee Liquor"}
         ],
         "garnish": [
             "coffee beans",
@@ -67,13 +71,14 @@
     {
         "name": "White Russian",
         "technique": "Build",
+        "family": "Russian",
         "glass": [
             "Low tumbler",
             "old fashion"
         ],
         "recipe": [
-            "1 oz 1/4 - Vodka",
-            "3/4 oz - Coffee Liquor"
+            {"level": "1 oz 1/4", "ing": "Vodka"},
+            {"level": "3/4 oz", "ing": "Coffee Liquor"}
         ],
         "garnish": "panna liquida",
         "img": "../assets/images/build-b/russians.jpeg"
@@ -81,14 +86,15 @@
     {
         "name": "Negroni",
         "technique": "Build",
+        "family": "Negroni",
         "glass": [
             "low tumbler",
             "old fashion"
         ],
         "recipe": [
-            "1 oz Dry Gin",
-            "1 oz Campari",
-            "1 oz Sweet vermouth"
+            {"level": "1 oz", "ing": "Dry Gin"},
+            {"level": "1 oz", "ing": "Campari"},
+            {"level": "1 oz", "ing": "Sweet vermouth"}
         ],
         "garnish": [
             "orange twist/slice",
@@ -100,14 +106,15 @@
     {
         "name": "Negroski",
         "technique": "Build",
+        "family": "Negroni",
         "glass": [
             "low tumbler",
             "old fashion"
         ],
         "recipe": [
-            "1 oz Vodka",
-            "1 oz Campari",
-            "1 oz Sweet vermouth"
+            {"level": "1 oz", "ing": "Vodka"},
+            {"level": "1 oz", "ing": "Campari"},
+            {"level": "1 oz", "ing": "Sweet vermouth"}
         ],
         "garnish": [
             "orange twist/slice",
@@ -119,14 +126,15 @@
     {
         "name": "Boulevardier",
         "technique": "Build",
+        "family": "Negroni",
         "glass": [
             "low tumbler",
             "old fashion"
         ],
         "recipe": [
-            "1 oz Bourbon Whiskey",
-            "1 oz Campari",
-            "1 oz Sweet vermouth"
+            {"level": "1 oz", "ing": "Bourbon Whiskey"},
+            {"level": "1 oz", "ing": "Campari"},
+            {"level": "1 oz", "ing": "Sweet vermouth"}
         ],
         "garnish": [
             "orange twist/slice",
@@ -137,13 +145,14 @@
     {
         "name": "Americano",
         "technique": "Build",
+        "family": "Negroni",
         "glass": [
             "High tumbler"
         ],
         "recipe": [
-            "1 oz Campari",
-            "1 oz Sweet vermouth",
-            "Top Soda"
+            {"level": "1 oz", "ing": "Campari"},
+            {"level": "1 oz", "ing": "Sweet vermouth"},
+            {"level": "Top", "ing": "Soda"}
         ],
         "garnish": [
             "orange slice",
@@ -154,13 +163,14 @@
     {
         "name": "Negroni Sbagliato",
         "technique": "Build",
+        "family": "Negroni",
         "glass": [
             "High tumbler"
         ],
         "recipe": [
-            "1 oz Campari",
-            "1 oz Sweet vermouth",
-            "Top Prosecco"
+            {"level": "1 oz", "ing": "Campari"},
+            {"level": "1 oz", "ing": "Sweet vermouth"},
+            {"level": "Top", "ing": "Prosecco"}
         ],
         "garnish": [
             "orange slice"

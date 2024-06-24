@@ -64,7 +64,6 @@ ul{
     border-radius: 10px;
     padding: 30px 0;
     background-color: #95D2B3;
-    width: 300px;
     max-width: 350px;
     margin: 0 auto;
 }
@@ -135,7 +134,7 @@ ul{
 /******************* Modal **********************/
 
 .modal {
-    display: none; /* Hidden by default */
+   /*  display: none; // Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
@@ -234,3 +233,22 @@ ul{
     justify-content: space-between;
     margin: 30px 0;
 }
+
+.recipe-line{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .level{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.ing{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+} */

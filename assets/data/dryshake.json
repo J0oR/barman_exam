@@ -1,18 +1,19 @@
 [
     {
         "name": "Long Island Ice Tea",
+        "family": "Ice Tea",
         "technique": "Dryshake",
         "glass": [
             "Collins",
             "High Tumbler"
         ],
         "recipe": [
-            "1/2 oz - Vodka",
-            "1/2 oz - Gin",
-            "1/2 oz - Rum",
-            "1/2 oz - triple sec",
-            "1 oz 1/4 - sweet and sour",
-            "top - cola"
+            {"level": "1/2 oz", "ing": "Vodka"},
+            {"level": "1/2 oz", "ing": "Gin"},
+            {"level": "1/2 oz", "ing": "Rum"},
+            {"level": "1/2 oz", "ing": "triple sec"},
+            {"level": "1 oz 1/4", "ing": "sweet and sour"},
+            {"level": "top", "ing": "cola"}
         ],
         "garnish": [
             "lemon slice",
@@ -22,18 +23,19 @@
     },
     {
         "name": "London Ice Tea",
+        "family": "Ice Tea",
         "technique": "Dryshake",
         "glass": [
             "Collins",
             "High Tumbler"
         ],
         "recipe": [
-            "1/2 oz - Vodka",
-            "1/2 oz - Gin",
-            "1/2 oz - Rum",
-            "1/2 oz - triple sec",
-            "1 oz 1/4 - sweet and sour",
-            "top - Birra Lager 5°"
+            {"level": "1/2 oz", "ing": "Vodka"},
+            {"level": "1/2 oz", "ing": "Gin"},
+            {"level": "1/2 oz", "ing": "Rum"},
+            {"level": "1/2 oz", "ing": "triple sec"},
+            {"level": "1 oz 1/4", "ing": "sweet and sour"},
+            {"level": "top", "ing": "Birra Lager 5°"}
         ],
         "garnish": [
             "lemon slice",
@@ -43,19 +45,20 @@
     },
     {
         "name": "Texas Ice Tea",
+        "family": "Ice Tea",
         "technique": "Dryshake",
         "glass": [
             "Collins",
             "High Tumbler"
         ],
         "recipe": [
-            "1/2 oz - Vodka",
-            "1/2 oz - Gin",
-            "1/2 oz - Rum",
-            "+1/2 oz - Tequila",
-            "1/2 oz - triple sec",
-            "1 oz 1/4 - sweet and sour",
-            "top - cola"
+            {"level": "1/2 oz", "ing": "Vodka"},
+            {"level": "1/2 oz", "ing": "Gin"},
+            {"level": "1/2 oz", "ing": "Rum"},
+            {"level": "+1/2 oz", "ing": "Tequila"},
+            {"level": "1/2 oz", "ing": "triple sec"},
+            {"level": "1 oz 1/4", "ing": "sweet and sour"},
+            {"level": "top", "ing": "cola"}
         ],
         "garnish": [
             "lemon slice",
@@ -65,18 +68,19 @@
     },
     {
         "name": "Italian Ice Tea",
+        "family": "Ice Tea",
         "technique": "Dryshake",
         "glass": [
             "Collins",
             "High Tumbler"
         ],
         "recipe": [
-            "1/2 oz - Vodka",
-            "1/2 oz - Gin",
-            "1/2 oz - Rum",
-            "1/2 oz - Amaretto Disaronno",
-            "1 oz 1/4 - sweet and sour",
-            "top - cola"
+            {"level": "1/2 oz", "ing": "Vodka"},
+            {"level": "1/2 oz", "ing": "Gin"},
+            {"level": "1/2 oz", "ing": "Rum"},
+            {"level": "1/2 oz", "ing": "Amaretto Disaronno"},
+            {"level": "1 oz 1/4", "ing": "sweet and sour"},
+            {"level": "top", "ing": "cola"}
         ],
         "garnish": [
             "lemon slice",
@@ -86,18 +90,19 @@
     },
     {
         "name": "Miami Ice Tea",
+        "family": "Ice Tea",
         "technique": "Dryshake",
         "glass": [
             "Collins",
             "High Tumbler"
         ],
         "recipe": [
-            "1/2 oz - Vodka",
-            "1/2 oz - Gin",
-            "1/2 oz - Rum",
-            "1/2 oz - Blu Curacao",
-            "1 oz 1/4 - sweet and sour",
-            "top - Sprite / Schweppes Lemon"
+            {"level": "1/2 oz", "ing": "Vodka"},
+            {"level": "1/2 oz", "ing": "Gin"},
+            {"level": "1/2 oz", "ing": "Rum"},
+            {"level": "1/2 oz", "ing": "Blu Curacao"},
+            {"level": "1 oz 1/4", "ing": "sweet and sour"},
+            {"level": "top", "ing": "Sprite / Schweppes Lemon"}
         ],
         "garnish": [
             "lemon slice",
@@ -109,18 +114,19 @@
     },
     {
         "name": "Japanese Ice Tea",
+        "family": "Ice Tea",
         "technique": "Dryshake",
         "glass": [
             "Collins",
             "High Tumbler"
         ],
         "recipe": [
-            "1/2 oz - Vodka",
-            "1/2 oz - Gin",
-            "1/2 oz - Rum",
-            "1/2 oz - Midori",
-            "1 oz 1/4 - sweet and sour",
-            "top - Sprite / Schweppes Lemon"
+            {"level": "1/2 oz", "ing": "Vodka"},
+            {"level": "1/2 oz", "ing": "Gin"},
+            {"level": "1/2 oz", "ing": "Rum"},
+            {"level": "1/2 oz", "ing": "Midori"},
+            {"level": "1 oz 1/4", "ing": "sweet and sour"},
+            {"level": "top", "ing": "Sprite / Schweppes Lemon"}
         ],
         "garnish": [
             "lemon slice",
@@ -130,17 +136,18 @@
     },
     {
         "name": "Bloody Mary",
+        "family": "Bloody Mary",
         "technique": "Dryshake / Rolling",
         "glass": [
             "hi tumbler"
         ],
         "recipe": [
-            "1 oz 1/2 - Vodka",
-            "1 oz 1/4 - Tomato Juice",
-            "1/2 oz - Lime Juice",
-            "pinch - sale e pepe",
-            "2-3 drops - Tabasco",
-            "3 drops - Worchester Sauce"
+            {"level": "1 oz 1/2", "ing": "Vodka"},
+            {"level": "1 oz 1/4", "ing": "Tomato Juice"},
+            {"level": "1/2 oz", "ing": "Lime Juice"},
+            {"level": "pinch", "ing": "sale e pepe"},
+            {"level": "2-3 drops", "ing": "Tabasco"},
+            {"level": "3 drops", "ing": "Worchester Sauce"}
         ],
         "garnish": [
             "sedano (con foglie)",
@@ -152,16 +159,17 @@
     },
     {
         "name": "Fizz",
+        "family": "Fizz & Sour",
         "technique": "Dryshake",
         "glass": [
             "collins",
             "high tumbler"
         ],
         "recipe": [
-            "1 oz 1/4 - prodotto",
-            "1 oz 1/4 - sweet & sour",
-            "3/4 oz - albume/acqua faba",
-            "Top - soda"
+            {"level": "1 oz 1/4", "ing": "prodotto"},
+            {"level": "1 oz 1/4", "ing": "sweet & sour"},
+            {"level": "3/4 oz", "ing": "albume/acqua faba"},
+            {"level": "Top", "ing": "soda"}
         ],
         "garnish": [
             "in accordo col prodotto"
@@ -170,6 +178,7 @@
     },
     {
         "name": "Sour (on the rocks)",
+        "family": "Fizz & Sour",
         "technique": "Dryshake",
         "glass": [
             "old fashion",
@@ -177,9 +186,9 @@
             "rocks"
         ],
         "recipe": [
-            "2 oz - prodotto",
-            "1 oz 1/4 - sweet & sour",
-            "3/4 oz - albume/acqua faba"
+            {"level": "2 oz", "ing": "prodotto"},
+            {"level": "1 oz 1/4", "ing": "sweet & sour"},
+            {"level": "3/4 oz", "ing": "albume/acqua faba"}
         ],
         "garnish": [
             "in accordo col prodotto"
@@ -188,6 +197,7 @@
     },
     {
         "name": "Sex On The Beach",
+        "family": "Summer",
         "technique": "Dryshake",
         "glass": [
             "hi tumbler",
@@ -195,10 +205,10 @@
             "highball"
         ],
         "recipe": [
-            "1 oz 1/4 - Vodka Liscia",
-            "3/4 oz - Peach 3",
-            "1 oz 1/4 - orange juice",
-            "2 barspoon - cranberry syrup"
+            {"level": "1 oz 1/4", "ing": "Vodka Liscia"},
+            {"level": "3/4 oz", "ing": "Peach 3"},
+            {"level": "1 oz 1/4", "ing": "orange juice"},
+            {"level": "2 barspoon", "ing": "cranberry syrup"}
         ],
         "garnish": [
             "orange slice",
@@ -208,6 +218,7 @@
     },
     {
         "name": "Tequila Sunrise",
+        "family": "Summer",
         "technique": "Dryshake",
         "glass": [
             "hi tumbler",
@@ -216,9 +227,9 @@
             "summer"
         ],
         "recipe": [
-            "1 oz 1/2 - Tequila",
-            "1 oz 1/4 - Orange Juice",
-            "2 barspoon - melograno syrup"
+            {"level": "1 oz 1/2", "ing": "Tequila"},
+            {"level": "1 oz 1/4", "ing": "Orange Juice"},
+            {"level": "2 barspoon", "ing": "melograno syrup"}
         ],
         "garnish": [
             "orange slice"
@@ -227,6 +238,7 @@
     },
     {
         "name": "Pina Colada",
+        "family": "Summer",
         "technique": "Dryshake",
         "glass": [
             "hi tumbler",
@@ -235,9 +247,9 @@
             "summer"
         ],
         "recipe": [
-            "1 oz 1/4 - White Rum",
-            "1 oz 1/4 - Ananas Juice",
-            "2 barspoon - cocco syrup"
+            {"level": "1 oz 1/4", "ing": "White Rum"},
+            {"level": "1 oz 1/4", "ing": "Ananas Juice"},
+            {"level": "2 barspoon", "ing": "cocco syrup"}
         ],
         "garnish": [
             "ananas leaves",

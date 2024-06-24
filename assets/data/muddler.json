@@ -1,16 +1,16 @@
 [
     {
         "name": "Caipiroska",
+        "family": "Caipirinha",
         "technique": "Muddler",
         "glass": [
             "Low tumbler",
             "old fashion"
         ],
         "recipe": [
-            "pestato - lime & sugar",
-            "2 oz Vodka",
-            "crushed ice",
-            "2 straws & lemon slice"
+            {"level": "pestato ", "ing": "lime & sugar"},
+            {"level": "2 oz", "ing": "Vodka"},
+            {"level": "crushed ice"}
         ],
         "garnish": [
             "lemon slice (only if ice is chopped)",
@@ -20,16 +20,16 @@
     },
     {
         "name": "Caipirinha",
+        "family": "Caipirinha",
         "technique": "Muddler",
         "glass": [
             "Low tumbler",
             "old fashion"
         ],
         "recipe": [
-            "pestato - lime & sugar",
-            "2 oz Cachaca",
-            "crushed ice",
-            "2 straws & lemon slice"
+            {"level": "pestato", "ing": "lime & sugar"},
+            {"level": "2 oz", "ing": "Cachaca"},
+            {"level": "crushed ice"}
         ],
         "garnish": [
             "lemon slice (only if ice is chopped)",
@@ -39,16 +39,16 @@
     },
     {
         "name": "Caipirissima",
+        "family": "Caipirinha",
         "technique": "Muddler",
         "glass": [
             "Low tumbler",
             "Old fashion"
         ],
         "recipe": [
-            "pestato - lime & sugar",
-            "2 oz White Rum",
-            "crushed ice",
-            "2 straws & lemon slice"
+            {"level": "pestato", "ing": "lime & sugar"},
+            {"level": "2 oz", "ing": "White Rum"},
+            {"level": "crushed ice"}
         ],
         "garnish": [
             "lemon slice (only if ice is chopped)",
@@ -58,15 +58,16 @@
     },
     {
         "name": "Mojito Europeo",
+        "family": "Mojito",
         "technique": "Pestato",
         "glass": [
             "High Tumbler"
         ],
         "recipe": [
-            "pestato - lime & sugar",
-            "smacked mint",
-            "1 oz 1/4 White Rum",
-            "top - soda"
+            {"level": "pestato", "ing": "lime & sugar"},
+            {"level": "smack", "ing": "mint"},
+            {"level": "1 oz 1/4", "ing": "White Rum"},
+            {"level": "top - soda"}
         ],
         "garnish": [
             "lime",
@@ -76,6 +77,7 @@
     },
     {
         "name": "Mojito Cubano",
+        "family": "Mojito",
         "technique": "Build",
         "glass": [
             "Juice",
@@ -83,11 +85,11 @@
             "Highball"
         ],
         "recipe": [
-            "3/4 oz lime juice",
-            "2 barspoons sugar",
-            "smacked mint",
-            "1 oz 1/2 White Rum",
-            "top - soda"
+            {"level": "3/4 oz", "ing": "lime juice"},
+            {"level": "2 barspoons", "ing": "sugar"},
+            {"level": "smack ", "ing": "mint"},
+            {"level": "1 oz 1/2", "ing": "White Rum"},
+            {"level": "top - soda"}
         ],
         "garnish": [
             "lime",

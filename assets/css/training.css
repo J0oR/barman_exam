@@ -54,7 +54,6 @@ ul {
 .container {
 
     margin: 50px auto;
-    width: 80vw;
     max-width: 350px;
     display: flex;
     flex-direction: column;
@@ -155,6 +154,29 @@ ul {
 .recipe-element-header {
     font-weight: 500;
 }
+
+.recipe_section:first-child{
+    margin-top: 30px;
+}
+
+.recipe_section{
+    margin-bottom: 30px;
+}
+
+.recipe-line{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .level{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ing{
+    display: flex;
+    justify-content: flex-start;
+} */
 
 /*  */
 .hidden {

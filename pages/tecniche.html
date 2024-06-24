@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titolo della Pagina</title>
-
+    <title>Categorie</title>
+    <!-- vue -->
+    <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
+    <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
@@ -23,63 +25,37 @@
 
 <body>
 
+    <div id="app">
 
 
-    <nav>
-        <ul>
-            <li>
-                <a href="../index.html">
-                    <button class="nav-btn">Training</button>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">
+                        <button class="nav-btn">Training</button>
+                    </a>
+                </li>
+                <li class="selected-page">
+                    <a href="../index.html">
+                        <button class="nav-btn">Tecniche</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="techniques-container">
+                <a :href="`drinks.html?id=${index}`" v-for="(technique, index) in techniques" :key="index">
+                    <button class="technicque-btn" >
+                        <img :src="icons[index]" class="tec-icon"></img>
+                        <p>{{technique}}</p>
+                    </button>
                 </a>
-            </li>
-            <li class="selected-page">
-                <a href="../index.html">
-                    <button class="nav-btn">Tecniche</button>
-                </a>
-            </li>
-        </ul>
-    </nav>
+            </div>
+        </main>
 
-    <main>
-        <div class="techniques-container">
-            <a href="./build-summer.html">
-                <button class="technicque-btn">
-                    <img src="../assets/icon/build-summer.png" class="tec-icon"></img>
-                    <p> Build (estivi)</p>
-                </button>
-            </a>
-            <a href="./build.html">
-                <button class="technicque-btn">
-                    <img src="../assets/icon/build.png" class="tec-icon"></img>
-                    <p> Build</p>
-                </button>
-            </a>
-            <a href="./muddler.html">
-                <button class="technicque-btn">
-                    <img src="../assets/icon/muddler.webp" class="tec-icon"></img>
-                    <p>Muddler</p>
-                </button>
-            </a>
-            <a href="./dryshake.html">
-                <button class="technicque-btn">
-                    <img src="../assets/icon/dryshake.webp" class="tec-icon"></img>
-                    <p>Dryshake</p>
-                </button>
-            </a>
-            <a href="./shake-strain.html">
-                <button class="technicque-btn">
-                    <img src="../assets/icon/shaker.png" class="tec-icon"></img>
-                    <p>Shake & Strain</p>
-                </button>
-            </a>
-            <a href="./stir-strain.html">
-                <button class="technicque-btn">
-                    <img src="../assets/icon/stir-strain.png" class="tec-icon"></img>
-                    <p>Stir & Strain</p>
-                </button>
-            </a>
-        </div>
-    </main>
+        <script src="techniques.js"></script>
+    </div>
 
 </body>
 
