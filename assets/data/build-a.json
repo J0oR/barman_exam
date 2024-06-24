@@ -18,49 +18,28 @@
         "img": "../assets/images/build-a/screwdriver.jpeg"
     },
     {
-        "name": "Gin Tonic/Lemon",
+        "name": "Gin Tonic",
         "technique": "Build",
         "family": "Tonic",
         "glass": "High Tumbler",
         "recipe": [
             {"level": "1 oz 1/4", "ing": "Gin"},
-            {"level": "Top", "ing": "Tonic/Lemon"}
+            {"level": "Top", "ing": "Tonic/Lemon"},
+            {"level": "Note:", "ing": "if premium, 2 oz and top aside"}
+
         ],
         "garnish": "lemon slice",
         "img": "../assets/images/build-a/gin-tonic.jpeg"
     },
     {
-        "name": "Vodka Tonic/Lemon",
+        "name": "Vodka Tonic",
         "technique": "Build",
         "family": "Tonic",
         "glass": "High Tumbler",
         "recipe": [
             {"level": "1 oz 1/4", "ing": "Vodka"},
-            {"level": "Top", "ing": "Tonic/Lemon"}
-        ],
-        "garnish": "lemon slice",
-        "img": "../assets/images/build-a/gin-tonic.jpeg"
-    },
-    {
-        "name": "Gin Premium Tonic/Lemon",
-        "technique": "Build",
-        "family": "Tonic",
-        "glass": "High Tumbler",
-        "recipe": [
-            {"level": "2 oz", "ing": "Gin"},
-            {"level": "Top", "ing": "Tonic/Lemon a lato"}
-        ],
-        "garnish": "lemon slice",
-        "img": "../assets/images/build-a/gin-tonic.jpeg"
-    },
-    {
-        "name": "Vodka Premium Tonic/Lemon",
-        "technique": "Build",
-        "family": "Tonic",
-        "glass": "High Tumbler",
-        "recipe": [
-            {"level": "2 oz", "ing": "Vodka"},
-            {"level": "Top", "ing": "Tonic/Lemon a lato"}
+            {"level": "Top", "ing": "Tonic/Lemon"},
+            {"level": "Note:", "ing": "if premium, 2 oz and top aside"}
         ],
         "garnish": "lemon slice",
         "img": "../assets/images/build-a/gin-tonic.jpeg"

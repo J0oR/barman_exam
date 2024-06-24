@@ -54,12 +54,20 @@ ul {
 .container {
 
     margin: 50px auto;
-    max-width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     gap: 50px;
+    width: calc(100vw - 20px);
 }
+
+@media only screen and (min-width: 576px) {
+    .container {
+        max-width: 500px;
+        height: 350px;
+    }
+}
+
 
 
 .random-btn {
@@ -95,6 +103,7 @@ ul {
     object-fit:cover;
     border-radius: 15px;
     border-radius: 100%;
+    border: 2px solid #587969;
 }
 
 
@@ -166,6 +175,7 @@ ul {
 .recipe-line{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* .level{
