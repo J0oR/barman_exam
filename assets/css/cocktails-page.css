@@ -213,7 +213,7 @@ ul {
     top: 0;
     width: 100%;
     /* Full width */
-    height: 100vh;
+    height: 100%;
     /* Full height */
     overflow: auto;
     /* Enable scroll if needed */
@@ -235,7 +235,7 @@ ul {
     background-color: #95D2B3;
     font-size: 1.2rem;
     position: relative;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 
 }
 
@@ -318,12 +318,24 @@ ul {
     margin: 30px 0;
 }
 
-.recipe-line {
+.recipe-ingredients{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
 }
 
+.recipe-line {
+  /*   display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%; */
+}
 
+.level {
+    font-weight: 500;
+}
+
+/* 
 .level{
     display: flex;
     justify-content: flex-start;
@@ -334,4 +346,16 @@ ul {
     display: flex;
     justify-content: flex-end;
     
+} */
+
+.garnish-ingredients{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.glasses{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

@@ -11,8 +11,8 @@
             {"level": "1/2 oz", "ing": "Vodka"},
             {"level": "1/2 oz", "ing": "Gin"},
             {"level": "1/2 oz", "ing": "Rum"},
-            {"level": "1/2 oz", "ing": "triple sec"},
-            {"level": "1 oz 1/4", "ing": "sweet and sour"},
+            {"level": "1/2 oz", "ing": "Triple Sec"},
+            {"level": "1 oz 1/4", "ing": "sweet & sour"},
             {"level": "top", "ing": "cola"}
         ],
         "garnish": [
@@ -33,8 +33,8 @@
             {"level": "1/2 oz", "ing": "Vodka"},
             {"level": "1/2 oz", "ing": "Gin"},
             {"level": "1/2 oz", "ing": "Rum"},
-            {"level": "1/2 oz", "ing": "triple sec"},
-            {"level": "1 oz 1/4", "ing": "sweet and sour"},
+            {"level": "1/2 oz", "ing": "Triple Sec"},
+            {"level": "1 oz 1/4", "ing": "sweet & sour"},
             {"level": "top", "ing": "Birra Lager 5°"}
         ],
         "garnish": [
@@ -56,8 +56,8 @@
             {"level": "1/2 oz", "ing": "Gin"},
             {"level": "1/2 oz", "ing": "Rum"},
             {"level": "+1/2 oz", "ing": "Tequila"},
-            {"level": "1/2 oz", "ing": "triple sec"},
-            {"level": "1 oz 1/4", "ing": "sweet and sour"},
+            {"level": "1/2 oz", "ing": "Triple Sec"},
+            {"level": "1 oz 1/4", "ing": "sweet & sour"},
             {"level": "top", "ing": "cola"}
         ],
         "garnish": [
@@ -79,7 +79,7 @@
             {"level": "1/2 oz", "ing": "Gin"},
             {"level": "1/2 oz", "ing": "Rum"},
             {"level": "1/2 oz", "ing": "Amaretto Disaronno"},
-            {"level": "1 oz 1/4", "ing": "sweet and sour"},
+            {"level": "1 oz 1/4", "ing": "sweet & sour"},
             {"level": "top", "ing": "cola"}
         ],
         "garnish": [
@@ -101,7 +101,7 @@
             {"level": "1/2 oz", "ing": "Gin"},
             {"level": "1/2 oz", "ing": "Rum"},
             {"level": "1/2 oz", "ing": "Blu Curacao"},
-            {"level": "1 oz 1/4", "ing": "sweet and sour"},
+            {"level": "1 oz 1/4", "ing": "sweet & sour"},
             {"level": "top", "ing": "Sprite / Schweppes Lemon"}
         ],
         "garnish": [
@@ -125,7 +125,7 @@
             {"level": "1/2 oz", "ing": "Gin"},
             {"level": "1/2 oz", "ing": "Rum"},
             {"level": "1/2 oz", "ing": "Midori"},
-            {"level": "1 oz 1/4", "ing": "sweet and sour"},
+            {"level": "1 oz 1/4", "ing": "sweet & sour"},
             {"level": "top", "ing": "Sprite / Schweppes Lemon"}
         ],
         "garnish": [

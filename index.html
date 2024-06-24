@@ -77,8 +77,7 @@
         <div class="recipe_section">
           <div class="recipe-element-header">Recipe</div>
           <div v-if="Array.isArray(drink.recipe)">
-            <div id="modal-garnish" v-for="(ingredients, index) in drink.recipe" :key="index">
-
+            <div v-for="(ingredients, index) in drink.recipe" :key="index">
                 <div class="recipe-line">
                     <div class="level">{{ingredients.level}}</div>
                     <div class="ing">{{ingredients.ing}}</div>

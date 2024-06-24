@@ -80,13 +80,14 @@
                         </span>
                     </div>
                     <h2 id="modal-title" class="modal-title">{{modalDrink.name}}</h2>
+                    <img :src="modalDrink.img" alt="Cocktail Image" class="modal-image">
                     <div class="modal-section">
                         <p class="modal-section-title">Tecnicque</p>
                         <p id="modal-technique">{{modalDrink.technique}}</p>
                     </div>
                     <div class="modal-section">
                         <p class="modal-section-title">Glass</p>
-                        <div v-if="Array.isArray(modalDrink.glass)">
+                        <div v-if="Array.isArray(modalDrink.glass)" class="glasses">
                             <div v-for="(glass, index) in modalDrink.glass" :key="index">{{glass}}
                             </div>
                         </div>
@@ -96,21 +97,21 @@
                     </div>
                     <div class="modal-section">
                         <p class="modal-section-title">Recipe</p>
-                        <div v-if="Array.isArray(modalDrink.recipe)">
+                        <div v-if="Array.isArray(modalDrink.recipe)" class="recipe-ingredients">
                             <div v-for="(ingredients, index) in modalDrink.recipe" :key="index">
                                 <div class="recipe-line">
-                                    <div class="level">{{ingredients.level}}</div>
-                                    <div class="ing">{{ingredients.ing}}</div>
+                                    <span class="level">{{ingredients.level}}</span class="level">
+                                    {{ingredients.ing}}
                                 </div>
                             </div>
                         </div>
                         <div v-else>
-                            {{modalDrink.recipe-btn}}
+                            {{modalDrink.recipe}}
                         </div>
                     </div>
                     <div class="modal-section">
                         <p class="modal-section-title">Garnish</p>
-                        <div v-if="Array.isArray(modalDrink.garnish)">
+                        <div v-if="Array.isArray(modalDrink.garnish)" class="garnish-ingredients">
                             <div v-for="(ingredients, index) in modalDrink.garnish" :key="index">
                                 {{ingredients}}</div>
                         </div>
@@ -118,7 +119,7 @@
                             {{modalDrink.garnish}}
                         </div>
                     </div>
-                    <img :src="modalDrink.img" alt="Cocktail Image" class="modal-image">
+                   
                 </div>
             </div>
 
