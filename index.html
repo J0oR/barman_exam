@@ -48,7 +48,7 @@
 
       <!-- cocktail card -->
       <div class="cocktail-card" v-show="show_drink">
-        <img :src="drink.img" alt="" class="cocktail-img">
+        <img :src="drink.img.substring(1)" alt="" class="cocktail-img">
         <div class="cocktail-name">{{drink.name}}</div>
         <button class="recipe-btn" @click="alternate_cards()">
           <span>Show Recipe</span>
