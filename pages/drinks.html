@@ -87,7 +87,7 @@
                     <div class="modal-section">
                         <p class="modal-section-title">Glass</p>
                         <div v-if="Array.isArray(modalDrink.glass)">
-                            <div id="modal-garnish" v-for="(glass, index) in modalDrink.glass" :key="index">{{glass}}
+                            <div v-for="(glass, index) in modalDrink.glass" :key="index">{{glass}}
                             </div>
                         </div>
                         <div v-else>
@@ -97,8 +97,7 @@
                     <div class="modal-section">
                         <p class="modal-section-title">Recipe</p>
                         <div v-if="Array.isArray(modalDrink.recipe)">
-                            <div id="modal-garnish" v-for="(ingredients, index) in modalDrink.recipe" :key="index">
-
+                            <div v-for="(ingredients, index) in modalDrink.recipe" :key="index">
                                 <div class="recipe-line">
                                     <div class="level">{{ingredients.level}}</div>
                                     <div class="ing">{{ingredients.ing}}</div>
@@ -112,14 +111,14 @@
                     <div class="modal-section">
                         <p class="modal-section-title">Garnish</p>
                         <div v-if="Array.isArray(modalDrink.garnish)">
-                            <div id="modal-garnish" v-for="(ingredients, index) in modalDrink.garnish" :key="index">
+                            <div v-for="(ingredients, index) in modalDrink.garnish" :key="index">
                                 {{ingredients}}</div>
                         </div>
                         <div v-else>
                             {{modalDrink.garnish}}
                         </div>
                     </div>
-                    <img id="modal-image" :src="modalDrink.img" alt="Cocktail Image" class="modal-image">
+                    <img :src="modalDrink.img" alt="Cocktail Image" class="modal-image">
                 </div>
             </div>
 
