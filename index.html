@@ -48,8 +48,8 @@
 
       <!-- cocktail card -->
       <div class="cocktail-card" v-show="show_drink">
-        <img :src="drink.img.substring(1)" alt="" class="cocktail-img">
-        <div class="cocktail-name">{{drink.name}}</div>
+            <img :src="adjustedImagePath" alt="" class="cocktail-img">
+            <div class="cocktail-name">{{drink.name}}</div>
         <button class="recipe-btn" @click="alternate_cards()">
           <span>Show Recipe</span>
           <img src="assets/icon/arrow.png" alt="" class="btn-icon">
