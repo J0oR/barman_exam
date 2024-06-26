@@ -17,7 +17,7 @@
         "method": "Muddler",
         "steps": [
             {"step": "pestato and stir", "icon": "../assets/icon/methods/muddler.png"},
-            {"step": "pour ingredients, dig, crushed ice", "icon": "../assets/icon/methods/crushed-ice.png"}
+            {"step": "pour ingredients, dig, crushed ice", "icon": "../assets/icon/methods/crushed.png"}
         ]
     },
     {
