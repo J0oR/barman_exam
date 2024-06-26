@@ -24,7 +24,7 @@
             "low tumbler"
         ],
         "recipe": [
-            {"level": "1 oz 1/4", "ing": "amaretto disaronno"},
+            {"level": "1 oz 1/4", "ing": "Amaretto Disaronno"},
             {"level": "1 oz 1/4", "ing": "Scotch Whisky"}
         ],
         "garnish": [
@@ -41,7 +41,7 @@
             "low tumbler"
         ],
         "recipe": [
-            {"level": "1 oz 1/4", "ing": "amaretto disaronno"},
+            {"level": "1 oz 1/4", "ing": "Amaretto Disaronno"},
             {"level": "1 oz 1/4", "ing": "Vodka Liscia"}
         ],
         "garnish": [
@@ -55,7 +55,7 @@
         "technique": "Build",
         "family": "Russian",
         "glass": [
-            "Low tumbler",
+            "low tumbler",
             "old fashion"
         ],
         "recipe": [
@@ -73,7 +73,7 @@
         "technique": "Build",
         "family": "Russian",
         "glass": [
-            "Low tumbler",
+            "low tumbler",
             "old fashion"
         ],
         "recipe": [
@@ -147,7 +147,7 @@
         "technique": "Build",
         "family": "Negroni",
         "glass": [
-            "High tumbler"
+            "high tumbler"
         ],
         "recipe": [
             {"level": "1 oz", "ing": "Campari"},
@@ -165,7 +165,7 @@
         "technique": "Build",
         "family": "Negroni",
         "glass": [
-            "High tumbler"
+            "high tumbler"
         ],
         "recipe": [
             {"level": "1 oz", "ing": "Campari"},

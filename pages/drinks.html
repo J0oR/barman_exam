@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titolo della Pagina</title>
+    <title>Recipes</title>
     <!-- vue -->
     <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
     <!-- favicon -->
@@ -63,6 +63,7 @@
                 <div class="family-name" v-if="Object.keys(family.drinks).length > 1">{{family.family}}</div>
                 <div class="cards-container" v-for="(drink, index1) in family.drinks" :key="index1">
                     <div class="cocktail-card">
+                        <img :src="drink.img" alt="" class="btn-icon" style="border-radius: 100%; width: 50px;height: 50px;border: 2px solid #587969;">
                         <p class="cocktail-title">{{drink.name}}</p>
                         <button class="open-modal" @click="openModal(drink)">
                             <img src="../assets/icon/arrow.png" alt="" class="btn-icon">
@@ -100,7 +101,7 @@
                         <div v-if="Array.isArray(modalDrink.recipe)" class="recipe-ingredients">
                             <div v-for="(ingredients, index) in modalDrink.recipe" :key="index">
                                 <div class="recipe-line">
-                                    <span class="level">{{ingredients.level}}</span class="level">
+                                    <span class="level">{{ingredients.level}}</span>
                                     {{ingredients.ing}}
                                 </div>
                             </div>

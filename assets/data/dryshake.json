@@ -4,8 +4,8 @@
         "family": "Ice Tea",
         "technique": "Dryshake",
         "glass": [
-            "Collins",
-            "High Tumbler"
+            "collins",
+            "high tumbler"
         ],
         "recipe": [
             {"level": "1/2 oz", "ing": "Vodka"},
@@ -26,8 +26,8 @@
         "family": "Ice Tea",
         "technique": "Dryshake",
         "glass": [
-            "Collins",
-            "High Tumbler"
+            "collins",
+            "high tumbler"
         ],
         "recipe": [
             {"level": "1/2 oz", "ing": "Vodka"},
@@ -48,8 +48,8 @@
         "family": "Ice Tea",
         "technique": "Dryshake",
         "glass": [
-            "Collins",
-            "High Tumbler"
+            "collins",
+            "high tumbler"
         ],
         "recipe": [
             {"level": "1/2 oz", "ing": "Vodka"},
@@ -71,8 +71,8 @@
         "family": "Ice Tea",
         "technique": "Dryshake",
         "glass": [
-            "Collins",
-            "High Tumbler"
+            "collins",
+            "high tumbler"
         ],
         "recipe": [
             {"level": "1/2 oz", "ing": "Vodka"},
@@ -93,8 +93,8 @@
         "family": "Ice Tea",
         "technique": "Dryshake",
         "glass": [
-            "Collins",
-            "High Tumbler"
+            "collins",
+            "high tumbler"
         ],
         "recipe": [
             {"level": "1/2 oz", "ing": "Vodka"},
@@ -117,8 +117,8 @@
         "family": "Ice Tea",
         "technique": "Dryshake",
         "glass": [
-            "Collins",
-            "High Tumbler"
+            "collins",
+            "high tumbler"
         ],
         "recipe": [
             {"level": "1/2 oz", "ing": "Vodka"},
@@ -126,7 +126,7 @@
             {"level": "1/2 oz", "ing": "Rum"},
             {"level": "1/2 oz", "ing": "Midori"},
             {"level": "1 oz 1/4", "ing": "sweet & sour"},
-            {"level": "top", "ing": "Sprite / Schweppes Lemon"}
+            {"level": "top", "ing": "sprite / schweppes lemon"}
         ],
         "garnish": [
             "lemon slice",

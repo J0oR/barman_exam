@@ -4,16 +4,15 @@
         "technique": "Build",
         "family": "Screwdriver",
         "glass": [
-            "High Tumbler",
-            "Collins"
+            "high tumbler",
+            "collins"
         ],
         "recipe": [
             {"level": "1 oz 1/4", "ing": "Vodka Liscia"},
             {"level": "Top", "ing": "Orange Juice"}
         ],
         "garnish": [
-            "orange slice",
-            "orange twist"
+            "orange slice / twist"
         ],
         "img": "../assets/images/build-a/screwdriver.jpeg"
     },
@@ -21,7 +20,7 @@
         "name": "Gin Tonic",
         "technique": "Build",
         "family": "Tonic",
-        "glass": "High Tumbler",
+        "glass": "high tumbler",
         "recipe": [
             {"level": "1 oz 1/4", "ing": "Gin"},
             {"level": "Top", "ing": "Tonic/Lemon"},
@@ -35,7 +34,7 @@
         "name": "Vodka Tonic",
         "technique": "Build",
         "family": "Tonic",
-        "glass": "High Tumbler",
+        "glass": "high tumbler",
         "recipe": [
             {"level": "1 oz 1/4", "ing": "Vodka"},
             {"level": "Top", "ing": "Tonic/Lemon"},
@@ -181,8 +180,8 @@
         "family": "Mule",
         "technique": "Build",
         "glass": [
-            "Copper mug",
-            "High tumbler"
+            "copper mug",
+            "high tumbler"
         ],
         "recipe": [
             {"level": "3/4 oz", "ing": "Lime juice"},
@@ -203,8 +202,8 @@
         "family": "Mule",
         "technique": "Build",
         "glass": [
-            "Copper mug",
-            "High tumbler"
+            "copper mug",
+            "high tumbler"
         ],
         "recipe": [
             {"level": "3/4 oz", "ing": "Lime juice"},
@@ -224,7 +223,7 @@
         "name": "Rum & Cola",
         "family": "Rum & Cola",
         "technique": "Build",
-        "glass": "High Tumbler",
+        "glass": "high tumbler",
         "recipe": [
             {"level": "1 oz 1/4", "ing": "White Rum"},
             {"level": "Top", "ing": "Cola"}
@@ -236,7 +235,7 @@
         "name": "Cuba Libre",
         "family": "Rum & Cola",
         "technique": "Build",
-        "glass": "High Tumbler",
+        "glass": "high tumbler",
         "recipe": [
             {"level": "3/4 oz", "ing": "Lime Juice"},
             {"level": "1 oz 1/4", "ing": "White Rum"},
@@ -249,7 +248,7 @@
         "name": "Cuba Libre Pestato",
         "family": "Rum & Cola",
         "technique": "Build",
-        "glass": "High Tumbler",
+        "glass": "high tumbler",
         "recipe": [
             {"level": "pestato", "ing": "lime & sugar"},
             {"level": "1 oz 1/4", "ing": "White Rum"},

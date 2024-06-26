@@ -4,7 +4,7 @@
         "family": "Caipirinha",
         "technique": "Muddler",
         "glass": [
-            "Low tumbler",
+            "low tumbler",
             "old fashion"
         ],
         "recipe": [
@@ -23,7 +23,7 @@
         "family": "Caipirinha",
         "technique": "Muddler",
         "glass": [
-            "Low tumbler",
+            "low tumbler",
             "old fashion"
         ],
         "recipe": [
@@ -42,8 +42,8 @@
         "family": "Caipirinha",
         "technique": "Muddler",
         "glass": [
-            "Low tumbler",
-            "Old fashion"
+            "low tumbler",
+            "old fashion"
         ],
         "recipe": [
             {"level": "pestato", "ing": "lime & sugar"},
@@ -61,13 +61,14 @@
         "family": "Mojito",
         "technique": "Pestato",
         "glass": [
-            "High Tumbler"
+            "high tumbler"
         ],
         "recipe": [
             {"level": "pestato", "ing": "lime & sugar"},
             {"level": "smack", "ing": "mint"},
             {"level": "1 oz 1/4", "ing": "White Rum"},
-            {"level": "top - soda"}
+            {"level": "crushed ice"},
+            {"level": "top", "ing": "soda"}
         ],
         "garnish": [
             "lime",
@@ -80,16 +81,16 @@
         "family": "Mojito",
         "technique": "Build",
         "glass": [
-            "Juice",
-            "Collins",
-            "Highball"
+            "juice",
+            "collins",
+            "highball"
         ],
         "recipe": [
             {"level": "3/4 oz", "ing": "lime juice"},
             {"level": "2 barspoons", "ing": "sugar"},
             {"level": "smack ", "ing": "mint"},
             {"level": "1 oz 1/2", "ing": "White Rum"},
-            {"level": "top - soda"}
+            {"level": "top", "ing": "soda"}
         ],
         "garnish": [
             "lime",

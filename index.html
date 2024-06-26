@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Random Drink Selector</title>
+  <title>Drink Randomizer</title>
   <!-- vue -->
   <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
   <!-- favicon -->
@@ -66,7 +66,7 @@
         <!-- glass -->
         <div class="recipe_section">
           <div class="recipe-element-header">Glass</div>
-          <div v-if="Array.isArray(drink.glass)">
+          <div v-if="Array.isArray(drink.glass)" class="glasses">
             <div v-for="(glass, index) in drink.glass" :key="index">{{glass}}</div>
           </div>
           <div v-else>
@@ -76,11 +76,11 @@
         <!-- recipe -->
         <div class="recipe_section">
           <div class="recipe-element-header">Recipe</div>
-          <div v-if="Array.isArray(drink.recipe)">
+          <div v-if="Array.isArray(drink.recipe)" class="recipe-ingredients">
             <div v-for="(ingredients, index) in drink.recipe" :key="index">
                 <div class="recipe-line">
-                    <div class="level">{{ingredients.level}}</div>
-                    <div class="ing">{{ingredients.ing}}</div>
+                  <span class="level">{{ingredients.level}}</span>
+                  {{ingredients.ing}}
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@
         <!-- garnish -->
         <div class="recipe_section">
           <div class="recipe-element-header">Garnish</div>
-          <div v-if="Array.isArray(drink.garnish)">
+          <div v-if="Array.isArray(drink.garnish)" class="garnish-ingredients">
             <div v-for="(ingredient, index) in drink.garnish" :key="index">{{ingredient}}</div>
           </div>
           <div v-else>
