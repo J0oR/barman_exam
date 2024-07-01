@@ -2,8 +2,8 @@ const app = Vue.createApp({
   /********************************* DATA *********************************/
   data() {
     return {
-      techniques: ["build (summer)", "build", "muddler", "dryshake", "shake-strain", "stir-strain"],
-      icons: ["build-summer.png", "build.png", "muddler.webp", "dryshake.webp", "shaker.png", "stir-strain.png",]
+      techniques: ["build (summer)", "build", "muddler", "dryshake", "shake-strain", "stir-strain", "mocktails"],
+      icons: ["build-summer.png", "build.png", "muddler.webp", "dryshake.webp", "shaker.png", "stir-strain.png", "mocktails.webp"]
     }
   },
   beforeMount() {

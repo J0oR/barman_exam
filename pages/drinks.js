@@ -3,7 +3,7 @@ const app = Vue.createApp({
   data() {
     return {
       techniqueId: null,
-      techniques: { 0: "build-a.json", 1: "build-b.json", 2: "muddler.json", 3: "dryshake.json", 4: "shake-strain.json", 5: "stir-strain.json" },
+      techniques: { 0: "build-a.json", 1: "build-b.json", 2: "muddler.json", 3: "dryshake.json", 4: "shake-strain.json", 5: "stir-strain.json", 6:"mocktails.json"},
       drinks: null,
       groupedDrinks: null,
       modalDrink: "",

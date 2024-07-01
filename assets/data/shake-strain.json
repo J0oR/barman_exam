@@ -119,5 +119,23 @@
             "in accordo con il prodotto"
         ],
         "img": "../assets/images/shake-strain/sour.jpeg"
+    },
+    {
+        "name": "Espresso Martini",
+        "family": "Espresso Martini",
+        "technique": "Shake & Strain",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            {"level": "2 oz", "ing": "Vodka"},
+            {"level": "1/2 oz", "ing": "Coffe Liqueur"},
+            {"level": "1/2 oz", "ing": "sugar syrup"},
+            {"level": "1 oz", "ing": "strong espresso"}
+        ],
+        "garnish": [
+            "coffe beans", "cacao powder"
+        ],
+        "img": "../assets/images/shake-strain/espresso-martini.jpg"
     }
 ]

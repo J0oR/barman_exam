@@ -112,7 +112,7 @@
         "img": "../assets/images/build-a/martini-royal.jpg"
     },
     {
-        "name": "Kir Royal",
+        "name": "Rossini",
         "family": "Sparkling",
         "technique": "Build",
         "glass": [
@@ -121,14 +121,14 @@
             "calice (extremis)"
         ],
         "recipe": [
-            {"level": "3/4 oz", "ing": "syrup/juice/liquor"},
+            {"level": "3/4 oz", "ing": "strawberry syrup/juice/liquor"},
             {"level": "top", "ing": "Prosecco"}
         ],
         "garnish": "ribes",
         "img": "../assets/images/build-a/sparkling.jpeg"
     },
     {
-        "name": "Rossini",
+        "name": "Kir Royal",
         "family": "Sparkling",
         "technique": "Build",
         "glass": [

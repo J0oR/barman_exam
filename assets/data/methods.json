@@ -45,5 +45,11 @@
             {"step": "empty glass", "icon": "../assets/icon/methods/empty_glass.png"},
             {"step": "lateral strain", "icon": "../assets/icon/methods/lateral-strain.png"}
         ]
+    },
+    {
+        "method": "Mocktails",
+        "steps": [
+            {"step": "various"}
+        ]
     }
 ]
