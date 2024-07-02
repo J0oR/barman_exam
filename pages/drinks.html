@@ -63,11 +63,14 @@
                 <div class="family-name" v-if="Object.keys(family.drinks).length > 1">{{family.family}}</div>
                 <div class="cards-container" v-for="(drink, index1) in family.drinks" :key="index1">
                     <div class="cocktail-card">
-                        <img :src="drink.img" alt="" class="btn-icon" style="border-radius: 100%; width: 50px;height: 50px;border: 2px solid #587969;">
                         <p class="cocktail-title">{{drink.name}}</p>
-                        <button class="open-modal" @click="openModal(drink)">
-                            <img src="../assets/icon/arrow.png" alt="" class="btn-icon">
-                        </button>
+                        <div class="card-bottom-line">
+                            <img :src="drink.img" alt="" class="card-img">
+                            <button class="open-modal" @click="openModal(drink)">
+                                <img src="../assets/icon/arrow.png" alt="" class="btn-icon">
+                            </button>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -120,7 +123,7 @@
                             {{modalDrink.garnish}}
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
 

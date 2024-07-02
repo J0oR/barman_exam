@@ -1,1 +1,83 @@
-[]
+[
+    {
+        "name": "The Devil's Day Off",
+        "author": "Anders Erickson",
+        "family": "The Devil's Day Off",
+        "technique": "Shake & Strain",
+        "glass": [
+            "high tumbler",
+            "collins"
+        ],
+        "recipe": [
+            {"level": "2 oz ", "ing": "grapefruit juice"},
+            {"level": "1/2 oz", "ing": "lime juice"},
+            {"level": "1/4 oz", "ing": "agave nectar"},
+            {"level": "pinch", "ing": "cinnamon"},
+            {"level": "top", "ing": "red bitter soda"}
+        ],
+        "garnish": [
+            "rosmary sprig",
+            "straw"
+        ],
+        "img": "../assets/images/mocktails/day-off.png"
+    },
+    {
+        "name": "The Placebo",
+        "author": "Anders Erickson",
+        "family": "The Placebo",
+        "technique": "Frozen",
+        "glass": [
+            "ananas glass",
+            "collins"
+        ],
+        "recipe": [
+            {"level": "2 oz ", "ing": "coconut cream"},
+            {"level": "2 oz", "ing": "orange juice"},
+            {"level": "6 oz", "ing": "ananas nectar"},
+            {"level": "3/4 oz", "ing": "lime juice"},
+            {"level": "pinch", "ing": "cinnamon"}
+        ],
+        "garnish": [
+            "grated nutmeg",
+            "ananas leaves"
+        ],
+        "img": "../assets/images/mocktails/placebo.png"
+    },
+    {
+        "name": "Passion At The Disco",
+        "author": "Anders Erickson",
+        "family": "Passion At The Disco",
+        "technique": "Shake & Strain",
+        "glass": [
+            "low tumbler"
+        ],
+        "recipe": [
+            {"level": "1 oz ", "ing": "lime juice"},
+            {"level": "1 oz", "ing": "passion fruit syrup"},
+            {"level": "top (2 oz)", "ing": "tonic"}
+        ],
+        "garnish": [
+            "mint"
+        ],
+        "img": "../assets/images/mocktails/passion-disco.png"
+    },
+    {
+        "name": "Don't Touch My Car Keys",
+        "author": "Shelby Allison",
+        "family": "Don't Touch My Car Keys",
+        "technique": "Build / Dryshake",
+        "glass": [
+            "high tumbler"
+        ],
+        "recipe": [
+            {"level": "1/2 oz ", "ing": "coconut syrup"},
+            {"level": "3/4 oz", "ing": "lime juice"},
+            {"level": "top (2-3 oz)", "ing": "soda"},
+            {"level": "3 dash", "ing": "angostura"}
+        ],
+        "garnish": [
+            "mint sprig"
+        ],
+        "img": "../assets/images/mocktails/car-keys.jpg"
+    }
+]
