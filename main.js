@@ -17,7 +17,8 @@ const app = Vue.createApp({
         './assets/data/dryshake.json',
         './assets/data/muddler.json',
         './assets/data/stir-strain.json',
-        './assets/data/shake-strain.json'
+        './assets/data/shake-strain.json',
+        './assets/data/mocktails.json'
       ];
 
       try {
