@@ -8,7 +8,7 @@ const app = Vue.createApp({
   },
   beforeMount() {
     for (let i = 0; i < this.icons.length; i++) {
-      this.icons[i] = `../assets/icon/techniques/${this.icons[i]}`;
+      this.icons[i] = `./assets/icon/techniques/${this.icons[i]}`;
     }
   },
 
