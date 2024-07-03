@@ -29,13 +29,14 @@
 
         <nav>
             <ul>
-                <li><a href="../index.html">
-                        <button class="nav-btn">Training</button>
+                <li>
+                    <a href="../index.html">
+                        <button class="nav-btn">Methods</button>
                     </a>
                 </li>
                 <li>
-                    <a href="../pages/tecniche.html">
-                        <button class="nav-btn">Methods</button>
+                    <a href="./training.html">
+                        <button class="nav-btn">Training</button>
                     </a>
                 </li>
             </ul>
@@ -45,7 +46,6 @@
 
             <div class="method-container">
                 <div style="display: flex; width: 100%;justify-content: space-around;align-items: center;">
-                    <div></div>
                     <div class="method-name" style="margin: 0;">{{method.method}}</div>
                     <button @click="showMethod = !showMethod" v-if="!showMethod" class="method-btn">+</button>
                     <button @click="showMethod = !showMethod" v-if="showMethod" class="method-btn">-</button>
@@ -61,16 +61,12 @@
 
             <div class="family-container" v-for="(family, index) in groupedDrinks" :key="index">
                 <div class="family-name" v-if="Object.keys(family.drinks).length > 1">{{family.family}}</div>
-                <div class="cards-container" v-for="(drink, index1) in family.drinks" :key="index1">
-                    <div class="cocktail-card">
-                        <p class="cocktail-title">{{drink.name}}</p>
-                        <div class="card-bottom-line">
+                <div class="cards-container">
+                    <div v-for="(drink, index1) in family.drinks" :key="index1">
+                        <button @click="openModal(drink)" class="open-modal">
+                            <p class="cocktail-title">{{drink.name}}</p>
                             <img :src="drink.img" alt="" class="card-img">
-                            <button class="open-modal" @click="openModal(drink)">
-                                <img src="../assets/icon/arrow.png" alt="" class="btn-icon">
-                            </button>
-                        </div>
-                        
+                        </button>
                     </div>
                 </div>
             </div>
@@ -104,8 +100,8 @@
                         <div v-if="Array.isArray(modalDrink.recipe)" class="recipe-ingredients">
                             <div v-for="(ingredients, index) in modalDrink.recipe" :key="index">
                                 <div class="recipe-line">
-                                    <span class="level">{{ingredients.level}}</span>
-                                    {{ingredients.ing}}
+                                    <span class="col-1">{{ingredients.level}}</span>
+                                    <span class="col-2">{{ingredients.ing}}</span>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +125,7 @@
 
         </main>
 
-        <script src="drinks.js"></script>
+        <script src="../scripts/drinks.js"></script>
 
     </div>
 

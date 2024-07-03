@@ -12,13 +12,13 @@ const app = Vue.createApp({
   methods: {
     async fetchDrinkData() {
       const files = [
-        './assets/data/build-a.json',
-        './assets/data/build-b.json',
-        './assets/data/dryshake.json',
-        './assets/data/muddler.json',
-        './assets/data/stir-strain.json',
-        './assets/data/shake-strain.json',
-        './assets/data/mocktails.json'
+        '../assets/data/build-a.json',
+        '../assets/data/build-b.json',
+        '../assets/data/dryshake.json',
+        '../assets/data/muddler.json',
+        '../assets/data/stir-strain.json',
+        '../assets/data/shake-strain.json',
+        '../assets/data/mocktails.json'
       ];
 
       try {

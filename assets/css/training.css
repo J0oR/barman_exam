@@ -169,31 +169,28 @@ ul {
 .recipe_section{
     margin-bottom: 30px;
 }
-.recipe-ingredients{
+
+
+.recipe-ingredients {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.recipe-line{
-    /* display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; */
+.recipe-line {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
-.level {
+.col-1 {
     font-weight: 500;
+    text-align: right;
+    padding-right: 20px;
 }
-
-/* .level{
-    display: flex;
-    justify-content: flex-end;
+.col-2 {
+    text-align: left;
 }
-
-.ing{
-    display: flex;
-    justify-content: flex-start;
-} */
 
 /*  */
 .hidden {

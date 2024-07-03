@@ -57,13 +57,13 @@ ul {
 
 /* method */
 
-.method-container{
+.method-container {
     padding: 30px 0;
     margin: 0 auto;
     max-width: 350px;
     margin: 100px auto;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,30 +78,34 @@ ul {
     font-weight: 400;
 }
 
-.method-step{
+.method-step {
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 0 20px;
-    
+
 }
 
-.step-arrow-name{
+.step-arrow-name {
     display: flex;
     flex: 2;
     align-items: center;
     width: 100%;
-    gap: 20px!important;
+    gap: 20px !important;
     font-size: 1rem;
 }
 
-.step-icon{
+.btn-icon{
+    height: 20px;
+}
+
+.step-icon {
     height: 100px;
     flex: 1;
     object-fit: contain;
 }
 
-.method-btn{
+.method-btn {
     font-size: 2rem;
     border: none;
     background-color: transparent;
@@ -115,7 +119,7 @@ ul {
     justify-content: center;
 }
 
-.method-btn:hover{
+.method-btn:hover {
     transform: scale(1.2);
     border: 1px solid black;
 }
@@ -123,14 +127,8 @@ ul {
 /* family */
 
 .family-container {
-    /* border: 1px solid black; */
-    border-radius: 10px;
-    padding: 30px 0;
-    background-color: #95D2B3;
-    margin: 0 auto;
     max-width: 350px;
-    margin: 50px auto;
-   
+    margin: 100px auto;
 }
 
 @media only screen and (min-width: 576px) {
@@ -142,28 +140,54 @@ ul {
 
 .family-name {
     font-size: 1.2rem;
-    margin-bottom: 30px;
     font-weight: bold;
     font-family: inherit;
     font-weight: 400;
+    text-align: center;
+    margin: 0 auto 50px auto;
+    padding: 20px;
 }
 
-.cocktail-card {
+.cards-container {
     display: flex;
     flex-direction: column;
-    width: 90%;
-    margin: 20px auto;
-    padding: 0 20px 10px 20px;
-    gap: 20px;
+    gap: 20px !important;
 }
 
-.card-bottom-line{
+
+/****************** modal button (cocktail card) ******************/
+
+
+.open-modal {
+    border: none;
+    transition: all 0.3s ease-in-out;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #D7EFD3;
+    background-color: #95D2B3;
+    cursor: pointer;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    font: inherit;
 }
 
-.card-img{
+.open-modal:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 5px 8px 0px #32685d;
+
+}
+
+.open-modal:active {
+    transform: translateY(2px);
+}
+
+.card-img {
     border-radius: 100%;
     width: 70px;
     height: 70px;
@@ -174,51 +198,11 @@ ul {
 .cocktail-title {
     display: flex;
     justify-content: center;
-    font-size: 1.1rem;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    width: 100%;
-    padding: 10px 0;   
-}
-
-/* button */
-
-.btn-icon {
-    width: 15px;
-}
-
-.open-modal {
-    border: none;
-    transition: all 0.3s ease-in-out;
-    padding: 5px 15px;
-    gap: 10px;
-    border-radius: 14px;
-    background-color: #D8EFD3;
-    height: fit-content;
     font: inherit;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    border: 1px solid black;
+    font-size: 1.1rem;
+    width: 100%;
 }
 
-.open-modal:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
-.open-modal:active {
-    transform: translateY(2px);
-}
-
-
-
-
-
-
-.family-name {
-    text-align: center;
-}
 
 /******************* Modal **********************/
 
@@ -312,22 +296,16 @@ ul {
     border: 2px solid #587969;
 }
 
-@media only screen and (min-width: 576px) {
-    .modal-image {
-        width: 350px;
-        height: 350px;
-    }
-}
-
 
 .modal-section-title {
     font-weight: 400;
     font-size: 1.3rem;
     margin-bottom: 30px;
-    /* border: 1px solid black; */
     border-radius: 30px;
     padding: 10px;
     background-color: #D8EFD3;
+    width: 100%;
+    margin: 0 auto 30px auto;
 }
 
 .modal-section {
@@ -337,21 +315,25 @@ ul {
     margin: 30px 0;
 }
 
-.recipe-ingredients{
+.recipe-ingredients {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 .recipe-line {
-  /*   display: flex;
-    gap: 20px;
-    justify-content: center;
-    width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
-.level {
+.col-1 {
     font-weight: 500;
+    text-align: right;
+    padding-right: 20px;
+}
+.col-2 {
+    text-align: left;
 }
 
 /* 
@@ -367,13 +349,13 @@ ul {
     
 } */
 
-.garnish-ingredients{
+.garnish-ingredients {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.glasses{
+.glasses {
     display: flex;
     flex-direction: column;
     gap: 20px;
