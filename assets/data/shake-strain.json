@@ -137,5 +137,42 @@
             "coffe beans", "cacao powder"
         ],
         "img": "../assets/images/shake-strain/espresso-martini.jpg"
+    },
+    {
+        "name": "Sidecar",
+        "family": "Sidecar",
+        "technique": "Shake & Strain",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            {"level": "1 oz 3/4", "ing": "Cognac"},
+            {"level": "3/4 oz", "ing": "Triple Sec"},
+            {"level": "3/4 oz", "ing": "lime juice"}
+        ],
+        "garnish": [
+            "sugar rim",
+            "lemon/orange peel"
+        ],
+        "img": "../assets/images/shake-strain/sidecar.webp"
+    },
+    {
+        "name": "French 75",
+        "family": "French 75",
+        "technique": "Shake & Strain",
+        "glass": [
+            "champagne flute"
+        ],
+        "recipe": [
+            {"level": "1/2 oz", "ing": "simple syrup"},
+            {"level": "1/2 oz", "ing": "lime juice"},
+            {"level": "1 oz", "ing": "Gin"},
+            {"level": "top", "ing": "champagne"},
+            {"level": "note:", "ing": "double strain"}
+        ],
+        "garnish": [
+            "lemon twist and peel"
+        ],
+        "img": "../assets/images/shake-strain/french75.jpg"
     }
 ]

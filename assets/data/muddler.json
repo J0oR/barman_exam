@@ -8,9 +8,17 @@
             "old fashion"
         ],
         "recipe": [
-            {"level": "pestato ", "ing": "lime & sugar"},
-            {"level": "2 oz", "ing": "Vodka"},
-            {"level": "crushed ice"}
+            {
+                "level": "pestato ",
+                "ing": "lime & sugar"
+            },
+            {
+                "level": "2 oz",
+                "ing": "Vodka"
+            },
+            {
+                "level": "crushed ice"
+            }
         ],
         "garnish": [
             "lemon slice (only if ice is chopped)",
@@ -27,9 +35,17 @@
             "old fashion"
         ],
         "recipe": [
-            {"level": "pestato", "ing": "lime & sugar"},
-            {"level": "2 oz", "ing": "Cachaca"},
-            {"level": "crushed ice"}
+            {
+                "level": "pestato",
+                "ing": "lime & sugar"
+            },
+            {
+                "level": "2 oz",
+                "ing": "Cachaca"
+            },
+            {
+                "level": "crushed ice"
+            }
         ],
         "garnish": [
             "lemon slice (only if ice is chopped)",
@@ -46,9 +62,17 @@
             "old fashion"
         ],
         "recipe": [
-            {"level": "pestato", "ing": "lime & sugar"},
-            {"level": "2 oz", "ing": "White Rum"},
-            {"level": "crushed ice"}
+            {
+                "level": "pestato",
+                "ing": "lime & sugar"
+            },
+            {
+                "level": "2 oz",
+                "ing": "White Rum"
+            },
+            {
+                "level": "crushed ice"
+            }
         ],
         "garnish": [
             "lemon slice (only if ice is chopped)",
@@ -64,11 +88,25 @@
             "high tumbler"
         ],
         "recipe": [
-            {"level": "pestato", "ing": "lime & sugar"},
-            {"level": "smack", "ing": "mint"},
-            {"level": "1 oz 1/4", "ing": "White Rum"},
-            {"level": "crushed ice"},
-            {"level": "top", "ing": "soda"}
+            {
+                "level": "pestato",
+                "ing": "lime & sugar"
+            },
+            {
+                "level": "smack",
+                "ing": "mint"
+            },
+            {
+                "level": "1 oz 1/4",
+                "ing": "White Rum"
+            },
+            {
+                "level": "crushed ice"
+            },
+            {
+                "level": "top",
+                "ing": "soda"
+            }
         ],
         "garnish": [
             "lime",
@@ -86,16 +124,67 @@
             "highball"
         ],
         "recipe": [
-            {"level": "3/4 oz", "ing": "lime juice"},
-            {"level": "2 barspoons", "ing": "sugar"},
-            {"level": "smack ", "ing": "mint"},
-            {"level": "1 oz 1/2", "ing": "White Rum"},
-            {"level": "top", "ing": "soda"}
+            {
+                "level": "3/4 oz",
+                "ing": "lime juice"
+            },
+            {
+                "level": "2 barspoons",
+                "ing": "sugar"
+            },
+            {
+                "level": "smack ",
+                "ing": "mint"
+            },
+            {
+                "level": "1 oz 1/2",
+                "ing": "White Rum"
+            },
+            {
+                "level": "top",
+                "ing": "soda"
+            }
         ],
         "garnish": [
             "lime",
             "sprig of mint"
         ],
         "img": "../assets/images/muddler/mojito-cubano.jpeg"
+    },
+    {
+        "name": "Mint Julep",
+        "family": "Mint Julep",
+        "technique": "Build",
+        "glass": [
+            "julep cup"
+        ],
+        "recipe": [
+            {
+                "level": "sprig|leaves",
+                "ing": "mint"
+            },
+            {
+                "level": "1 spoon|cube or 1/2 oz",
+                "ing": "sugar|syrup"
+            },
+            {
+                "level": "muddle",
+                "ing": "gently"
+            },
+            {
+                "level": "2 oz",
+                "ing": "Bourbon Whiskey"
+            },
+            {
+                "level": "crushed|pebble ice",
+                "ing": "add -> stir -> add more"
+            }
+        ],
+        "garnish": [
+            "mint sprig",
+            "straw",
+            "sugar powder"
+        ],
+        "img": "../assets/images/muddler/mint-julep.jpeg"
     }
 ]

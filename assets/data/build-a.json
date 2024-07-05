@@ -8,8 +8,14 @@
             "collins"
         ],
         "recipe": [
-            {"level": "1 oz 1/4", "ing": "Vodka Liscia"},
-            {"level": "Top", "ing": "Orange Juice"}
+            {
+                "level": "1 oz 1/4",
+                "ing": "Vodka Liscia"
+            },
+            {
+                "level": "Top",
+                "ing": "Orange Juice"
+            }
         ],
         "garnish": [
             "orange slice / twist"
@@ -22,10 +28,18 @@
         "family": "Tonic",
         "glass": "high tumbler",
         "recipe": [
-            {"level": "1 oz 1/4", "ing": "Gin"},
-            {"level": "Top", "ing": "Tonic/Lemon"},
-            {"level": "Note:", "ing": "if premium, 2 oz and top aside"}
-
+            {
+                "level": "1 oz 1/4",
+                "ing": "Gin"
+            },
+            {
+                "level": "Top",
+                "ing": "Tonic/Lemon"
+            },
+            {
+                "level": "Note:",
+                "ing": "if premium, 2 oz and top aside"
+            }
         ],
         "garnish": "lemon slice",
         "img": "../assets/images/build-a/gin-tonic.jpeg"
@@ -36,9 +50,18 @@
         "family": "Tonic",
         "glass": "high tumbler",
         "recipe": [
-            {"level": "1 oz 1/4", "ing": "Vodka"},
-            {"level": "Top", "ing": "Tonic/Lemon"},
-            {"level": "Note:", "ing": "if premium, 2 oz and top aside"}
+            {
+                "level": "1 oz 1/4",
+                "ing": "Vodka"
+            },
+            {
+                "level": "Top",
+                "ing": "Tonic/Lemon"
+            },
+            {
+                "level": "Note:",
+                "ing": "if premium, 2 oz and top aside"
+            }
         ],
         "garnish": "lemon slice",
         "img": "../assets/images/build-a/gin-tonic.jpeg"
@@ -52,9 +75,18 @@
             "hi tumbler"
         ],
         "recipe": [
-            {"level": "3 oz", "ing": "Prosecco"},
-            {"level": "2 oz", "ing": "Aperol"},
-            {"level": "Top", "ing": "soda"}
+            {
+                "level": "3 oz",
+                "ing": "Prosecco"
+            },
+            {
+                "level": "2 oz",
+                "ing": "Aperol"
+            },
+            {
+                "level": "Top",
+                "ing": "soda"
+            }
         ],
         "garnish": "orange slice",
         "img": "../assets/images/build-a/aperol.png"
@@ -68,9 +100,18 @@
             "hi tumbler"
         ],
         "recipe": [
-            {"level": "3 oz", "ing": "Prosecco"},
-            {"level": "2 oz", "ing": "Campari"},
-            {"level": "Top", "ing": "soda"}
+            {
+                "level": "3 oz",
+                "ing": "Prosecco"
+            },
+            {
+                "level": "2 oz",
+                "ing": "Campari"
+            },
+            {
+                "level": "Top",
+                "ing": "soda"
+            }
         ],
         "garnish": "orange slice",
         "img": "../assets/images/build-a/aperol.png"
@@ -84,10 +125,22 @@
             "hi tumbler"
         ],
         "recipe": [
-            {"level": "smack", "ing": "mint"},
-            {"level": "1/2 oz", "ing": "lime juice"},
-            {"level": "1 oz 1/2", "ing": "Saint-Germain"},
-            {"level": "Top", "ing": "Prosecco"}
+            {
+                "level": "smack",
+                "ing": "mint"
+            },
+            {
+                "level": "1/2 oz",
+                "ing": "lime juice"
+            },
+            {
+                "level": "1 oz 1/2",
+                "ing": "Saint-Germain"
+            },
+            {
+                "level": "Top",
+                "ing": "Prosecco"
+            }
         ],
         "garnish": [
             "mint",
@@ -104,9 +157,18 @@
             "hi tumbler"
         ],
         "recipe": [
-            {"level": "3 oz", "ing": "Prosecco"},
-            {"level": "2 oz", "ing": "White Martini"},
-            {"level": "top", "ing": "soda"}
+            {
+                "level": "3 oz",
+                "ing": "Prosecco"
+            },
+            {
+                "level": "2 oz",
+                "ing": "White Martini"
+            },
+            {
+                "level": "top",
+                "ing": "soda"
+            }
         ],
         "garnish": "lemon slice",
         "img": "../assets/images/build-a/martini-royal.jpg"
@@ -121,8 +183,14 @@
             "calice (extremis)"
         ],
         "recipe": [
-            {"level": "3/4 oz", "ing": "strawberry syrup/juice/liquor"},
-            {"level": "top", "ing": "Prosecco"}
+            {
+                "level": "3/4 oz",
+                "ing": "strawberry syrup/juice/liquor"
+            },
+            {
+                "level": "top",
+                "ing": "Prosecco"
+            }
         ],
         "garnish": "ribes",
         "img": "../assets/images/build-a/sparkling.jpeg"
@@ -137,8 +205,14 @@
             "calice (extremis)"
         ],
         "recipe": [
-            {"level": "3/4 oz", "ing": "Crème de Cassis(ribes)"},
-            {"level": "top", "ing": "Prosecco"}
+            {
+                "level": "3/4 oz",
+                "ing": "Crème de Cassis(ribes)"
+            },
+            {
+                "level": "top",
+                "ing": "Prosecco"
+            }
         ],
         "garnish": "black ribes",
         "img": "../assets/images/build-a/sparkling.jpeg"
@@ -153,8 +227,14 @@
             "calice (extremis)"
         ],
         "recipe": [
-            {"level": "3/4 oz", "ing": "peach syrup/juice/pestato"},
-            {"level": "top", "ing": "Prosecco"}
+            {
+                "level": "3/4 oz",
+                "ing": "peach syrup/juice/pestato"
+            },
+            {
+                "level": "top",
+                "ing": "Prosecco"
+            }
         ],
         "garnish": "peach",
         "img": "../assets/images/build-a/sparkling.jpeg"
@@ -169,8 +249,14 @@
             "calice (extremis)"
         ],
         "recipe": [
-            {"level": "3/4 oz", "ing": "orange juice"},
-            {"level": "top", "ing": "Prosecco"}
+            {
+                "level": "3/4 oz",
+                "ing": "orange juice"
+            },
+            {
+                "level": "top",
+                "ing": "Prosecco"
+            }
         ],
         "garnish": "orange slice",
         "img": "../assets/images/build-a/sparkling.jpeg"
@@ -184,9 +270,18 @@
             "high tumbler"
         ],
         "recipe": [
-            {"level": "3/4 oz", "ing": "Lime juice"},
-            {"level": "1 oz 1/4", "ing": "Dry Gin"},
-            {"level": "Top", "ing": "Ginger beer"}
+            {
+                "level": "3/4 oz",
+                "ing": "Lime juice"
+            },
+            {
+                "level": "1 oz 1/4",
+                "ing": "Dry Gin"
+            },
+            {
+                "level": "Top",
+                "ing": "Ginger beer"
+            }
         ],
         "garnish": [
             "zenzero",
@@ -206,9 +301,18 @@
             "high tumbler"
         ],
         "recipe": [
-            {"level": "3/4 oz", "ing": "Lime juice"},
-            {"level": "1 oz 1/4", "ing": "Vodka"},
-            {"level": "Top", "ing": "Ginger beer"}
+            {
+                "level": "3/4 oz",
+                "ing": "Lime juice"
+            },
+            {
+                "level": "1 oz 1/4",
+                "ing": "Vodka"
+            },
+            {
+                "level": "Top",
+                "ing": "Ginger beer"
+            }
         ],
         "garnish": [
             "zenzero",
@@ -225,8 +329,14 @@
         "technique": "Build",
         "glass": "high tumbler",
         "recipe": [
-            {"level": "1 oz 1/4", "ing": "White Rum"},
-            {"level": "Top", "ing": "Cola"}
+            {
+                "level": "1 oz 1/4",
+                "ing": "White Rum"
+            },
+            {
+                "level": "Top",
+                "ing": "Cola"
+            }
         ],
         "garnish": "lemon slice",
         "img": "../assets/images/build-a/cuba-libre.jpeg"
@@ -237,9 +347,18 @@
         "technique": "Build",
         "glass": "high tumbler",
         "recipe": [
-            {"level": "3/4 oz", "ing": "Lime Juice"},
-            {"level": "1 oz 1/4", "ing": "White Rum"},
-            {"level": "Top", "ing": "Cola"}
+            {
+                "level": "3/4 oz",
+                "ing": "Lime Juice"
+            },
+            {
+                "level": "1 oz 1/4",
+                "ing": "White Rum"
+            },
+            {
+                "level": "Top",
+                "ing": "Cola"
+            }
         ],
         "garnish": "lemon slice",
         "img": "../assets/images/build-a/cuba-libre.jpeg"
@@ -250,11 +369,61 @@
         "technique": "Build",
         "glass": "high tumbler",
         "recipe": [
-            {"level": "pestato", "ing": "lime & sugar"},
-            {"level": "1 oz 1/4", "ing": "White Rum"},
-            {"level": "Top", "ing": "Cola"}
+            {
+                "level": "pestato",
+                "ing": "lime & sugar"
+            },
+            {
+                "level": "1 oz 1/4",
+                "ing": "White Rum"
+            },
+            {
+                "level": "Top",
+                "ing": "Cola"
+            }
         ],
         "garnish": "lemon slice",
         "img": "../assets/images/build-a/cuba-libre.jpeg"
+    },
+    {
+        "name": "Paloma",
+        "family": "Paloma",
+        "technique": "Build",
+        "glass": [
+            "high tumbler",
+            "highball",
+            "collins"
+        ],
+        "recipe": [
+            {
+                "level": "1/2 oz",
+                "ing": "lime juice"
+            },
+            {
+                "level": "pinch",
+                "ing": "salt"
+            },
+            {
+                "level": "1 oz 1/2",
+                "ing": "100% Agave Tequila"
+            },
+            {
+                "level": "Top",
+                "ing": "grapefruit soda"
+            },
+            {
+                "level": "var. 1:",
+                "ing": "grapefruit juice + soda top"
+            },
+            {
+                "level": "var. 2:",
+                "ing": "shake & strain into ice-filled glass"
+            }
+        ],
+        "garnish": [
+            "grapefruit/lime slice",
+            "salt & pepper rim"
+        ],
+        "img": "../assets/images/build-a/paloma.jpg"
     }
 ]

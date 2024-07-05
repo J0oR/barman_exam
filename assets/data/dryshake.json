@@ -256,5 +256,27 @@
             "slice"
         ],
         "img": "../assets/images/dryshake/pina-colada.jpeg"
+    },
+    {
+        "name": "Tom/John Collins",
+        "family": "Tom/John Collins",
+        "technique": "Dryshake",
+        "glass": [
+            "high tumbler",
+            "collins",
+            "highball"
+        ],
+        "recipe": [
+            {"level": "1 oz 1/2", "ing": "Gin"},
+            {"level": "3/4 oz", "ing": "lime juice"},
+            {"level": "1/2 oz", "ing": "simple syrup"},
+            {"level": "top", "ing": "soda"}
+        ],
+        "garnish": [
+            "lemon slice",
+            "maraschino cherry"
+        ],
+        "img": "../assets/images/dryshake/collins.jpg"
     }
+
 ]
