@@ -1,6 +1,6 @@
 [
     {
-        "name": "Caipiroska",
+        "name": "Caipir-inha|oska|issima",
         "family": "Caipirinha",
         "technique": "Muddler",
         "glass": [
@@ -14,60 +14,18 @@
             },
             {
                 "level": "2 oz",
-                "ing": "Vodka"
+                "ing": "distillato"
             },
             {
-                "level": "crushed ice"
-            }
-        ],
-        "garnish": [
-            "lemon slice (only if ice is chopped)",
-            "2 straws (to help the draft)"
-        ],
-        "img": "../assets/images/muddler/caipirinha.jpeg"
-    },
-    {
-        "name": "Caipirinha",
-        "family": "Caipirinha",
-        "technique": "Muddler",
-        "glass": [
-            "low tumbler",
-            "old fashion"
-        ],
-        "recipe": [
-            {
-                "level": "pestato",
-                "ing": "lime & sugar"
-            },
-            {
-                "level": "2 oz",
+                "level": "Caipirinha",
                 "ing": "Cachaca"
             },
             {
-                "level": "crushed ice"
-            }
-        ],
-        "garnish": [
-            "lemon slice (only if ice is chopped)",
-            "2 straws (to help the draft)"
-        ],
-        "img": "../assets/images/muddler/caipirinha.jpeg"
-    },
-    {
-        "name": "Caipirissima",
-        "family": "Caipirinha",
-        "technique": "Muddler",
-        "glass": [
-            "low tumbler",
-            "old fashion"
-        ],
-        "recipe": [
-            {
-                "level": "pestato",
-                "ing": "lime & sugar"
+                "level": "Caipiroska",
+                "ing": "Vodka"
             },
             {
-                "level": "2 oz",
+                "level": "Caipirissima",
                 "ing": "White Rum"
             },
             {
@@ -90,7 +48,7 @@
         "recipe": [
             {
                 "level": "pestato",
-                "ing": "lime & sugar"
+                "ing": "lim wedges & sugar"
             },
             {
                 "level": "smack",

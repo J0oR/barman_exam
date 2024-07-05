@@ -1,6 +1,6 @@
 [
     {
-        "name": "Long Island Ice Tea",
+        "name": "Long Island|Texas Ice Tea",
         "family": "Ice Tea",
         "technique": "Dryshake",
         "glass": [
@@ -13,7 +13,8 @@
             {"level": "1/2 oz", "ing": "Rum"},
             {"level": "1/2 oz", "ing": "Triple Sec"},
             {"level": "1 oz 1/4", "ing": "sweet & sour"},
-            {"level": "top", "ing": "cola"}
+            {"level": "top", "ing": "cola"},
+            {"level": "Note", "ing": "+1/2 oz Tequila for the Texas Ice Tea"}
         ],
         "garnish": [
             "lemon slice",
@@ -42,29 +43,6 @@
             "straw"
         ],
         "img": "../assets/images/dryshake/london.jpg"
-    },
-    {
-        "name": "Texas Ice Tea",
-        "family": "Ice Tea",
-        "technique": "Dryshake",
-        "glass": [
-            "collins",
-            "high tumbler"
-        ],
-        "recipe": [
-            {"level": "1/2 oz", "ing": "Vodka"},
-            {"level": "1/2 oz", "ing": "Gin"},
-            {"level": "1/2 oz", "ing": "Rum"},
-            {"level": "+1/2 oz", "ing": "Tequila"},
-            {"level": "1/2 oz", "ing": "Triple Sec"},
-            {"level": "1 oz 1/4", "ing": "sweet & sour"},
-            {"level": "top", "ing": "cola"}
-        ],
-        "garnish": [
-            "lemon slice",
-            "straw"
-        ],
-        "img": "../assets/images/dryshake/texas.jpeg"
     },
     {
         "name": "Italian Ice Tea",

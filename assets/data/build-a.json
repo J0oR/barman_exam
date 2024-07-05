@@ -23,18 +23,18 @@
         "img": "../assets/images/build-a/screwdriver.jpeg"
     },
     {
-        "name": "Gin Tonic",
+        "name": "Gin|Vodka Tonic",
         "technique": "Build",
         "family": "Tonic",
         "glass": "high tumbler",
         "recipe": [
             {
                 "level": "1 oz 1/4",
-                "ing": "Gin"
+                "ing": "Gin|Vodka"
             },
             {
                 "level": "Top",
-                "ing": "Tonic/Lemon"
+                "ing": "Tonic|Lemon"
             },
             {
                 "level": "Note:",
@@ -45,34 +45,12 @@
         "img": "../assets/images/build-a/gin-tonic.jpeg"
     },
     {
-        "name": "Vodka Tonic",
-        "technique": "Build",
-        "family": "Tonic",
-        "glass": "high tumbler",
-        "recipe": [
-            {
-                "level": "1 oz 1/4",
-                "ing": "Vodka"
-            },
-            {
-                "level": "Top",
-                "ing": "Tonic/Lemon"
-            },
-            {
-                "level": "Note:",
-                "ing": "if premium, 2 oz and top aside"
-            }
-        ],
-        "garnish": "lemon slice",
-        "img": "../assets/images/build-a/gin-tonic.jpeg"
-    },
-    {
-        "name": "Aperol Spritz",
+        "name": "Aperol|Campari Spritz",
         "technique": "Build",
         "family": "Spritz",
         "glass": [
             "calice",
-            "hi tumbler"
+            "high tumbler"
         ],
         "recipe": [
             {
@@ -81,32 +59,7 @@
             },
             {
                 "level": "2 oz",
-                "ing": "Aperol"
-            },
-            {
-                "level": "Top",
-                "ing": "soda"
-            }
-        ],
-        "garnish": "orange slice",
-        "img": "../assets/images/build-a/aperol.png"
-    },
-    {
-        "name": "Campari Spritz",
-        "family": "Spritz",
-        "technique": "Build",
-        "glass": [
-            "calice",
-            "hi tumbler"
-        ],
-        "recipe": [
-            {
-                "level": "3 oz",
-                "ing": "Prosecco"
-            },
-            {
-                "level": "2 oz",
-                "ing": "Campari"
+                "ing": "Aperol|Campari"
             },
             {
                 "level": "Top",
@@ -174,7 +127,7 @@
         "img": "../assets/images/build-a/martini-royal.jpg"
     },
     {
-        "name": "Rossini",
+        "name": "Sparkling",
         "family": "Sparkling",
         "technique": "Build",
         "glass": [
@@ -185,84 +138,34 @@
         "recipe": [
             {
                 "level": "3/4 oz",
-                "ing": "strawberry syrup/juice/liquor"
+                "ing": "syrup/juice/liquor"
+            },
+            {
+                "level": "Rossini",
+                "ing": "strawberry"
+            },
+            {
+                "level": "Kir Royal",
+                "ing": "Crème de Cassis"
+            },
+            {
+                "level": "Mimosa",
+                "ing": "orange"
+            },
+            {
+                "level": "Bellini",
+                "ing": "peach"
             },
             {
                 "level": "top",
                 "ing": "Prosecco"
             }
         ],
-        "garnish": "ribes",
+        "garnish": "according",
         "img": "../assets/images/build-a/sparkling.jpeg"
     },
     {
-        "name": "Kir Royal",
-        "family": "Sparkling",
-        "technique": "Build",
-        "glass": [
-            "coppa champagne",
-            "flute",
-            "calice (extremis)"
-        ],
-        "recipe": [
-            {
-                "level": "3/4 oz",
-                "ing": "Crème de Cassis(ribes)"
-            },
-            {
-                "level": "top",
-                "ing": "Prosecco"
-            }
-        ],
-        "garnish": "black ribes",
-        "img": "../assets/images/build-a/sparkling.jpeg"
-    },
-    {
-        "name": "Bellini",
-        "family": "Sparkling",
-        "technique": "Build",
-        "glass": [
-            "coppa champagne",
-            "flute",
-            "calice (extremis)"
-        ],
-        "recipe": [
-            {
-                "level": "3/4 oz",
-                "ing": "peach syrup/juice/pestato"
-            },
-            {
-                "level": "top",
-                "ing": "Prosecco"
-            }
-        ],
-        "garnish": "peach",
-        "img": "../assets/images/build-a/sparkling.jpeg"
-    },
-    {
-        "name": "Mimosa",
-        "family": "Sparkling",
-        "technique": "Build",
-        "glass": [
-            "coppa champagne",
-            "flute",
-            "calice (extremis)"
-        ],
-        "recipe": [
-            {
-                "level": "3/4 oz",
-                "ing": "orange juice"
-            },
-            {
-                "level": "top",
-                "ing": "Prosecco"
-            }
-        ],
-        "garnish": "orange slice",
-        "img": "../assets/images/build-a/sparkling.jpeg"
-    },
-    {
-        "name": "London Mule",
+        "name": "London|Moscow Mule",
         "family": "Mule",
         "technique": "Build",
         "glass": [
@@ -276,38 +179,7 @@
             },
             {
                 "level": "1 oz 1/4",
-                "ing": "Dry Gin"
-            },
-            {
-                "level": "Top",
-                "ing": "Ginger beer"
-            }
-        ],
-        "garnish": [
-            "zenzero",
-            "cetriolo",
-            "lime slice",
-            "mint",
-            "lemon twist"
-        ],
-        "img": "../assets/images/build-a/mule.jpg"
-    },
-    {
-        "name": "Moscow Mule",
-        "family": "Mule",
-        "technique": "Build",
-        "glass": [
-            "copper mug",
-            "high tumbler"
-        ],
-        "recipe": [
-            {
-                "level": "3/4 oz",
-                "ing": "Lime juice"
-            },
-            {
-                "level": "1 oz 1/4",
-                "ing": "Vodka"
+                "ing": "Dry Gin|Vodka"
             },
             {
                 "level": "Top",
@@ -349,29 +221,11 @@
         "recipe": [
             {
                 "level": "3/4 oz",
-                "ing": "Lime Juice"
+                "ing": "lime juice"
             },
             {
-                "level": "1 oz 1/4",
-                "ing": "White Rum"
-            },
-            {
-                "level": "Top",
-                "ing": "Cola"
-            }
-        ],
-        "garnish": "lemon slice",
-        "img": "../assets/images/build-a/cuba-libre.jpeg"
-    },
-    {
-        "name": "Cuba Libre Pestato",
-        "family": "Rum & Cola",
-        "technique": "Build",
-        "glass": "high tumbler",
-        "recipe": [
-            {
-                "level": "pestato",
-                "ing": "lime & sugar"
+                "level": "var. pestata",
+                "ing": "lime cubes & sugar"
             },
             {
                 "level": "1 oz 1/4",

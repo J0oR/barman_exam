@@ -71,5 +71,48 @@
             "lime"
         ],
         "img": "../assets/images/stir-strain/vodka-martini.jpeg"
+    },
+    {
+        "name": "Sazerac",
+        "family": "Sazerac",
+        "technique": "Stir & Strain",
+        "glass": [
+            "old-fashioned glass",
+            "coppa"
+        ],
+        "recipe": [
+            {
+                "level": "absynthe rinse",
+                "ing": "spray or 10ml absynthe + ice"
+            },
+            {
+                "level": "3 dashes",
+                "ing": "Peychaud's Bitter"
+            },
+            {
+                "level": "1 dash (opt.)",
+                "ing": "Angostura Bitter"
+            },
+            {
+                "level": "1 cube",
+                "ing": "sugar"
+            },
+            {
+                "level": "1 oz 3/4",
+                "ing": " Rye Wiskey"
+            },
+            {
+                "level": "Note",
+                "ing": "original recipe has Cognac, so a mix of both is allowed"
+            },
+            {
+                "level": "stir",
+                "ing": "20-30 seconds"
+            }
+        ],
+        "garnish": [
+            "lemon twist & peel"
+        ],
+        "img": "../assets/images/stir-strain/sazerac.jpg"
     }
 ]

@@ -9,15 +9,17 @@
             "low tumbler"
         ],
         "recipe": [
-            {"level": "pestato", "ing": "sugar + 3 drops Angostura"},
-            {"level": "splash", "ing": "soda"},
+            {"level": "1 cube", "ing": "sugar"},
+            {"level": "3 dashes", "ing": "angostura bitter"},
+            {"level": "1 splash", "ing": "soda"},
+            {"level": "muddle", "ing": "until dissolved"},
             {"level": "1 oz 1/2", "ing": "Bourbon/Rye Whisky"}
         ],
         "garnish": "orange twist and peel",
         "img": "../assets/images/build-b/old-fashioned.jpeg"
     },
     {
-        "name": "Godfather",
+        "name": "God-father|mother",
         "technique": "Build",
         "family": "Triad",
         "glass": [
@@ -25,7 +27,9 @@
         ],
         "recipe": [
             {"level": "1 oz 1/4", "ing": "Amaretto Disaronno"},
-            {"level": "1 oz 1/4", "ing": "Scotch Whisky"}
+            {"level": "1 oz 1/4", "ing": "distillato"},
+            {"level": "Godfather", "ing": "Scotch Whisky"},
+            {"level": "Godmother", "ing": "Vodka Liscia"}
         ],
         "garnish": [
             "biscotto amaretto",
@@ -34,24 +38,7 @@
         "img": "../assets/images/build-b/godfather.jpg"
     },
     {
-        "name": "Godmother",
-        "technique": "Build",
-        "family": "Triad",
-        "glass": [
-            "low tumbler"
-        ],
-        "recipe": [
-            {"level": "1 oz 1/4", "ing": "Amaretto Disaronno"},
-            {"level": "1 oz 1/4", "ing": "Vodka Liscia"}
-        ],
-        "garnish": [
-            "biscotto amaretto",
-            "scorza arancia"
-        ],
-        "img": "../assets/images/build-b/godfather.jpg"
-    },
-    {
-        "name": "Black Russian",
+        "name": "Black|White Russian",
         "technique": "Build",
         "family": "Russian",
         "glass": [
@@ -63,28 +50,13 @@
             {"level": "3/4 oz", "ing": "Coffee Liquor"}
         ],
         "garnish": [
-            "coffee beans",
-            "orange slice"
+            "<span style='font-weight:500'>Black Russian</span>: coffee beans|orange slice",
+            "<span style='font-weight:500'>White Russian</span>: panna liquida"
         ],
         "img": "../assets/images/build-b/russians.jpeg"
     },
     {
-        "name": "White Russian",
-        "technique": "Build",
-        "family": "Russian",
-        "glass": [
-            "low tumbler",
-            "old fashion"
-        ],
-        "recipe": [
-            {"level": "1 oz 1/4", "ing": "Vodka"},
-            {"level": "3/4 oz", "ing": "Coffee Liquor"}
-        ],
-        "garnish": "panna liquida",
-        "img": "../assets/images/build-b/russians.jpeg"
-    },
-    {
-        "name": "Negroni",
+        "name": "Negro-ni/ski|Boulevardier",
         "technique": "Build",
         "family": "Negroni",
         "glass": [
@@ -92,52 +64,16 @@
             "old fashion"
         ],
         "recipe": [
-            {"level": "1 oz", "ing": "Dry Gin"},
+            {"level": "1 oz", "ing": "distillato"},
+            {"level": "Negroni", "ing": "Dry Gin"},
+            {"level": "Negroski", "ing": "Vodka"},
+            {"level": "Boulevardier", "ing": "Bourbon Whiskey"},
             {"level": "1 oz", "ing": "Campari"},
             {"level": "1 oz", "ing": "Sweet vermouth"}
         ],
         "garnish": [
             "orange twist/slice",
-            "rosmarin",
-            "3 angostura drops (opt.)"
-        ],
-        "img": "../assets/images/build-b/boulevardier.jpeg"
-    },
-    {
-        "name": "Negroski",
-        "technique": "Build",
-        "family": "Negroni",
-        "glass": [
-            "low tumbler",
-            "old fashion"
-        ],
-        "recipe": [
-            {"level": "1 oz", "ing": "Vodka"},
-            {"level": "1 oz", "ing": "Campari"},
-            {"level": "1 oz", "ing": "Sweet vermouth"}
-        ],
-        "garnish": [
-            "orange twist/slice",
-            "rosmarin",
-            "3 angostura drops (opt.)"
-        ],
-        "img": "../assets/images/build-b/boulevardier.jpeg"
-    },
-    {
-        "name": "Boulevardier",
-        "technique": "Build",
-        "family": "Negroni",
-        "glass": [
-            "low tumbler",
-            "old fashion"
-        ],
-        "recipe": [
-            {"level": "1 oz", "ing": "Bourbon Whiskey"},
-            {"level": "1 oz", "ing": "Campari"},
-            {"level": "1 oz", "ing": "Sweet vermouth"}
-        ],
-        "garnish": [
-            "orange twist/slice",
+            "rosmarin (except boulevardier)",
             "3 angostura drops (opt.)"
         ],
         "img": "../assets/images/build-b/boulevardier.jpeg"

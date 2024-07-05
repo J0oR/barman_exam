@@ -112,11 +112,10 @@
                     <div class="modal-section">
                         <p class="modal-section-title">Garnish</p>
                         <div v-if="Array.isArray(modalDrink.garnish)" class="garnish-ingredients">
-                            <div v-for="(ingredients, index) in modalDrink.garnish" :key="index">
-                                {{ingredients}}</div>
+                            <div v-for="(ingredients, index) in modalDrink.garnish" :key="index" v-html="ingredients">
+                                </div>
                         </div>
-                        <div v-else>
-                            {{modalDrink.garnish}}
+                        <div v-else v-html="modalDrink.garnish">
                         </div>
                     </div>
 
