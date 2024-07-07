@@ -100,8 +100,8 @@
                         <div v-if="Array.isArray(modalDrink.recipe)" class="recipe-ingredients">
                             <div v-for="(ingredients, index) in modalDrink.recipe" :key="index">
                                 <div class="recipe-line">
-                                    <span class="col-1">{{ingredients.level}}</span>
-                                    <span class="col-2">{{ingredients.ing}}</span>
+                                    <span class="col-1" v-html="ingredients.level"></span>
+                                    <span class="col-2" v-html="ingredients.ing"></span>
                                 </div>
                             </div>
                         </div>

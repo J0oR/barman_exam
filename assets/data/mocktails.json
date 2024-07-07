@@ -9,11 +9,13 @@
             "collins"
         ],
         "recipe": [
-            {"level": "2 oz ", "ing": "grapefruit juice"},
             {"level": "1/2 oz", "ing": "lime juice"},
             {"level": "1/4 oz", "ing": "agave nectar"},
+            {"level": "2 oz ", "ing": "grapefruit juice"},
             {"level": "pinch", "ing": "cinnamon"},
-            {"level": "top", "ing": "red bitter soda"}
+            {"level": "top", "ing": "red bitter soda"},
+            {"level": "Note:", "ing": "served w/ ice"}
+
         ],
         "garnish": [
             "rosmary sprig",
@@ -35,7 +37,8 @@
             {"level": "2 oz", "ing": "orange juice"},
             {"level": "6 oz", "ing": "ananas nectar"},
             {"level": "3/4 oz", "ing": "lime juice"},
-            {"level": "pinch", "ing": "cinnamon"}
+            {"level": "pinch", "ing": "cinnamon"},
+            {"level": "Note:", "ing": "blender w/ crushed ice"}
         ],
         "garnish": [
             "grated nutmeg",
@@ -54,7 +57,8 @@
         "recipe": [
             {"level": "1 oz ", "ing": "lime juice"},
             {"level": "1 oz", "ing": "passion fruit syrup"},
-            {"level": "top (2 oz)", "ing": "tonic"}
+            {"level": "top (2 oz)", "ing": "tonic"},
+            {"level": "Note:", "ing": "served w/ no ice"}
         ],
         "garnish": [
             "mint"
@@ -73,7 +77,8 @@
             {"level": "1/2 oz ", "ing": "coconut syrup"},
             {"level": "3/4 oz", "ing": "lime juice"},
             {"level": "top (2-3 oz)", "ing": "soda"},
-            {"level": "3 dash", "ing": "angostura"}
+            {"level": "3 dash", "ing": "angostura"},
+            {"level": "Note:", "ing": "served w/ crushed ice"}
         ],
         "garnish": [
             "mint sprig"

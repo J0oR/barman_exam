@@ -39,6 +39,51 @@
         "img": "../assets/images/muddler/caipirinha.jpeg"
     },
     {
+        "name": "Shaken Mojito",
+        "family": "Mojito",
+        "author": "The Educated Barfly",
+        "technique": "Pestato",
+        "glass": [
+            "high tumbler"
+        ],
+        "recipe": [
+            {
+                "level": "bottom",
+                "ing": "6-8 mint leaves"
+            },
+            {
+                "level": "pestato",
+                "ing": "lime wedges <br> 1/2 oz simple syrup <br> 1 sugar cube"
+            },
+           
+            {
+                "level": "2 oz",
+                "ing": "White Rum"
+            },
+            {
+                "level": "shake",
+                "ing": "w/ a bit of ice to dilute"
+            },
+            {
+                "level": "pour",
+                "ing": "all content"
+            },
+            {
+                "level": "fill",
+                "ing": "crushed/pebble ice"
+            },
+            {
+                "level": "top",
+                "ing": "soda (opt.)"
+            }
+        ],
+        "garnish": [
+            "sprig of mint",
+            "lime"
+        ],
+        "img": "../assets/images/muddler/mojito-europeo.png"
+    },
+    {
         "name": "Mojito Europeo",
         "family": "Mojito",
         "technique": "Pestato",
@@ -48,7 +93,7 @@
         "recipe": [
             {
                 "level": "pestato",
-                "ing": "lim wedges & sugar"
+                "ing": "lime wedges & sugar"
             },
             {
                 "level": "smack",
