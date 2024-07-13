@@ -27,22 +27,24 @@
         "name": "The Placebo",
         "author": "Anders Erickson",
         "family": "The Placebo",
-        "technique": "Frozen",
+        "technique": "frozen | shake & strain",
         "glass": [
             "ananas glass",
             "collins"
         ],
         "recipe": [
-            {"level": "2 oz ", "ing": "coconut cream"},
+            {"level": "1 oz ", "ing": "coconut cream"},
             {"level": "2 oz", "ing": "orange juice"},
-            {"level": "6 oz", "ing": "ananas nectar"},
+            {"level": "6 oz", "ing": "ananas juice"},
             {"level": "3/4 oz", "ing": "lime juice"},
             {"level": "pinch", "ing": "cinnamon"},
-            {"level": "Note:", "ing": "blender w/ crushed ice"}
+            {"level": "opt. 1:", "ing": "blender w/ crushed ice"},
+            {"level": "opt. 2:", "ing": "shake, strain and serve w/ ice"}
         ],
         "garnish": [
             "grated nutmeg",
-            "ananas leaves"
+            "ananas leaves|wedge",
+            "tiki umbrella"
         ],
         "img": "../assets/images/mocktails/placebo.png"
     },
@@ -69,7 +71,7 @@
         "name": "Don't Touch My Car Keys",
         "author": "Shelby Allison",
         "family": "Don't Touch My Car Keys",
-        "technique": "Build / Dryshake",
+        "technique": "build | dryshake",
         "glass": [
             "high tumbler"
         ],
@@ -78,11 +80,30 @@
             {"level": "3/4 oz", "ing": "lime juice"},
             {"level": "top (2-3 oz)", "ing": "soda"},
             {"level": "3 dash", "ing": "angostura"},
-            {"level": "Note:", "ing": "served w/ crushed ice"}
+            {"level": "Served", "ing": "w/ ice<br>(better crushed)"}
         ],
         "garnish": [
             "mint sprig"
         ],
         "img": "../assets/images/mocktails/car-keys.jpg"
+    },
+    {
+        "name": "New Year Sunrise",
+        "family": "New Year Sunrise",
+        "technique": "build",
+        "glass": [
+            "high tumbler"
+        ],
+        "recipe": [
+            {"level": "1 cup ", "ing": "orange juice"},
+            {"level": "1/2 cup", "ing": "lemonade"},
+            {"level": "3/4 oz", "ing": "greandine syrup"},
+            {"level": "1/3 cup", "ing": "lime juice"},
+            {"level": "Served", "ing": "w/ ice<br>no stirring"}
+        ],
+        "garnish": [
+            "orange slice"
+        ],
+        "img": "../assets/images/mocktails/new-year.png"
     }
 ]
