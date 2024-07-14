@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search</title>
+  <!-- vue -->
+  <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+  <link rel="manifest" href="../favicon/site.webmanifest">
+  <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- css -->
+  <link rel="stylesheet" href="../assets/css/search.css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app">
+
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">
+            <button class="nav-btn">Methods</button>
+          </a>
+        </li>
+        <li>
+          <a href="./training.html">
+            <button class="nav-btn">Training</button>
+          </a>
+        </li>
+        <li class="selected-page">
+          <a href="#">
+            <button class="nav-btn">Search</button>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+
+
+
+      <input type="text" id="inputField" v-model="filterText" placeholder="search drink" class="search-bar">
+
+      <ul v-if="filteredItems" class="drinksList">
+
+        <li v-for="drink in filteredItems" :key="drink.name" class="cocktail-card">
+
+          <div class="recipe_section">
+            <div class="cocktail-name">{{drink.name}}</div>
+            <img :src="drink.img" alt="" class="cocktail-img">
+          </div>
+
+
+          <!-- technicque -->
+          <div class="recipe_section">
+            <div class="recipe-element-header">Tecnica</div>
+            <div>{{drink.technique}}</div>
+          </div>
+
+          <!-- glass -->
+          <div class="recipe_section">
+            <div class="recipe-element-header">Glass</div>
+            <div v-if="Array.isArray(drink.glass)" class="glasses">
+              <div v-for="(glass, index) in drink.glass" :key="index">{{glass}}</div>
+            </div>
+            <div v-else>
+              {{drink.glass}}
+            </div>
+          </div>
+
+          <!-- recipe -->
+          <div class="recipe_section">
+            <div class="recipe-element-header">Recipe</div>
+            <div v-if="Array.isArray(drink.recipe)" class="recipe-ingredients">
+              <div v-for="(ingredients, index) in drink.recipe" :key="index">
+                <div class="recipe-line">
+                  <span class="col-1">{{ingredients.level}}</span>
+                  <span class="col-2">{{ingredients.ing}}</span>
+                </div>
+              </div>
+            </div>
+            <div v-else>
+              {{drink.recipe-btn}}
+            </div>
+          </div>
+          <!-- garnish -->
+          <div class="recipe_section">
+            <div class="recipe-element-header">Garnish</div>
+            <div v-if="Array.isArray(drink.garnish)" class="garnish-ingredients">
+              <div v-for="(ingredient, index) in drink.garnish" :key="index">{{ingredient}}</div>
+            </div>
+            <div v-else>
+              {{drink.garnish}}
+            </div>
+        </li>
+
+      </ul>
+
+
+    </div>
+  </div>
+</body>
+
+</html>
+
+<!-- Import App -->
+<script src="../scripts/search.js"></script>
+
+
+</body>
+
+</html>
