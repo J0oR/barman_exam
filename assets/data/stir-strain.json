@@ -21,8 +21,8 @@
             }
         ],
         "garnish": [
-            "orange twist",
-            "ciliegia maraschino"
+            {"level": "twist","ing": "orange"},
+            {"level": "maraschino","ing": "cherry"}
         ],
         "img": "../assets/images/stir-strain/manhattan.jpeg"
     },
@@ -44,8 +44,8 @@
             }
         ],
         "garnish": [
-            "olive con stuzzicadenti",
-            "twist limone"
+            {"level": "toothpick","ing": "olive"},
+            {"level": "twist","ing": "lemon"}
         ],
         "img": "../assets/images/stir-strain/cocktail-martini.jpeg"
     },
@@ -67,8 +67,8 @@
             }
         ],
         "garnish": [
-            "olive",
-            "lime"
+            {"level": "toothpick","ing": "olive"},
+            {"level": "twist","ing": "lemon"}
         ],
         "img": "../assets/images/stir-strain/vodka-martini.jpeg"
     },
@@ -111,7 +111,7 @@
             }
         ],
         "garnish": [
-            "lemon twist & peel"
+            {"level": "twist","ing": "lemon"}
         ],
         "img": "../assets/images/stir-strain/sazerac.jpg"
     }

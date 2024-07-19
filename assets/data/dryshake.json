@@ -17,8 +17,8 @@
             {"level": "Note", "ing": "+1/2 oz Tequila for the Texas Ice Tea"}
         ],
         "garnish": [
-            "lemon slice",
-            "straw"
+            {"level": "slice", "ing": "lemon"},
+            {"level": "1", "ing": "straw"}
         ],
         "img": "../assets/images/dryshake/long-island.jpeg"
     },
@@ -39,8 +39,8 @@
             {"level": "top", "ing": "Birra Lager 5°"}
         ],
         "garnish": [
-            "lemon slice",
-            "straw"
+            {"level": "slice", "ing": "lemon"},
+            {"level": "1", "ing": "straw"}
         ],
         "img": "../assets/images/dryshake/london.jpg"
     },
@@ -61,8 +61,8 @@
             {"level": "top", "ing": "cola"}
         ],
         "garnish": [
-            "lemon slice",
-            "straw"
+            {"level": "slice", "ing": "lemon"},
+            {"level": "1", "ing": "straw"}
         ],
         "img": "../assets/images/dryshake/italian.jpg"
     },
@@ -83,10 +83,9 @@
             {"level": "top", "ing": "Sprite / Schweppes Lemon"}
         ],
         "garnish": [
-            "lemon slice",
-            "orange slice",
-            "ciliegia",
-            "straw"
+            {"level": "slice", "ing": "orange|lemon"},
+            {"level": "1", "ing": "cherry"},
+            {"level": "1", "ing": "straw"}
         ],
         "img": "../assets/images/dryshake/miami.jpg"
     },
@@ -107,8 +106,8 @@
             {"level": "top", "ing": "sprite / schweppes lemon"}
         ],
         "garnish": [
-            "lemon slice",
-            "straw"
+            {"level": "slice", "ing": "lemon"},
+            {"level": "1", "ing": "straw"}
         ],
         "img": "../assets/images/dryshake/japanese.jpg"
     },
@@ -128,10 +127,10 @@
             {"level": "3 drops", "ing": "Worchester Sauce"}
         ],
         "garnish": [
-            "sedano (con foglie)",
-            "basilico",
-            "stuzzicadenti con pomodoro",
-            "lime"
+            {"level": "", "ing": "sedano"},
+            {"level": "", "ing": "tomato"},
+            {"level": "", "ing": "basil"},
+            {"level": "", "ing": "lime"}
         ],
         "img": "../assets/images/dryshake/bloody.jpg"
     },
@@ -150,7 +149,7 @@
             {"level": "Top", "ing": "soda"}
         ],
         "garnish": [
-            "in accordo col prodotto"
+            {"level": "", "ing": ""}
         ],
         "img": "../assets/images/dryshake/fizz.jpeg"
     },
@@ -169,7 +168,7 @@
             {"level": "3/4 oz", "ing": "albume/acqua faba"}
         ],
         "garnish": [
-            "in accordo col prodotto"
+            {"level": "", "ing": ""}
         ],
         "img": "../assets/images/dryshake/sour.jpeg"
     },
@@ -189,8 +188,8 @@
             {"level": "2 barspoon", "ing": "cranberry syrup"}
         ],
         "garnish": [
-            "orange slice",
-            "cranberry"
+            {"level": "slice", "ing": "orange"},
+            {"level": "", "ing": "cranberry"}
         ],
         "img": "../assets/images/dryshake/sex.jpeg"
     },
@@ -210,7 +209,7 @@
             {"level": "2 barspoon", "ing": "melograno syrup"}
         ],
         "garnish": [
-            "orange slice"
+            {"level": "slice", "ing": "orange"}
         ],
         "img": "../assets/images/dryshake/sunrise.jpeg"
     },
@@ -230,8 +229,7 @@
             {"level": "2 barspoon", "ing": "cocco syrup"}
         ],
         "garnish": [
-            "ananas leaves",
-            "slice"
+            {"level": "leaves|slice", "ing": "ananas"}
         ],
         "img": "../assets/images/dryshake/pina-colada.jpeg"
     },
@@ -252,10 +250,9 @@
             {"level": "Note", "ing": "put soda head & tail"}
         ],
         "garnish": [
-            "lemon slice",
-            "maraschino cherry"
+            {"level": "slice", "ing": "lemon"},
+            {"level": "maraschino", "ing": "cherry"}
         ],
         "img": "../assets/images/dryshake/collins.jpg"
     }
-
 ]

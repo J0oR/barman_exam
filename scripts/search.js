@@ -6,6 +6,7 @@ const app = Vue.createApp({
       drink: '',
       filterText: '',
       filteredItems: [],
+      mode: 'name'
     }
   },
   /********************************* METHODS *********************************/
@@ -45,16 +46,31 @@ const app = Vue.createApp({
       } else {
         return this.drink.img;  // Return the image path as is
       }
+    },
+    searchMode(){
+      return "Search by " + this.mode;
     }
   },
   watch: {
     filterText(newVal) {
       console.log(newVal);
-      this.filteredItems = this.drinkData.filter(item =>
-        item["name"].toLowerCase().startsWith(newVal.toLowerCase())
-      );
+      if (this.mode === 'name') {
+        this.filteredItems = this.drinkData.filter(item =>
+          item["name"].toLowerCase().startsWith(newVal.toLowerCase())
+        );
+      } else if (this.mode === 'ingredient') {
+        this.filteredItems = this.drinkData.filter(item => {
+          const hasRecipe = Array.isArray(item.recipe) && item.recipe.some(ingredient =>
+            typeof ingredient["ing"] === 'string' && ingredient["ing"].toLowerCase().includes(newVal.toLowerCase())
+          );
+          const hasGarnish = Array.isArray(item.garnish) && item.garnish.some(garnish =>
+            typeof garnish["ing"] === 'string' && garnish["ing"].toLowerCase().includes(newVal.toLowerCase())
+          );
+          return hasRecipe || hasGarnish;
+        });
+      }
     }
-  },
+  },  
   /********************************* LIFECYCLE HOOKS *****************************/
   created() {
     // Fetch drink data before mounting

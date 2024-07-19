@@ -9,13 +9,30 @@
             "low tumbler"
         ],
         "recipe": [
-            {"level": "1 cube", "ing": "sugar"},
-            {"level": "3 dashes", "ing": "angostura bitter"},
-            {"level": "1 splash", "ing": "soda"},
-            {"level": "muddle", "ing": "until dissolved"},
-            {"level": "1 oz 1/2", "ing": "Bourbon/Rye Whisky"}
+            {
+                "level": "1 cube",
+                "ing": "sugar"
+            },
+            {
+                "level": "3 dashes",
+                "ing": "angostura bitter"
+            },
+            {
+                "level": "1 splash",
+                "ing": "soda"
+            },
+            {
+                "level": "muddle",
+                "ing": "until dissolved"
+            },
+            {
+                "level": "1 oz 1/2",
+                "ing": "Bourbon/Rye Whisky"
+            }
         ],
-        "garnish": "orange twist and peel",
+        "garnish": [
+            {"level": "twist", "ing": "orange"}
+        ],
         "img": "../assets/images/build-b/old-fashioned.jpeg"
     },
     {
@@ -26,14 +43,26 @@
             "low tumbler"
         ],
         "recipe": [
-            {"level": "1 oz 1/4", "ing": "Amaretto Disaronno"},
-            {"level": "1 oz 1/4", "ing": "distillato"},
-            {"level": "Godfather", "ing": "Scotch Whisky"},
-            {"level": "Godmother", "ing": "Vodka Liscia"}
+            {
+                "level": "1 oz 1/4",
+                "ing": "Amaretto Disaronno"
+            },
+            {
+                "level": "1 oz 1/4",
+                "ing": "distillato"
+            },
+            {
+                "level": "Godfather",
+                "ing": "Scotch Whisky"
+            },
+            {
+                "level": "Godmother",
+                "ing": "Vodka Liscia"
+            }
         ],
         "garnish": [
-            "biscotto amaretto",
-            "scorza arancia"
+            {"level": "twist", "ing": "orange"},
+            {"level": "amaretto", "ing": "biscuit"}
         ],
         "img": "../assets/images/build-b/godfather.jpg"
     },
@@ -46,12 +75,18 @@
             "old fashion"
         ],
         "recipe": [
-            {"level": "1 oz 1/4", "ing": "Vodka"},
-            {"level": "3/4 oz", "ing": "Coffee Liquor"}
+            {
+                "level": "1 oz 1/4",
+                "ing": "Vodka"
+            },
+            {
+                "level": "3/4 oz",
+                "ing": "Coffee Liquor"
+            }
         ],
         "garnish": [
-            "<span style='font-weight:500'>Black Russian</span>: coffee beans|orange slice",
-            "<span style='font-weight:500'>White Russian</span>: panna liquida"
+            {"level": "Black Russian", "ing": "coffee beans|orange slice"},
+            {"level": "White Russian", "ing": "panna liquida"}
         ],
         "img": "../assets/images/build-b/russians.jpeg"
     },
@@ -64,17 +99,35 @@
             "old fashion"
         ],
         "recipe": [
-            {"level": "1 oz", "ing": "distillato"},
-            {"level": "Negroni", "ing": "Dry Gin"},
-            {"level": "Negroski", "ing": "Vodka"},
-            {"level": "Boulevardier", "ing": "Bourbon Whiskey"},
-            {"level": "1 oz", "ing": "Campari"},
-            {"level": "1 oz", "ing": "Sweet vermouth"}
+            {
+                "level": "1 oz",
+                "ing": "distillato"
+            },
+            {
+                "level": "Negroni",
+                "ing": "Dry Gin"
+            },
+            {
+                "level": "Negroski",
+                "ing": "Vodka"
+            },
+            {
+                "level": "Boulevardier",
+                "ing": "Bourbon Whiskey"
+            },
+            {
+                "level": "1 oz",
+                "ing": "Campari"
+            },
+            {
+                "level": "1 oz",
+                "ing": "Sweet vermouth"
+            }
         ],
         "garnish": [
-            "orange twist/slice",
-            "rosmarin (except boulevardier)",
-            "3 angostura drops (opt.)"
+            {"level": "twist|slice", "ing": "orange"},
+            {"level": "sprig", "ing": "rosmarin (except boulevardier)"},
+            {"level": "3 drops", "ing": "angostura"}
         ],
         "img": "../assets/images/build-b/boulevardier.jpeg"
     },
@@ -86,13 +139,22 @@
             "high tumbler"
         ],
         "recipe": [
-            {"level": "1 oz", "ing": "Campari"},
-            {"level": "1 oz", "ing": "Sweet vermouth"},
-            {"level": "Top", "ing": "Soda"}
+            {
+                "level": "1 oz",
+                "ing": "Campari"
+            },
+            {
+                "level": "1 oz",
+                "ing": "Sweet vermouth"
+            },
+            {
+                "level": "Top",
+                "ing": "Soda"
+            }
         ],
         "garnish": [
-            "orange slice",
-            "rosmarin"
+            {"level": "slice", "ing": "orange"},
+            {"level": "sprig", "ing": "rosmarin"}
         ],
         "img": "../assets/images/build-b/americano.jpeg"
     },
@@ -104,12 +166,21 @@
             "high tumbler"
         ],
         "recipe": [
-            {"level": "1 oz", "ing": "Campari"},
-            {"level": "1 oz", "ing": "Sweet vermouth"},
-            {"level": "Top", "ing": "Prosecco"}
+            {
+                "level": "1 oz",
+                "ing": "Campari"
+            },
+            {
+                "level": "1 oz",
+                "ing": "Sweet vermouth"
+            },
+            {
+                "level": "Top",
+                "ing": "Prosecco"
+            }
         ],
         "garnish": [
-            "orange slice"
+            {"level": "slice", "ing": "orange"}
         ],
         "img": "../assets/images/build-b/americano.jpeg"
     }

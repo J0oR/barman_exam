@@ -69,7 +69,7 @@
                 <div class="cards-container">
                     <div v-for="(drink, index1) in family.drinks" :key="index1">
                         <button @click="openModal(drink)" class="open-modal">
-                            <p class="cocktail-title">{{drink.name}}</p>
+                            <p class="cocktail-title" v-html="drink.name"></p>
                             <img :src="drink.img" alt="" class="card-img">
                         </button>
                     </div>
@@ -84,7 +84,7 @@
                             <img src="../assets/icon/close.webp" alt="">
                         </span>
                     </div>
-                    <h2 id="modal-title" class="modal-title">{{modalDrink.name}}</h2>
+                    <h2 id="modal-title" class="modal-title" v-html="modalDrink.name"></h2>
                     <img :src="modalDrink.img" alt="Cocktail Image" class="modal-image">
                     <div class="modal-section">
                         <p class="modal-section-title">Tecnicque</p>
@@ -117,10 +117,16 @@
                     <div class="modal-section">
                         <p class="modal-section-title">Garnish</p>
                         <div v-if="Array.isArray(modalDrink.garnish)" class="garnish-ingredients">
-                            <div v-for="(ingredients, index) in modalDrink.garnish" :key="index" v-html="ingredients">
+                            <div v-for="(ingredients, index) in modalDrink.garnish" :key="index">
+                                <div class="recipe-line">
+                                    <span class="col-1" v-html="ingredients.level"></span>
+                                    <span class="col-2" v-html="ingredients.ing"></span>
                                 </div>
+                            </div>
                         </div>
-                        <div v-else v-html="modalDrink.garnish">
+                        <div v-else>
+                            <span class="col-1" v-html="modalDrink.garnish.level"></span>
+                            <span class="col-2" v-html="modalDrink.garnish.ing"></span>
                         </div>
                     </div>
 

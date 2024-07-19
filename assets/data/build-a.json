@@ -18,7 +18,10 @@
             }
         ],
         "garnish": [
-            "orange slice / twist"
+            {
+                "level": "slice|twist",
+                "ing": "orange"
+            }
         ],
         "img": "../assets/images/build-a/screwdriver.jpeg"
     },
@@ -41,7 +44,12 @@
                 "ing": "if premium, 2 oz and top aside"
             }
         ],
-        "garnish": "lemon slice",
+        "garnish": [
+            {
+                "level": "lemon",
+                "ing": "slice"
+            }
+        ],
         "img": "../assets/images/build-a/gin-tonic.jpeg"
     },
     {
@@ -66,7 +74,12 @@
                 "ing": "soda"
             }
         ],
-        "garnish": "orange slice",
+        "garnish": [
+            {
+                "level": "slice",
+                "ing": "orange"
+            }
+        ],
         "img": "../assets/images/build-a/aperol.png"
     },
     {
@@ -96,8 +109,14 @@
             }
         ],
         "garnish": [
-            "mint",
-            "lime slice"
+            {
+                "level": "slice",
+                "ing": "lemon"
+            },
+            {
+                "level": "sprig",
+                "ing": "mint"
+            }
         ],
         "img": "../assets/images/build-a/hugo.jpg"
     },
@@ -123,7 +142,12 @@
                 "ing": "soda"
             }
         ],
-        "garnish": "lemon slice",
+        "garnish": [
+            {
+                "level": "slice",
+                "ing": "lemon"
+            }
+        ],
         "img": "../assets/images/build-a/martini-royal.jpg"
     },
     {
@@ -161,11 +185,16 @@
                 "ing": "Prosecco"
             }
         ],
-        "garnish": "according",
+        "garnish": [
+            {
+                "level": "",
+                "ing": ""
+            }
+        ],
         "img": "../assets/images/build-a/sparkling.jpeg"
     },
     {
-        "name": "London|Moscow Mule",
+        "name": "Mule",
         "family": "Mule",
         "technique": "Build",
         "glass": [
@@ -179,7 +208,15 @@
             },
             {
                 "level": "1 oz 1/4",
-                "ing": "Dry Gin|Vodka"
+                "ing": "distillato"
+            },
+            {
+                "level": "London Mule",
+                "ing": "Dry Gin"
+            },
+            {
+                "level": "Moscow Mule",
+                "ing": "Vodka"
             },
             {
                 "level": "Top",
@@ -187,11 +224,22 @@
             }
         ],
         "garnish": [
-            "zenzero",
-            "cetriolo",
-            "lime slice",
-            "mint",
-            "lemon twist"
+            {
+                "level": "slice|twist",
+                "ing": "lemon"
+            },
+            {
+                "level": "sprig",
+                "ing": "mint"
+            },
+            {
+                "level": "slice",
+                "ing": "cucumber"
+            },
+            {
+                "level": "slice",
+                "ing": "ginger"
+            }
         ],
         "img": "../assets/images/build-a/mule.jpg"
     },
@@ -210,7 +258,12 @@
                 "ing": "Cola"
             }
         ],
-        "garnish": "lemon slice",
+        "garnish": [
+            {
+                "level": "slice",
+                "ing": "lemon"
+            }
+        ],
         "img": "../assets/images/build-a/cuba-libre.jpeg"
     },
     {
@@ -236,7 +289,12 @@
                 "ing": "Cola"
             }
         ],
-        "garnish": "lemon slice",
+        "garnish": [
+            {
+                "level": "slice",
+                "ing": "lemon"
+            }
+        ],
         "img": "../assets/images/build-a/cuba-libre.jpeg"
     },
     {
@@ -275,8 +333,14 @@
             }
         ],
         "garnish": [
-            "grapefruit/lime slice",
-            "salt & pepper rim"
+            {
+                "level": "slice",
+                "ing": "grapefruit|lime"
+            },
+            {
+                "level": "rim",
+                "ing": "salt & pepper"
+            }
         ],
         "img": "../assets/images/build-a/paloma.jpg"
     }

@@ -1,6 +1,6 @@
 [
     {
-        "name": "Caipir-inha|oska|issima",
+        "name": "Caipirinha|oska|issima",
         "family": "Caipirinha",
         "technique": "Muddler",
         "glass": [
@@ -33,8 +33,9 @@
             }
         ],
         "garnish": [
-            "lemon slice (only if ice is chopped)",
-            "2 straws (to help the draft)"
+            {"level": "slice","ing": "lemon"},
+            {"level": "2","ing": "straws"}
+
         ],
         "img": "../assets/images/muddler/caipirinha.jpeg"
     },
@@ -78,8 +79,8 @@
             }
         ],
         "garnish": [
-            "sprig of mint",
-            "lime"
+            {"level": "slice","ing": "lemon"},
+            {"level": "sprig","ing": "mint"}
         ],
         "img": "../assets/images/muddler/mojito-europeo.png"
     },
@@ -112,8 +113,8 @@
             }
         ],
         "garnish": [
-            "lime",
-            "sprig of mint"
+            {"level": "slice","ing": "lemon"},
+            {"level": "sprig","ing": "mint"}
         ],
         "img": "../assets/images/muddler/mojito-europeo.png"
     },
@@ -149,8 +150,8 @@
             }
         ],
         "garnish": [
-            "lime",
-            "sprig of mint"
+            {"level": "slice","ing": "lemon"},
+            {"level": "sprig","ing": "mint"}
         ],
         "img": "../assets/images/muddler/mojito-cubano.jpeg"
     },
@@ -184,9 +185,9 @@
             }
         ],
         "garnish": [
-            "mint sprig",
-            "straw",
-            "sugar powder"
+            {"level": "sprig","ing": "mint"},
+            {"level": "1","ing": "straw"},
+            {"level": "powder","ing": "sugar"}
         ],
         "img": "../assets/images/muddler/mint-julep.jpeg"
     }

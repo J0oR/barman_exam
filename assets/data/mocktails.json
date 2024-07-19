@@ -18,8 +18,8 @@
 
         ],
         "garnish": [
-            "rosmary sprig",
-            "straw"
+            {"level": "sprig", "ing": "rosemary"},
+            {"level": "1", "ing": "straw"}
         ],
         "img": "../assets/images/mocktails/day-off.png"
     },
@@ -42,9 +42,9 @@
             {"level": "opt. 2:", "ing": "shake, strain and serve w/ ice"}
         ],
         "garnish": [
-            "grated nutmeg",
-            "ananas leaves|wedge",
-            "tiki umbrella"
+            {"level": "grated", "ing": "nutmeg"},
+            {"level": "leaves|wedge", "ing": "ananas"},
+            {"level": "tiki", "ing": "umbrella"}
         ],
         "img": "../assets/images/mocktails/placebo.png"
     },
@@ -63,7 +63,7 @@
             {"level": "Note:", "ing": "served w/ no ice"}
         ],
         "garnish": [
-            "mint"
+            {"level": "leaf", "ing": "mint"}
         ],
         "img": "../assets/images/mocktails/passion-disco.png"
     },
@@ -83,7 +83,7 @@
             {"level": "Served", "ing": "w/ ice<br>(better crushed)"}
         ],
         "garnish": [
-            "mint sprig"
+            {"level": "sprig", "ing": "mint"}
         ],
         "img": "../assets/images/mocktails/car-keys.jpg"
     },
@@ -102,7 +102,7 @@
             {"level": "Served", "ing": "w/ ice<br>no stirring"}
         ],
         "garnish": [
-            "orange slice"
+            {"level": "slice", "ing": "orange"}
         ],
         "img": "../assets/images/mocktails/new-year.png"
     }

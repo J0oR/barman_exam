@@ -50,14 +50,19 @@
 
 
 
-      <input type="text" id="inputField" v-model="filterText" placeholder="search drink" class="search-bar">
+      <input type="text" id="inputField" v-model="filterText" :placeholder="searchMode" class="search-bar" ref="searchbar">
+
+      <div style="display: flex;justify-content: space-around;">
+        <button @click="mode = 'name';resetBar()" :class="{'search-btn': true, 'active': mode === 'name'}">by name</button>
+        <button @click="mode = 'ingredient';resetBar()" :class="{'search-btn': true, 'active': mode === 'ingredient'}">by ingredient</button>
+      </div>
 
       <ul v-if="filteredItems" class="drinksList">
 
         <li v-for="drink in filteredItems" :key="drink.name" class="cocktail-card">
 
           <div class="recipe_section">
-            <div class="cocktail-name">{{drink.name}}</div>
+            <div class="cocktail-name" v-html="drink.name"></div>
             <img :src="drink.img" alt="" class="cocktail-img">
           </div>
 
@@ -98,7 +103,10 @@
           <div class="recipe_section">
             <div class="recipe-element-header">Garnish</div>
             <div v-if="Array.isArray(drink.garnish)" class="garnish-ingredients">
-              <div v-for="(ingredient, index) in drink.garnish" :key="index">{{ingredient}}</div>
+              <div v-for="(ingredient, index) in drink.garnish" :key="index">
+                <span class="col-1">{{ingredient.level}}</span>
+                <span class="col-2">{{ingredient.ing}}</span>
+              </div>
             </div>
             <div v-else>
               {{drink.garnish}}
