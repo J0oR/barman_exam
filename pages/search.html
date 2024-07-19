@@ -50,67 +50,79 @@
 
 
 
-      <input type="text" id="inputField" v-model="filterText" :placeholder="searchMode" class="search-bar" ref="searchbar">
+      <input type="text" id="inputField" v-model="filterText" :placeholder="searchMode" class="search-bar"
+        ref="searchbar">
 
       <div style="display: flex;justify-content: space-around;">
-        <button @click="mode = 'name';resetBar()" :class="{'search-btn': true, 'active': mode === 'name'}">by name</button>
-        <button @click="mode = 'ingredient';resetBar()" :class="{'search-btn': true, 'active': mode === 'ingredient'}">by ingredient</button>
+        <button @click="mode = 'name';resetBar()" :class="{'search-btn': true, 'active': mode === 'name'}">name</button>
+        <button @click="mode = 'ingredient';resetBar()" :class="{'search-btn': true, 'active': mode === 'ingredient'}">ingredient</button>
       </div>
 
       <ul v-if="filteredItems" class="drinksList">
 
-        <li v-for="drink in filteredItems" :key="drink.name" class="cocktail-card">
+        <li v-for="(drink, index) in filteredItems" :key="drink.name" class="cocktail-card">
 
           <div class="recipe_section">
             <div class="cocktail-name" v-html="drink.name"></div>
             <img :src="drink.img" alt="" class="cocktail-img">
           </div>
 
+          <button @click="toggleRecipe(index)" class="show-recipe-btn">
+            {{ showRecipe[index] ? 'Hide' : 'Show'
+            }}
+          </button>
 
-          <!-- technicque -->
-          <div class="recipe_section">
-            <div class="recipe-element-header">Tecnica</div>
-            <div>{{drink.technique}}</div>
-          </div>
+          <div class="toggle-recipe" v-if="showRecipe[index]">
 
-          <!-- glass -->
-          <div class="recipe_section">
-            <div class="recipe-element-header">Glass</div>
-            <div v-if="Array.isArray(drink.glass)" class="glasses">
-              <div v-for="(glass, index) in drink.glass" :key="index">{{glass}}</div>
+            <!-- technicque -->
+            <div class="recipe_section">
+              <div class="recipe-element-header">Tecnica</div>
+              <div>{{drink.technique}}</div>
             </div>
-            <div v-else>
-              {{drink.glass}}
-            </div>
-          </div>
 
-          <!-- recipe -->
-          <div class="recipe_section">
-            <div class="recipe-element-header">Recipe</div>
-            <div v-if="Array.isArray(drink.recipe)" class="recipe-ingredients">
-              <div v-for="(ingredients, index) in drink.recipe" :key="index">
-                <div class="recipe-line">
-                  <span class="col-1">{{ingredients.level}}</span>
-                  <span class="col-2">{{ingredients.ing}}</span>
+            <!-- glass -->
+            <div class="recipe_section">
+              <div class="recipe-element-header">Glass</div>
+              <div v-if="Array.isArray(drink.glass)" class="glasses">
+                <div v-for="(glass, index) in drink.glass" :key="index">{{glass}}</div>
+              </div>
+              <div v-else>
+                {{drink.glass}}
+              </div>
+            </div>
+
+            <!-- recipe -->
+            <div class="recipe_section">
+              <div class="recipe-element-header">Recipe</div>
+              <div v-if="Array.isArray(drink.recipe)" class="recipe-ingredients">
+                <div v-for="(ingredient, index) in drink.recipe" :key="index">
+                  <div class="recipe-line">
+                    <span class="col-1" v-html="ingredient.level"></span>
+                    <span class="col-2" v-html="ingredient.ing"></span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div v-else>
-              {{drink.recipe-btn}}
-            </div>
-          </div>
-          <!-- garnish -->
-          <div class="recipe_section">
-            <div class="recipe-element-header">Garnish</div>
-            <div v-if="Array.isArray(drink.garnish)" class="garnish-ingredients">
-              <div v-for="(ingredient, index) in drink.garnish" :key="index">
-                <span class="col-1">{{ingredient.level}}</span>
-                <span class="col-2">{{ingredient.ing}}</span>
+              <div v-else>
+                {{drink.recipe-btn}}
               </div>
             </div>
-            <div v-else>
-              {{drink.garnish}}
+
+            <!-- garnish -->
+            <div class="recipe_section">
+              <div class="recipe-element-header">Garnish</div>
+              <div v-if="Array.isArray(drink.garnish)" class="garnish-ingredients">
+                <div v-for="(ingredient, index) in drink.garnish" :key="index">
+                  <span class="col-1" v-html="ingredient.level"></span>
+                  <span class="col-2" v-html="ingredient.ing"></span>
+                </div>
+              </div>
+              <div v-else>
+                {{drink.garnish}}
+              </div>
             </div>
+
+          </div>
+
         </li>
 
       </ul>

@@ -67,7 +67,7 @@
         "img": "../assets/images/build-b/godfather.jpg"
     },
     {
-        "name": "Black|White Russian",
+        "name": "Russian",
         "technique": "Build",
         "family": "Russian",
         "glass": [
@@ -91,7 +91,7 @@
         "img": "../assets/images/build-b/russians.jpeg"
     },
     {
-        "name": "Negro-ni/ski|Boulevardier",
+        "name": "Negroni<br>Negroski<br>Boulevardier",
         "technique": "Build",
         "family": "Negroni",
         "glass": [

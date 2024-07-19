@@ -137,6 +137,22 @@ ul {
     font-weight: 400;
 }
 
+.show-recipe-btn{
+    border-radius: 25px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background-color: #E7F0DC;
+    font: inherit;
+    font-size: 1rem;
+    border: 1px solid #587969;
+    transition: all 0.3s ease-in-out;
+}
+
+.show-recipe-btn:hover, .show-recipe-btn:active{
+    transform: scale(1.05);
+    box-shadow: 0px 5px 8px 0px #32685d;
+}
 
 /* Recipe */
 

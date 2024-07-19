@@ -6,7 +6,8 @@ const app = Vue.createApp({
       drink: '',
       filterText: '',
       filteredItems: [],
-      mode: 'name'
+      mode: 'name',
+      showRecipe: [] // Array to track the visibility of recipes
     }
   },
   /********************************* METHODS *********************************/
@@ -37,26 +38,47 @@ const app = Vue.createApp({
         console.error('Error fetching elements:', error);
       }
     },
+    toggleRecipe(index) {
+      this.showRecipe = [...this.showRecipe.slice(0, index), !this.showRecipe[index], ...this.showRecipe.slice(index + 1)];
+    },
+    resetBar(){
+      if (this.mode === 'name') {
+        this.filteredItems = this.drinkData.filter(item =>
+          item["name"].toLowerCase().includes(this.filterText.toLowerCase())
+        );
+      } else if (this.mode === 'ingredient') {
+        this.filteredItems = this.drinkData.filter(item => {
+          const hasRecipe = Array.isArray(item.recipe) && item.recipe.some(ingredient =>
+            typeof ingredient["ing"] === 'string' && ingredient["ing"].toLowerCase().includes(this.filterText.toLowerCase())
+          );
+          const hasGarnish = Array.isArray(item.garnish) && item.garnish.some(garnish =>
+            typeof garnish["ing"] === 'string' && garnish["ing"].toLowerCase().includes(this.filterText.toLowerCase())
+          );
+          return hasRecipe || hasGarnish;
+        });
+      }
+      // Initialize showRecipe array based on the filtered items
+      this.showRecipe = this.filteredItems.map(() => false);
+    }
   },
   /******************************** COMPUTED PROPERTIES *****************************/
   computed: {
-    adjustedImagePath() {
+   /*  adjustedImagePath() {
       if (this.drink && this.drink.img && this.drink.img.startsWith('../')) {
         return this.drink.img.substring(1);  // Remove the first dot (.)
       } else {
         return this.drink.img;  // Return the image path as is
       }
-    },
+    }, */
     searchMode(){
       return "Search by " + this.mode;
     }
   },
   watch: {
     filterText(newVal) {
-      console.log(newVal);
       if (this.mode === 'name') {
         this.filteredItems = this.drinkData.filter(item =>
-          item["name"].toLowerCase().startsWith(newVal.toLowerCase())
+          item["name"].toLowerCase().includes(newVal.toLowerCase())
         );
       } else if (this.mode === 'ingredient') {
         this.filteredItems = this.drinkData.filter(item => {
@@ -69,6 +91,8 @@ const app = Vue.createApp({
           return hasRecipe || hasGarnish;
         });
       }
+      // Initialize showRecipe array based on the filtered items
+      this.showRecipe = this.filteredItems.map(() => false);
     }
   },  
   /********************************* LIFECYCLE HOOKS *****************************/
