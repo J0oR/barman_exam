@@ -41,60 +41,61 @@ const app = Vue.createApp({
     toggleRecipe(index) {
       this.showRecipe = [...this.showRecipe.slice(0, index), !this.showRecipe[index], ...this.showRecipe.slice(index + 1)];
     },
-    resetBar(){
+    resetBar() {
+      const filterTextLower = this.filterText.toLowerCase();
+      const wordBoundaryRegExp = new RegExp(`\\b${filterTextLower}\\b`, 'i'); // 'i' for case-insensitive, '\\b' for word boundary
+      
       if (this.mode === 'name') {
         this.filteredItems = this.drinkData.filter(item =>
-          item["name"].toLowerCase().includes(this.filterText.toLowerCase())
+          item["name"].toLowerCase().includes(filterTextLower)
         );
       } else if (this.mode === 'ingredient') {
         this.filteredItems = this.drinkData.filter(item => {
           const hasRecipe = Array.isArray(item.recipe) && item.recipe.some(ingredient =>
-            typeof ingredient["ing"] === 'string' && ingredient["ing"].toLowerCase().includes(this.filterText.toLowerCase())
+            typeof ingredient["ing"] === 'string' && wordBoundaryRegExp.test(ingredient["ing"].toLowerCase())
           );
           const hasGarnish = Array.isArray(item.garnish) && item.garnish.some(garnish =>
-            typeof garnish["ing"] === 'string' && garnish["ing"].toLowerCase().includes(this.filterText.toLowerCase())
+            typeof garnish["ing"] === 'string' && wordBoundaryRegExp.test(garnish["ing"].toLowerCase())
           );
           return hasRecipe || hasGarnish;
         });
       }
+      
       // Initialize showRecipe array based on the filtered items
       this.showRecipe = this.filteredItems.map(() => false);
     }
-  },
+  },    
   /******************************** COMPUTED PROPERTIES *****************************/
   computed: {
-   /*  adjustedImagePath() {
-      if (this.drink && this.drink.img && this.drink.img.startsWith('../')) {
-        return this.drink.img.substring(1);  // Remove the first dot (.)
-      } else {
-        return this.drink.img;  // Return the image path as is
-      }
-    }, */
     searchMode(){
       return "Search by " + this.mode;
     }
   },
   watch: {
     filterText(newVal) {
+      const filterTextLower = newVal.toLowerCase();
+      const wordBoundaryRegExp = new RegExp(`\\b${filterTextLower}\\b`, 'i'); // 'i' for case-insensitive, '\\b' for word boundary
+      
       if (this.mode === 'name') {
         this.filteredItems = this.drinkData.filter(item =>
-          item["name"].toLowerCase().includes(newVal.toLowerCase())
+          item["name"].toLowerCase().includes(filterTextLower)
         );
       } else if (this.mode === 'ingredient') {
         this.filteredItems = this.drinkData.filter(item => {
           const hasRecipe = Array.isArray(item.recipe) && item.recipe.some(ingredient =>
-            typeof ingredient["ing"] === 'string' && ingredient["ing"].toLowerCase().includes(newVal.toLowerCase())
+            typeof ingredient["ing"] === 'string' && wordBoundaryRegExp.test(ingredient["ing"].toLowerCase())
           );
           const hasGarnish = Array.isArray(item.garnish) && item.garnish.some(garnish =>
-            typeof garnish["ing"] === 'string' && garnish["ing"].toLowerCase().includes(newVal.toLowerCase())
+            typeof garnish["ing"] === 'string' && wordBoundaryRegExp.test(garnish["ing"].toLowerCase())
           );
           return hasRecipe || hasGarnish;
         });
       }
+      
       // Initialize showRecipe array based on the filtered items
       this.showRecipe = this.filteredItems.map(() => false);
     }
-  },  
+  },   
   /********************************* LIFECYCLE HOOKS *****************************/
   created() {
     // Fetch drink data before mounting

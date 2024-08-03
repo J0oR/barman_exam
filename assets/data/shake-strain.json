@@ -171,5 +171,26 @@
             {"level": "1 dash", "ing": "rose water (over the leaf)"}
         ],
         "img": "../assets/images/shake-strain/juliet-romeo.webp"
+    },
+    {
+        "name": "Southside",
+        "family": "Southside",
+        "technique": "Shake & Strain",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            {"level": "4-6 leaves", "ing": "mint"},
+            {"level": "1/2 oz", "ing": "simple syrup"},
+            {"level": "3/4 oz", "ing": "lemon juice"},
+            {"level": "2 oz", "ing":"Dry Gin"},
+            {"level": "shake<br><br>double strain", "ing": ""},
+            {"level": "serve", "ing": "w/o ice"}
+        ],
+        "garnish": [
+            {"level": "1 dash (opt.)", "ing": "angostura"},
+            {"level": "1 leaf/sprig", "ing": "mint"}
+        ],
+        "img": "../assets/images/shake-strain/southside.jpg"
     }
 ]

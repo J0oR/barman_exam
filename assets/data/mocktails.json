@@ -2,7 +2,7 @@
     {
         "name": "The Devil's Day Off",
         "author": "Anders Erickson",
-        "family": "Shake & Strain",
+        "family": "The Devil's Day Off",
         "technique": "Shake & Strain",
         "glass": [
             "high tumbler",
@@ -51,7 +51,7 @@
     {
         "name": "Passion At The Disco",
         "author": "Anders Erickson",
-        "family": "Shake & Strain",
+        "family": "Passion At The Disco",
         "technique": "Shake & Strain",
         "glass": [
             "low tumbler"
@@ -105,5 +105,26 @@
             {"level": "slice", "ing": "orange"}
         ],
         "img": "../assets/images/mocktails/new-year.png"
+    },
+    {
+        "name": "Virgin Margarita",
+        "family": "Virgin Margarita",
+        "technique": "dryshake",
+        "glass": [
+            "low tumbler"
+        ],
+        "recipe": [
+            {"level": "3/4 oz ", "ing": "lime juice"},
+            {"level": "1/2 oz", "ing": "simple syrup"},
+            {"level": "1 oz", "ing": "orange juice"},
+            {"level": "dryshake", "ing": ""},
+            {"level": "top", "ing": "lemon soda"},
+            {"level": "Served", "ing": "w/ ice"}
+        ],
+        "garnish": [
+            {"level": "rim", "ing": "salt"},
+            {"level": "twist", "ing": "lemon"}
+        ],
+        "img": "../assets/images/mocktails/virgin-margarita.jpg"
     }
 ]
