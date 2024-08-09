@@ -90,18 +90,20 @@ ul {
 .search-btn{
     border-radius: 25px;
     padding: 15px 20px;
-    outline: none;
+    outline: none !important;
     border: none;
     background-color: #95D1B3;
     font: inherit;
     font-size: 1rem;
     transition: all 0.3s ease-in-out;
-
+    background-color: #95D1B3;
+    border: 1px solid black;
 }
 
 .active{
     transform: scale(1.05);
     box-shadow: 0px 5px 8px 0px #32685d;
+    border: none;
 }
 
 

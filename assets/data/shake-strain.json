@@ -17,7 +17,7 @@
     },
     {
         "name": "Margarita<br>White Lady<br>Kamikaze",
-        "family": "Margarita",
+        "family": "Daisy",
         "technique": "Shake & Strain",
         "glass": [
             "coppa"
@@ -39,7 +39,7 @@
     },
     {
         "name": "Cosmopolitan",
-        "family": "Margarita",
+        "family": "Daisy",
         "technique": "Shake & Strain",
         "glass": [
             "coppa"
@@ -54,6 +54,27 @@
             {"level": "wheel | twist", "ing": "lemon"}
         ],
         "img": "../assets/images/shake-strain/cosmopolitan.jpeg"
+    },
+    {
+        "name": "Gin Daisy",
+        "family": "Daisy",
+        "technique": "Shake & Strain",
+        "glass": [
+            "coppa",
+            "low tumbler (on the rocks)"
+        ],
+        "recipe": [
+            {"level": "1 1/2 oz", "ing": "Gin"},
+            {"level": "3/4 oz", "ing": "Triple sec"},
+            {"level": "3/4 oz", "ing": "Lime juice"},
+            {"level": "2 barspoon", "ing": "soda"},
+            {"level": "2 barspoon", "ing": "granatina (opt.)"}
+        ],
+        "garnish": [
+            {"level": "wheel | twist", "ing": "lemon"},
+            {"level": "sprig", "ing": "mint"}
+        ],
+        "img": "../assets/images/shake-strain/gin-daisy.jpg"
     },
     {
         "name": "Alexander",
@@ -109,8 +130,8 @@
         "img": "../assets/images/shake-strain/espresso-martini.jpg"
     },
     {
-        "name": "Sidecar",
-        "family": "Sidecar",
+        "name": "Whisky Sidecar",
+        "family": "Daisy",
         "technique": "Shake & Strain",
         "glass": [
             "coppa"

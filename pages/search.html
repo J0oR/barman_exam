@@ -54,8 +54,8 @@
         ref="searchbar">
 
       <div style="display: flex;justify-content: space-around;">
-        <button @click="mode = 'name';resetBar()" :class="{'search-btn': true, 'active': mode === 'name'}">name</button>
-        <button @click="mode = 'ingredient';resetBar()" :class="{'search-btn': true, 'active': mode === 'ingredient'}">ingredient</button>
+        <button @click="mode = 'name';resetBar()" :class="{'search-btn': true, 'active': mode !== 'name'}">name</button>
+        <button @click="mode = 'ingredient';resetBar()" :class="{'search-btn': true, 'active': mode !== 'ingredient'}">ingredient</button>
       </div>
 
       <ul v-if="filteredItems" class="drinksList">
