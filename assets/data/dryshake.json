@@ -1,6 +1,6 @@
 [
     {
-        "name": "Long Island|Texas Ice Tea",
+        "name": "Long Island<br>Texas<br>Italian<br>London",
         "family": "Ice Tea",
         "technique": "Dryshake",
         "glass": [
@@ -14,57 +14,16 @@
             {"level": "1/2 oz", "ing": "Triple Sec"},
             {"level": "1 oz 1/4", "ing": "sweet & sour"},
             {"level": "top", "ing": "cola"},
-            {"level": "Note", "ing": "+1/2 oz Tequila for the Texas Ice Tea"}
+            {"level": "Note", "ing": ""},
+            {"level": "1/2 oz", "ing": "Amaretto Disaronno<br>(Italian Ice Tea)"},
+            {"level": "top", "ing": "Birra Lager 5°<br>(London Ice Tea)"},
+            {"level": "+1/2 oz", "ing": "Tequila<br>(Texas Ice Tea)"}
         ],
         "garnish": [
             {"level": "slice", "ing": "lemon"},
             {"level": "1", "ing": "straw"}
         ],
         "img": "../assets/images/dryshake/long-island.jpeg"
-    },
-    {
-        "name": "London Ice Tea",
-        "family": "Ice Tea",
-        "technique": "Dryshake",
-        "glass": [
-            "collins",
-            "high tumbler"
-        ],
-        "recipe": [
-            {"level": "1/2 oz", "ing": "Vodka"},
-            {"level": "1/2 oz", "ing": "Gin"},
-            {"level": "1/2 oz", "ing": "Rum"},
-            {"level": "1/2 oz", "ing": "Triple Sec"},
-            {"level": "1 oz 1/4", "ing": "sweet & sour"},
-            {"level": "top", "ing": "Birra Lager 5°"}
-        ],
-        "garnish": [
-            {"level": "slice", "ing": "lemon"},
-            {"level": "1", "ing": "straw"}
-        ],
-        "img": "../assets/images/dryshake/london.jpg"
-    },
-    {
-        "name": "Italian Ice Tea",
-        "family": "Ice Tea",
-        "technique": "Dryshake",
-        "glass": [
-            "collins",
-            "high tumbler"
-        ],
-        "recipe": [
-            {"level": "1/2 oz", "ing": "Vodka"},
-            {"level": "1/2 oz", "ing": "Gin"},
-            {"level": "1/2 oz", "ing": "Rum"},
-            {"level": "1/2 oz", "ing": "Amaretto Disaronno"},
-            {"level": "1 oz 1/4", "ing": "sweet & sour"},
-            {"level": "top", "ing": "cola"}
-        ],
-        "garnish": [
-            {"level": "slice", "ing": "lemon"},
-            {"level": "1", "ing": "straw"}
-        ],
-        "img": "../assets/images/dryshake/italian.jpg"
     },
     {
         "name": "Miami Ice Tea",
@@ -246,8 +205,7 @@
             {"level": "2 oz", "ing": "Gin"},
             {"level": "3/4 oz", "ing": "lime juice"},
             {"level": "1/2 oz", "ing": "simple syrup"},
-            {"level": "top", "ing": "soda"},
-            {"level": "Note", "ing": "put soda head & tail"}
+            {"level": "top", "ing": "soda"}
         ],
         "garnish": [
             {"level": "slice", "ing": "lemon"},

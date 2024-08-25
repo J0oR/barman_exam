@@ -153,8 +153,7 @@
             }
         ],
         "garnish": [
-            {"level": "slice", "ing": "orange"},
-            {"level": "sprig", "ing": "rosmarin"}
+            {"level": "slice", "ing": "orange"}
         ],
         "img": "../assets/images/build-b/americano.jpeg"
     },

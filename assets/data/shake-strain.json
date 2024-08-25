@@ -16,6 +16,24 @@
         "img": "../assets/images/shake-strain/daiquiri.jpeg"
     },
     {
+        "name": "Passionfruit Daiquiri",
+        "family": "Daiquiri",
+        "technique": "Shake & Strain",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            {"level": "2 oz", "ing": "White Rum"},
+            {"level": "1/2 oz", "ing": "lime juice"},
+            {"level": "1/2 oz", "ing": "simple syrup"},
+            {"level": "1", "ing": "passionfruit"}
+        ],
+        "garnish": [
+            {"level": "slice", "ing": "lemon"}
+        ],
+        "img": "../assets/images/shake-strain/passion-daiquiri.jpg"
+    },
+    {
         "name": "Margarita<br>White Lady<br>Kamikaze",
         "family": "Daisy",
         "technique": "Shake & Strain",
@@ -27,7 +45,6 @@
             {"level": "Margarita", "ing": "Tequila"},
             {"level": "White Lady", "ing": "Dry Gin"},
             {"level": "Kamikaze", "ing": "Vodka"},
-            {"level": "Cosmopolitan", "ing": "Vodka"},
             {"level": "1/2 oz", "ing": "Triple sec"},
             {"level": "3/4 oz", "ing": "Lime juice"}
         ],
@@ -36,6 +53,25 @@
             {"level": "wheel|twist", "ing": "lemon"}
         ],
         "img": "../assets/images/shake-strain/margarita.jpeg"
+    },
+    {
+        "name": "Coconut Margarita",
+        "family": "Daisy",
+        "technique": "Shake & Strain",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            {"level": "1 oz 1/2", "ing": "Tequila"},
+            {"level": "1/2 oz", "ing": "Triple sec"},
+            {"level": "3/4 oz", "ing": "Lime juice"},
+            {"level": "1/4 oz", "ing": "coconut syrup"}
+        ],
+        "garnish": [
+            {"level": "rim", "ing": "toasted coconut"},
+            {"level": "slice", "ing": "lime"}
+        ],
+        "img": "../assets/images/shake-strain/coconut-margarita.webp"
     },
     {
         "name": "Cosmopolitan",
@@ -121,7 +157,8 @@
             {"level": "2 oz", "ing": "Vodka"},
             {"level": "1/2 oz", "ing": "Coffe Liqueur"},
             {"level": "1/2 oz", "ing": "sugar syrup"},
-            {"level": "1 oz", "ing": "strong espresso"}
+            {"level": "1 oz", "ing": "strong espresso"},
+            {"level": "var. 1", "ing": "Bourbon"}
         ],
         "garnish": [
             {"level": "beans", "ing": "coffee"},
@@ -169,7 +206,7 @@
     },
     {
         "name": "Juliet & Romeo",
-        "family": "Juliet & Romeo",
+        "family": "Gin + Sweet & Sour",
         "technique": "Muddler + Shake & Strain",
         "glass": [
             "coppa"
@@ -183,8 +220,7 @@
             {"level": "3/4 oz", "ing": "lime juice"},
             {"level": "3 drops", "ing": "rose water"},
             {"level": "sprig", "ing": "mint"},
-            {"level": "shake<br>double strain", "ing": ""},
-            {"level": "serve", "ing": "w/o ice"}
+            {"level": "w/o", "ing": "ice"}
         ],
         "garnish": [
             {"level": "3 dashes", "ing": "angostura"},
@@ -195,23 +231,99 @@
     },
     {
         "name": "Southside",
-        "family": "Southside",
+        "family": "Gin + Sweet & Sour",
         "technique": "Shake & Strain",
         "glass": [
             "coppa"
         ],
         "recipe": [
             {"level": "4-6 leaves", "ing": "mint"},
-            {"level": "1/2 oz", "ing": "simple syrup"},
-            {"level": "3/4 oz", "ing": "lemon juice"},
             {"level": "2 oz", "ing":"Dry Gin"},
-            {"level": "shake<br><br>double strain", "ing": ""},
-            {"level": "serve", "ing": "w/o ice"}
+            {"level": "3/4 oz", "ing": "lemon juice"},
+            {"level": "1/2 oz", "ing": "simple syrup"},
+            {"level": "w/o", "ing": "ice"}
         ],
         "garnish": [
             {"level": "1 dash (opt.)", "ing": "angostura"},
             {"level": "1 leaf/sprig", "ing": "mint"}
         ],
         "img": "../assets/images/shake-strain/southside.jpg"
+    },
+    {
+        "name": "Gin Basil Smash",
+        "family": "Gin + Sweet & Sour",
+        "technique": "Shake & Strain",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            {"level": "10-12 leaves", "ing": "basil"},
+            {"level": "2 oz", "ing":"Dry Gin"},
+            {"level": "3/4 oz", "ing": "lemon juice"},
+            {"level": "1/2 oz", "ing": "rich syrup"},
+            {"level": "w/", "ing": "ice"}
+        ],
+        "garnish": [
+            {"level": "1 leaf/sprig", "ing": "basil"}
+        ],
+        "img": "../assets/images/shake-strain/basil-smash.jpg"
+    },
+    {
+        "name": "El Diablo",
+        "family": "El Diablo",
+        "technique": "Shake & Strain",
+        "glass": [
+            "high tumbler"
+        ],
+        "recipe": [
+            {"level": "1 1/2 oz", "ing": "Tequila"},
+            {"level": "3/4 oz", "ing":"Creme de Cassis"},
+            {"level": "3/4 oz", "ing": "lime juice"},
+            {"level": "top", "ing": "ginger beer"},
+            {"level": "w/", "ing": "ice"}
+        ],
+        "garnish": [
+            {"level": "1 slice", "ing": "lime"}
+        ],
+        "img": "../assets/images/shake-strain/diablo.jpg"
+    },
+    {
+        "name": "New York Sour",
+        "family": "NY",
+        "technique": "Shake & Strain",
+        "glass": [
+            "low tumbler"
+        ],
+        "recipe": [
+            {"level": "2 oz", "ing": "Bourbon Whisky"},
+            {"level": "1 oz", "ing":"lemon juice"},
+            {"level": "3/4 oz", "ing": "simple syrup"},
+            {"level": "1 dash", "ing": "angostura bitters"},
+            {"level": "top float", "ing": "red wine"}
+        ],
+        "garnish": [
+            {"level": "", "ing": ""}
+        ],
+        "img": "../assets/images/shake-strain/new-york-sour.webp"
+    },
+    {
+        "name": "Jungle Bird",
+        "family": "Jungle Bird",
+        "technique": "Shake & Strain",
+        "glass": [
+            "low tumbler"
+        ],
+        "recipe": [
+            {"level": "1.5 oz", "ing": "Dark Rum"},
+            {"level": "0.5 oz", "ing":"Campari"},
+            {"level": "1.5 oz", "ing": "ananas juice"},
+            {"level": "0.5 oz", "ing": "lime juice"},
+            {"level": "0.5 oz", "ing": "simple syrup"},
+            {"level": "w", "ing": "ice"}
+        ],
+        "garnish": [
+            {"level": "wheel", "ing": "lime"}
+        ],
+        "img": "../assets/images/shake-strain/jungle-bird.jpg"
     }
 ]

@@ -82,8 +82,8 @@
         ],
         "recipe": [
             {
-                "level": "absynthe rinse",
-                "ing": "spray or 10ml absynthe + ice"
+                "level": "rinse glass ",
+                "ing": "absynthe spray | 10ml "
             },
             {
                 "level": "3 dashes",
@@ -114,5 +114,28 @@
             {"level": "twist","ing": "lemon"}
         ],
         "img": "../assets/images/stir-strain/sazerac.jpg"
+    },
+    {
+        "name": "Revolver",
+        "technique": "Revolver",
+        "family": "Negroni",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            {
+                "level": "2 oz", "ing": "Bourbon"
+            },
+            {
+                "level": "1/2 oz", "ing": "Coffee Liquor"
+            },
+            {
+                "level": "2 dashes", "ing": "orange bitters"
+            }
+        ],
+        "garnish": [
+            {"level": "twist", "ing": "orange"}
+        ],
+        "img": "../assets/images/stir-strain/revolver.webp"
     }
 ]

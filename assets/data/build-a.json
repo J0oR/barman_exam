@@ -244,7 +244,7 @@
         "img": "../assets/images/build-a/mule.jpg"
     },
     {
-        "name": "Rum & Cola",
+        "name": "Cuba Libre",
         "family": "Rum & Cola",
         "technique": "Build",
         "glass": "high tumbler",
@@ -256,22 +256,7 @@
             {
                 "level": "Top",
                 "ing": "Cola"
-            }
-        ],
-        "garnish": [
-            {
-                "level": "slice",
-                "ing": "lemon"
-            }
-        ],
-        "img": "../assets/images/build-a/cuba-libre.jpeg"
-    },
-    {
-        "name": "Cuba Libre",
-        "family": "Rum & Cola",
-        "technique": "Build",
-        "glass": "high tumbler",
-        "recipe": [
+            },
             {
                 "level": "3/4 oz",
                 "ing": "lime juice"
@@ -281,12 +266,8 @@
                 "ing": "lime cubes & sugar"
             },
             {
-                "level": "1 oz 1/4",
-                "ing": "White Rum"
-            },
-            {
-                "level": "Top",
-                "ing": "Cola"
+                "level": "rum & cola",
+                "ing": "no lime juice & sugar, just lime slice"
             }
         ],
         "garnish": [
