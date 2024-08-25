@@ -302,7 +302,7 @@
             {"level": "top float", "ing": "red wine"}
         ],
         "garnish": [
-            {"level": "", "ing": ""}
+            {"level": "", "ing": "N/A"}
         ],
         "img": "../assets/images/shake-strain/new-york-sour.webp"
     },
