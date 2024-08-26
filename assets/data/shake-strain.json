@@ -325,5 +325,24 @@
             {"level": "wheel", "ing": "lime"}
         ],
         "img": "../assets/images/shake-strain/jungle-bird.jpg"
+    },
+    {
+        "name": "Last Word",
+        "family": "Last Word",
+        "technique": "Shake & Strain",
+        "glass": [
+            "coppa"
+        ],
+        "recipe": [
+            {"level": "1 oz", "ing": "Dry Gin"},
+            {"level": "1 oz", "ing":"Green Chartreuse"},
+            {"level": "1 oz", "ing": "Maraschino Liqueur"},
+            {"level": "1 oz", "ing": "lime juice"},
+            {"level": "2 dashes", "ing": "cherry bitters"}
+        ],
+        "garnish": [
+            {"level": "maraschino", "ing": "cherry"}
+        ],
+        "img": "../assets/images/shake-strain/last-word.jpg"
     }
 ]

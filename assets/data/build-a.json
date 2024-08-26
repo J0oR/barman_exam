@@ -96,16 +96,16 @@
                 "ing": "mint"
             },
             {
-                "level": "1/2 oz",
-                "ing": "lime juice"
-            },
-            {
-                "level": "1 oz 1/2",
+                "level": "3/4 oz",
                 "ing": "Saint-Germain"
             },
             {
-                "level": "Top",
+                "level": "4 oz",
                 "ing": "Prosecco"
+            },
+            {
+                "level": "top",
+                "ing": "soda"
             }
         ],
         "garnish": [
